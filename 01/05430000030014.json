@@ -1,4 +1,7 @@
 {
+    "manufacturer": {
+      "gln": "5425022720012"
+    },
     "isTradeItemAnOrderableUnit": true,
     "allergenInformation": {"isAllergenRelevantDataProvided": true},
     "isTradeItemABaseUnit": true,
