@@ -2,7 +2,7 @@
 title: Product template test
 ---
 
-{% assign product = site.data.products[1] %}
+{% assign product = site.data.products[0] %}
 
 test
 
