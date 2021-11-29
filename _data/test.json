@@ -1,0 +1,189 @@
+{
+    "manufacturer": {
+      "gln": "5425022720012"
+    },
+    "isTradeItemAnOrderableUnit": true,
+    "allergenInformation": {"isAllergenRelevantDataProvided": true},
+    "isTradeItemABaseUnit": true,
+    "unitDescriptorCode": "BASE_UNIT_OR_EACH",
+    "dutyFeeTaxInformation": {"targetMarketTaxInformations": [{
+        "taxInformations":[
+            {
+                "dutyFeeTaxCategoryCode": "LOW",
+                "dutyFeeTaxAgencyCode": "281",
+                "dutyFeeTaxRate": 6,
+                "dutyFeeTaxAmount": {
+                    "currencyCode": "EUR",
+                    "value": 1.14
+                },
+                "dutyFeeTaxTypeCode": "BTW"
+            },
+            {
+                "dutyFeeTaxCategoryCode": "APPLICABLE",
+                "dutyFeeTaxAgencyCode": "281",
+                "dutyFeeTaxTypeCode": "U201"
+            }
+        ],
+        "targetMarkets": ["056"]
+    }]},
+    "metaData": {
+        "created": {
+          "date": "2020-10-14T12:34:55.200Z"
+        },
+        "modified":{
+          "date": "2021-07-29T14:08:21.636Z"
+        },
+        "isDiscontinued": false,
+        "status": "active"
+    },
+    "isTradeItemAnInvoiceUnit": true,
+    "tradeItemClassification": {"gpcCategoryCode": "10000111"},
+    "tradeItemMeasurements": {
+        "grossWeight": {
+            "measurementUnitCode": "KGM",
+            "value": 1.2
+        },
+        "netWeight": {
+            "measurementUnitCode": "KGM",
+            "value": 1
+        },
+        "depth": {
+            "measurementUnitCode": "CMT",
+            "value": 5
+        },
+        "width": {
+            "measurementUnitCode": "CMT",
+            "value": 15
+        },
+        "netContents": [{
+            "measurementUnitCode": "KGM",
+            "value": 1
+        }],
+        "height": {
+            "measurementUnitCode": "CMT",
+            "value": 17
+        }
+    },
+    "gtin": "05430000030014",
+    "brandName": "OR Coffee Roasters",
+    "isConsumerUnit": true,
+    "deliveryPurchasingInformation": {"startAvailabilityDateTime": "2021-05-12T10:37:52Z"},
+    "countriesOfSale": ["056"],
+    "tradeItemDescriptions": [
+        {
+            "languageCode": "fr-BE",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "nl-BE",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "de-DE",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "en-GB",
+            "value": "Brazil 1 kg"
+        }
+    ],
+    "isTradeItemAVariableUnit": true,
+    "descriptionsShort": [
+        {
+            "languageCode": "de-DE",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "en-GB",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "fr-BE",
+            "value": "Brazil 1 kg"
+        },
+        {
+            "languageCode": "nl-BE",
+            "value": "Brazil 1 kg"
+        }
+    ],
+    "referencedFiles": [{
+        "languageCodes":  ["nl-BE"],
+        "fileName": "Brazil 1 kg",
+        "referencedFileTypeCode": "PRODUCT_IMAGE",
+        "fileEffectiveStartDateTime": "2021-07-29T14:05:29Z",
+        "fileFormatName": "JPEG",
+        "uniformResourceIdentifier": "https://dam.gs1belu.org/originals/5430000030007%2Fb8ef5d0c48b944f9b4ed780c44e183bc%2FIMG_6289.jpeg"
+    }],
+    "informationProvider": {
+        "gln": "5430000030007",
+        "partyName": "OR COFFEE ROASTERS"
+    },
+    "regulatedProductNames": [
+        {
+            "sequenceNumber": 1,
+            "languageCode": "de-DE",
+            "value": "Brazil 1kg"
+        },
+        {
+            "sequenceNumber": 2,
+            "languageCode": "en-GB",
+            "value": "Brazil 1kg"
+        },
+        {
+            "sequenceNumber": 3,
+            "languageCode": "fr-BE",
+            "value": "Brazil 1kg"
+        },
+        {
+            "sequenceNumber": 4,
+            "languageCode": "nl-BE",
+            "value": "Brazil 1kg"
+        }
+    ],
+    "labelDescriptions": [
+        {
+            "languageCode": "fr-BE",
+            "value": "Brazil 1kg"
+        },
+        {
+            "languageCode": "nl-BE",
+            "value": "Brazil 1kg"
+        }
+    ],
+    "functionalNames": [
+        {
+            "languageCode": "de-DE",
+            "value": "Brazil 1kg CRU"
+        },
+        {
+            "languageCode": "en-GB",
+            "value": "Brazil 1kg CRU"
+        },
+        {
+            "languageCode": "fr-BE",
+            "value": "Brazil 1kg CRU"
+        },
+        {
+            "languageCode": "nl-BE",
+            "value": "Brazil 1kg CRU"
+        }
+    ],
+    "synchronisationDates": {
+        "effectiveDateTime": "2021-05-12T10:37:58Z",
+        "lastChangeDateTime": "2021-07-29T14:08:21.636Z"
+    },
+    "isTradeItemADespatchUnit": true,
+    "contacts": [{
+        "contactTypeCode": "CXC",
+        "contactName": "Hana de pauw",
+        "gln": "5430000030007",
+        "contactAddress": "Dorpsstraat 31 9230 Westrem"
+    }],
+    "placeOfItemActivity": {
+        "countriesOfOrigin": ["076"],
+        "importClassifications": [{
+            "value": "09012100",
+            "typeCode": "INTRASTAT"
+        }]
+    }
+}
