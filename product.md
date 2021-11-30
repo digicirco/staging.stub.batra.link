@@ -1,19 +1,27 @@
 ---
 title: Product
-layout: none
 ---
 
 {% assign p1 = site.data.products | first %}
 {% assign tradeItem =  p1[1] %}
 {% assign languageCode = "fr-BE" %}
 
-# {% include translation.html translations=tradeItem.regulatedProductNames %}
+# {% include translation.html translations=tradeItem.tradeItemDescriptions %}
+
+<!-- TODO maybe don't show if same as tradeItemDescriptions -->
+{% include translation.html translations=tradeItem.regulatedProductNames %}
+
+<!-- TODO get code-->
+{{ tradeItem.tradeItemClassification.gpcCategoryCode }}
 
 [Batra link](https://www.batra.link/productFull.html?gtin={{ tradeItem.gtin }})
 
 ## Ingrédients : 
 
+<!-- TODO remove "Ingredients:" at the beginning-->
 {% include translation.html translations=tradeItem.ingredientInformation.ingredientStatements %}
+
+{% include translation.html translations=tradeItem.healthRelatedInformation.compulsoryAdditiveLabelInformations %}
 
 {% if tradeItem.allergenInformation.isAllergenRelevantDataProvided %}
 
@@ -51,7 +59,6 @@ layout: none
 
 <!--- drainedWeight -->
 <!--- tradeItemSize.descriptiveSizes -->
-<!--- consumerInstructions.consumerStorageInstructions -->
 
 ## Contact
 
@@ -67,6 +74,18 @@ layout: none
 
 {% if tradeItem.certificationInformation %}
 
+## Instructions
+
+{% include translation.html translations=tradeItem.consumerInstructions.consumerUsageInstructions %}
+
+## Conservation
+
+{% include translation.html translations=tradeItem.consumerInstructions.consumerStorageInstructions %}
+
+{% for temperatureInformation in tradeItem.tradeItemTemperatureInformation.temperatureInformations %}
+* {{temperatureInformation.temperatureQualifierCode}}: min {% include quantity.html quantity=temperatureInformation.minimumTemperature %}, max {% include quantity.html quantity=temperatureInformation.maximumTemperature %}
+{% endfor %}
+
 ## Certifications
 
 {% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}
@@ -78,6 +97,5 @@ layout: none
 <!--- preparationServings.preparationInstructions -->
 <!--- alcoholInformation.percentageOfAlcoholByVolume -->
 <!--- servingQuantityInformation.numberOfServingsPerPackage -->
-<!--- healthRelatedInformation.compulsoryAdditiveLabelInformations -->
 <!--- nutriscores -->
 <!--- isPackagingMarkedReturnable -->
