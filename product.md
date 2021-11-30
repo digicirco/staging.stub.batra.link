@@ -1,5 +1,6 @@
 ---
 title: Product
+layout: none
 ---
 
 {% assign p1 = site.data.products | first %}
