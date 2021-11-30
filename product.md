@@ -66,7 +66,7 @@ title: Product
 
 {% if tradeItem.certificationInformation %}
 
-# Certifications
+## Certifications
 
 {% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}
 {{ certificationInformation.certificationStandard }} ({{ certificationInformation.certificationAgency }})
