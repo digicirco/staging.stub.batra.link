@@ -1,0 +1,1 @@
+{% assign languageCode = "fr-BE" %}{% assign translation =  include.translations | where: "languageCode", languageCode | first  %}{{ translation.value }}
