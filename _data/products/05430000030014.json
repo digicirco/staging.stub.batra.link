@@ -1,220 +1,336 @@
 {
-    "manufacturer": {
-      "gln": "5425022720012"
-    },
-    "ingredientInformation": {
-      "ingredientStatements": [
-        {
-            "languageCode": "nl-BE",
-            "value": "Ingrediënten: TARWEbloem, suiker, margarine [plantaardige oliën en vetten (palmvet, koolzaadolie, in wisselende verhoudingen), water, emulgatoren (E322 (bevat SOJA), E471), zout, zuurteregelaar (E330), natuurlijke aroma's, kleurstof (E160a)], EIEREN, gist, invertsuiker, stabilisator (E420), SOJAbloem, zout, emulgator, (E322, bevat SOJA), vanillearoma. KAN SPOREN VAN MELK BEVATTEN."
-        },
-        {
-            "languageCode": "fr-BE",
-            "value": "Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
-        }
-    ]},
-    "allergenInformation": {
-        "isAllergenRelevantDataProvided": true,
-        "allergens":[
-            {
-                "allergenTypeCode": "AW",
-                "levelOfContainmentCode": "CONTAINS"
+   "manufacturer":{
+      "gln":"5425022720012"
+   },
+   "ingredientInformation":{
+      "ingredientStatements":[
+         {
+            "languageCode":"nl-BE",
+            "value":"Ingrediënten: TARWEbloem, suiker, margarine [plantaardige oliën en vetten (palmvet, koolzaadolie, in wisselende verhoudingen), water, emulgatoren (E322 (bevat SOJA), E471), zout, zuurteregelaar (E330), natuurlijke aroma's, kleurstof (E160a)], EIEREN, gist, invertsuiker, stabilisator (E420), SOJAbloem, zout, emulgator, (E322, bevat SOJA), vanillearoma. KAN SPOREN VAN MELK BEVATTEN."
+         },
+         {
+            "languageCode":"fr-BE",
+            "value":"Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
+         }
+      ]
+   },
+   "allergenInformation":{
+      "isAllergenRelevantDataProvided":true,
+      "allergenStatements":[
+         
+      ],
+      "allergens":[
+         {
+            "allergenTypeCode":"AW",
+            "levelOfContainmentCode":"CONTAINS"
+         },
+         {
+            "allergenTypeCode":"AY",
+            "levelOfContainmentCode":"CONTAINS"
+         },
+         {
+            "allergenTypeCode":"AE",
+            "levelOfContainmentCode":"CONTAINS"
+         },
+         {
+            "allergenTypeCode":"AM",
+            "levelOfContainmentCode":"MAY_CONTAIN"
+         }
+      ]
+   },
+   "nutritionalInformation":{
+      "nutrientHeaders":[
+         {
+            "nutrientBasisQuantityTypeCode":"BY_MEASURE",
+            "nutrientBasisQuantity":{
+               "measurementUnitCode":"GRM",
+               "value":100
             },
-            {
-                "allergenTypeCode": "AY",
-                "levelOfContainmentCode": "CONTAINS"
-            },
-            {
-                "allergenTypeCode": "AE",
-                "levelOfContainmentCode": "CONTAINS"
-            },
-            {
-                "allergenTypeCode": "AM",
-                "levelOfContainmentCode": "MAY_CONTAIN"
-            }
-        ]
-    },
-    "isTradeItemAnOrderableUnit": true,
-    "isTradeItemABaseUnit": true,
-    "unitDescriptorCode": "BASE_UNIT_OR_EACH",
-    "dutyFeeTaxInformation": {"targetMarketTaxInformations": [{
-        "taxInformations":[
-            {
-                "dutyFeeTaxCategoryCode": "LOW",
-                "dutyFeeTaxAgencyCode": "281",
-                "dutyFeeTaxRate": 6,
-                "dutyFeeTaxAmount": {
-                    "currencyCode": "EUR",
-                    "value": 1.14
-                },
-                "dutyFeeTaxTypeCode": "BTW"
-            },
-            {
-                "dutyFeeTaxCategoryCode": "APPLICABLE",
-                "dutyFeeTaxAgencyCode": "281",
-                "dutyFeeTaxTypeCode": "U201"
-            }
-        ],
-        "targetMarkets": ["056"]
-    }]},
-    "metaData": {
-        "created": {
-          "date": "2020-10-14T12:34:55.200Z"
-        },
-        "modified":{
-          "date": "2021-07-29T14:08:21.636Z"
-        },
-        "isDiscontinued": false,
-        "status": "active"
-    },
-    "isTradeItemAnInvoiceUnit": true,
-    "tradeItemClassification": {"gpcCategoryCode": "10000111"},
-    "tradeItemMeasurements": {
-        "grossWeight": {
-            "measurementUnitCode": "KGM",
-            "value": 1.2
-        },
-        "netWeight": {
-            "measurementUnitCode": "KGM",
-            "value": 1
-        },
-        "depth": {
-            "measurementUnitCode": "CMT",
-            "value": 5
-        },
-        "width": {
-            "measurementUnitCode": "CMT",
-            "value": 15
-        },
-        "netContents": [{
-            "measurementUnitCode": "KGM",
-            "value": 1
-        }],
-        "height": {
-            "measurementUnitCode": "CMT",
-            "value": 17
-        }
-    },
-    "gtin": "05430000030014",
-    "brandName": "OR Coffee Roasters",
-    "isConsumerUnit": true,
-    "deliveryPurchasingInformation": {"startAvailabilityDateTime": "2021-05-12T10:37:52Z"},
-    "countriesOfSale": ["056"],
-    "tradeItemDescriptions": [
-        {
-            "languageCode": "fr-BE",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "nl-BE",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "de-DE",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "en-GB",
-            "value": "Brazil 1 kg"
-        }
-    ],
-    "isTradeItemAVariableUnit": true,
-    "descriptionsShort": [
-        {
-            "languageCode": "de-DE",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "en-GB",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "fr-BE",
-            "value": "Brazil 1 kg"
-        },
-        {
-            "languageCode": "nl-BE",
-            "value": "Brazil 1 kg"
-        }
-    ],
-    "referencedFiles": [{
-        "languageCodes":  ["nl-BE"],
-        "fileName": "Brazil 1 kg",
-        "referencedFileTypeCode": "PRODUCT_IMAGE",
-        "fileEffectiveStartDateTime": "2021-07-29T14:05:29Z",
-        "fileFormatName": "JPEG",
-        "uniformResourceIdentifier": "https://dam.gs1belu.org/originals/5430000030007%2Fb8ef5d0c48b944f9b4ed780c44e183bc%2FIMG_6289.jpeg"
-    }],
-    "informationProvider": {
-        "gln": "5430000030007",
-        "partyName": "OR COFFEE ROASTERS"
-    },
-    "regulatedProductNames": [
-        {
-            "sequenceNumber": 1,
-            "languageCode": "de-DE",
-            "value": "Brazil 1kg"
-        },
-        {
-            "sequenceNumber": 2,
-            "languageCode": "en-GB",
-            "value": "Brazil 1kg"
-        },
-        {
-            "sequenceNumber": 3,
-            "languageCode": "fr-BE",
-            "value": "Brazil 1kg"
-        },
-        {
-            "sequenceNumber": 4,
-            "languageCode": "nl-BE",
-            "value": "Brazil 1kg"
-        }
-    ],
-    "labelDescriptions": [
-        {
-            "languageCode": "fr-BE",
-            "value": "Brazil 1kg"
-        },
-        {
-            "languageCode": "nl-BE",
-            "value": "Brazil 1kg"
-        }
-    ],
-    "functionalNames": [
-        {
-            "languageCode": "de-DE",
-            "value": "Brazil 1kg CRU"
-        },
-        {
-            "languageCode": "en-GB",
-            "value": "Brazil 1kg CRU"
-        },
-        {
-            "languageCode": "fr-BE",
-            "value": "Brazil 1kg CRU"
-        },
-        {
-            "languageCode": "nl-BE",
-            "value": "Brazil 1kg CRU"
-        }
-    ],
-    "synchronisationDates": {
-        "effectiveDateTime": "2021-05-12T10:37:58Z",
-        "lastChangeDateTime": "2021-07-29T14:08:21.636Z"
-    },
-    "isTradeItemADespatchUnit": true,
-    "contacts": [{
-        "contactTypeCode": "CXC",
-        "contactName": "Hana de pauw",
-        "gln": "5430000030007",
-        "contactAddress": "Dorpsstraat 31 9230 Westrem"
-    }],
-    "placeOfItemActivity": {
-        "countriesOfOrigin": ["076"],
-        "importClassifications": [{
-            "value": "09012100",
-            "typeCode": "INTRASTAT"
-        }]
-    }
+            "nutrientDetails":[
+               {
+                  "nutrientTypeCode":"ENER-",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"E14",
+                        "value":439
+                     },
+                     {
+                        "measurementUnitCode":"KJO",
+                        "value":1863
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"FAT",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":22
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"FASAT",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":10
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"CHOAVL",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":53
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"SUGAR-",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":26
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"PRO-",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":6.1
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode":"SALTEQ",
+                  "measurementPrecisionCode":"APPROXIMATELY",
+                  "quantitiesContained":[
+                     {
+                        "measurementUnitCode":"GRM",
+                        "value":0.88
+                     }
+                  ]
+               }
+            ],
+            "preparationStateCode":"UNPREPARED"
+         }
+      ]
+   },
+   "isTradeItemAnOrderableUnit":true,
+   "isTradeItemABaseUnit":true,
+   "unitDescriptorCode":"BASE_UNIT_OR_EACH",
+   "dutyFeeTaxInformation":{
+      "targetMarketTaxInformations":[
+         {
+            "taxInformations":[
+               {
+                  "dutyFeeTaxCategoryCode":"LOW",
+                  "dutyFeeTaxAgencyCode":"281",
+                  "dutyFeeTaxRate":6,
+                  "dutyFeeTaxAmount":{
+                     "currencyCode":"EUR",
+                     "value":1.14
+                  },
+                  "dutyFeeTaxTypeCode":"BTW"
+               },
+               {
+                  "dutyFeeTaxCategoryCode":"APPLICABLE",
+                  "dutyFeeTaxAgencyCode":"281",
+                  "dutyFeeTaxTypeCode":"U201"
+               }
+            ],
+            "targetMarkets":[
+               "056"
+            ]
+         }
+      ]
+   },
+   "metaData":{
+      "created":{
+         "date":"2020-10-14T12:34:55.200Z"
+      },
+      "modified":{
+         "date":"2021-07-29T14:08:21.636Z"
+      },
+      "isDiscontinued":false,
+      "status":"active"
+   },
+   "isTradeItemAnInvoiceUnit":true,
+   "tradeItemClassification":{
+      "gpcCategoryCode":"10000111"
+   },
+   "tradeItemMeasurements":{
+      "grossWeight":{
+         "measurementUnitCode":"KGM",
+         "value":1.2
+      },
+      "netWeight":{
+         "measurementUnitCode":"KGM",
+         "value":1
+      },
+      "depth":{
+         "measurementUnitCode":"CMT",
+         "value":5
+      },
+      "width":{
+         "measurementUnitCode":"CMT",
+         "value":15
+      },
+      "netContents":[
+         {
+            "measurementUnitCode":"KGM",
+            "value":1
+         }
+      ],
+      "height":{
+         "measurementUnitCode":"CMT",
+         "value":17
+      }
+   },
+   "gtin":"05430000030014",
+   "brandName":"OR Coffee Roasters",
+   "isConsumerUnit":true,
+   "deliveryPurchasingInformation":{
+      "startAvailabilityDateTime":"2021-05-12T10:37:52Z"
+   },
+   "countriesOfSale":[
+      "056"
+   ],
+   "tradeItemDescriptions":[
+      {
+         "languageCode":"fr-BE",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"nl-BE",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"de-DE",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"en-GB",
+         "value":"Brazil 1 kg"
+      }
+   ],
+   "isTradeItemAVariableUnit":true,
+   "descriptionsShort":[
+      {
+         "languageCode":"de-DE",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"en-GB",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"fr-BE",
+         "value":"Brazil 1 kg"
+      },
+      {
+         "languageCode":"nl-BE",
+         "value":"Brazil 1 kg"
+      }
+   ],
+   "referencedFiles":[
+      {
+         "languageCodes":[
+            "nl-BE"
+         ],
+         "fileName":"Brazil 1 kg",
+         "referencedFileTypeCode":"PRODUCT_IMAGE",
+         "fileEffectiveStartDateTime":"2021-07-29T14:05:29Z",
+         "fileFormatName":"JPEG",
+         "uniformResourceIdentifier":"https://dam.gs1belu.org/originals/5430000030007%2Fb8ef5d0c48b944f9b4ed780c44e183bc%2FIMG_6289.jpeg"
+      }
+   ],
+   "informationProvider":{
+      "gln":"5430000030007",
+      "partyName":"OR COFFEE ROASTERS"
+   },
+   "regulatedProductNames":[
+      {
+         "sequenceNumber":1,
+         "languageCode":"de-DE",
+         "value":"Brazil 1kg"
+      },
+      {
+         "sequenceNumber":2,
+         "languageCode":"en-GB",
+         "value":"Brazil 1kg"
+      },
+      {
+         "sequenceNumber":3,
+         "languageCode":"fr-BE",
+         "value":"Brazil 1kg"
+      },
+      {
+         "sequenceNumber":4,
+         "languageCode":"nl-BE",
+         "value":"Brazil 1kg"
+      }
+   ],
+   "labelDescriptions":[
+      {
+         "languageCode":"fr-BE",
+         "value":"Brazil 1kg"
+      },
+      {
+         "languageCode":"nl-BE",
+         "value":"Brazil 1kg"
+      }
+   ],
+   "functionalNames":[
+      {
+         "languageCode":"de-DE",
+         "value":"Brazil 1kg CRU"
+      },
+      {
+         "languageCode":"en-GB",
+         "value":"Brazil 1kg CRU"
+      },
+      {
+         "languageCode":"fr-BE",
+         "value":"Brazil 1kg CRU"
+      },
+      {
+         "languageCode":"nl-BE",
+         "value":"Brazil 1kg CRU"
+      }
+   ],
+   "synchronisationDates":{
+      "effectiveDateTime":"2021-05-12T10:37:58Z",
+      "lastChangeDateTime":"2021-07-29T14:08:21.636Z"
+   },
+   "isTradeItemADespatchUnit":true,
+   "contacts":[
+      {
+         "contactTypeCode":"CXC",
+         "contactName":"Hana de pauw",
+         "gln":"5430000030007",
+         "contactAddress":"Dorpsstraat 31 9230 Westrem"
+      }
+   ],
+   "placeOfItemActivity":{
+      "countriesOfOrigin":[
+         "076"
+      ],
+      "importClassifications":[
+         {
+            "value":"09012100",
+            "typeCode":"INTRASTAT"
+         }
+      ]
+   }
 }
