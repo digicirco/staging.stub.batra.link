@@ -1,0 +1,55 @@
+le statement suivant est intéressant : replacedTradeItemIdentification
+
+a priori rien n'est affiché dans OFN
+
+regulatedProductName
+ingredientStatement
+
+dients, l’industriel doitmettre  en  majusculeles substances ou produits allergènesmis en évidence dans la liste des ingrédients présente sur l’emballage de la denrée alimentaire. Pour éviter les éventuels problèmes de gestion des majuscules dans les systèmes informatiques des industriels et des propriétaires de site de vente à distance, l’industriel doitégalement répéter ces substances ou produits allergènes dans la donnée allergenStatement
+
+La liste des ingrédients commence toujours par le mot «Ingrédients:»ou «Ingrédient:».
+
+lister les allergènes avec une virgule (aller rechercher les codes)
+
+La quantité nette doit être échangée dans une des unités de mesure suivante: •Le litre, code GS1: LT•Le centilitre, code GS1: C3•Le millilitre, code GS1: ML•Le kilogramme, code GS1: KG•Le gramme, code GS1: GRLecontenu net de certaines denrées alimentaires (ex: œufs) peut également être exprimé en pièce, code GS1: PC.
+
+        "netContents": [{
+            "measurementUnitCode": "KGM",
+            "value": 1
+        }],
+
+Lepoids net égouttéd’une denrée alimentaire avecliquide  couverture est échangédans la donnée drainedWeightde la fiche produit GS1. ??
+
+descriptiveSize ??
+
+consumerUsageStorageInstruction
+
+nsumerUsageStorageInstructions><language><languageISOCode>fr<languageISOCode/></language><longText>Après ouverture, à conserver au froid et à consommer rapidement.<longText/> </consumerUsageStorageInstructions>
+<consumerUsageStorageInstructions><language><languageISOCode>fr<languageISOCode/></language><longText>Avantouverture: à conserver dans un endroit frais et sec. Après ouverture: à conserver dans un récipient fermé au frais et à consommer dans les 48 heures.<longText/> </consumerUsageStorageInstructions>
+
+valuename="contactName">Commercialisé  parOrangina    Schweppes France.  Fabriqué  avec  l’autorisation  du  propriétaire  de  la marque</value>
+<value   name="communicationAddress">Service consommateur: Orangina  Schweppes  France,  CS  80491,  13593  Aix-en-Provence  Cedex  3
+
+donnée countryOfOriginStatement
+
+<value name="countryOfOriginStatement">Né: Irlande, Elevé: Irlande, ABATTU: Irlande (370), Découpe: Irlande (370)</value>
+
+Conditions de préparation
+unspecifiedPreparationTypePreparationInstructionsdu
+<value name="unspecifiedPreparationTypePreparationInstructions">Réchauffer à feudoux pendant 10 minutes.</value>
+
+<percentageOfAlcoholByVolume>45</percentageOfAlcoholByVolume>
+Pour mise à disposition du consommateur, le titre alcoométrique est suivi du symbole «% vol» et peut être précédé du terme alcool ou de l’abréviation «alc.».
+avec une virgule ??
+
+nutriments : un peu plus chaud ...
+voir http://docplayer.fr/61611872-Guide-de-mise-en-oeuvre-du-standard-gs1-pour.html
+
+numberOfServingsPerPackage
+numberOfServingsRangeDescription
+
+assez spécifique pour les bébés ...
+
+    des          allégations santé          et          nutritionnelles          dans          le          champ compulsoryAdditivesLabelInformation( cf secti
+
+<compulsoryAdditivesLabelInformation><description><language><languageISOCode>fr</languageISOCode></language><longText>contient plus de 1,5 mg/L de fluorpar litre:ne convient pasà l’alimentationdes nourrissons et desenfants de moins de 7 ans pour une consommation régulière.</longText></description></compulsoryAdditivesLabelInformation>
