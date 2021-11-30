@@ -2,6 +2,17 @@
     "manufacturer": {
       "gln": "5425022720012"
     },
+    "ingredientInformation": {
+      "ingredientStatements": [
+        {
+            "languageCode": "nl-BE",
+            "value": "Ingrediënten: TARWEbloem, suiker, margarine [plantaardige oliën en vetten (palmvet, koolzaadolie, in wisselende verhoudingen), water, emulgatoren (E322 (bevat SOJA), E471), zout, zuurteregelaar (E330), natuurlijke aroma's, kleurstof (E160a)], EIEREN, gist, invertsuiker, stabilisator (E420), SOJAbloem, zout, emulgator, (E322, bevat SOJA), vanillearoma. KAN SPOREN VAN MELK BEVATTEN."
+        },
+        {
+            "languageCode": "fr-BE",
+            "value": "Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
+        }
+    ]},
     "isTradeItemAnOrderableUnit": true,
     "allergenInformation": {"isAllergenRelevantDataProvided": true},
     "isTradeItemABaseUnit": true,
