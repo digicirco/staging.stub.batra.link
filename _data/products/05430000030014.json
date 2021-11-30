@@ -1,342 +1,577 @@
 {
-   "manufacturer":{
-      "gln":"5425022720012"
+   "manufacturer": {
+      "gln": "5425022720012"
+   },
+   "tradeItemTemperatureInformation": {
+      "temperatureInformations": [
+         {
+            "maximumTemperature": {
+               "measurementUnitCode": "CEL",
+               "value": 22
+            },
+            "temperatureQualifierCode": "STORAGE_HANDLING",
+            "minimumTemperature": {
+               "measurementUnitCode": "CEL",
+               "value": 5
+            }
+         },
+         {
+            "maximumTemperature": {
+               "measurementUnitCode": "CEL",
+               "value": 22
+            },
+            "temperatureQualifierCode": "TRANSPORTATION",
+            "minimumTemperature": {
+               "measurementUnitCode": "CEL",
+               "value": 5
+            }
+         }
+      ]
+   },
+   "healthRelatedInformation": {
+      "compulsoryAdditiveLabelInformations": [
+         {
+            "languageCode": "fr-BE",
+            "value": "Peut contenir des traces de lait, de crustacés et de poissons"
+         },
+         {
+            "languageCode": "nl-BE",
+            "value": "Kan sporen van melk,schaaldieren en vis bevatten."
+         }
+      ]
+   },
+   "consumerUsageInstructions": {
+      "consumerUsageInstruction": [
+         {
+            "languageCode": "de-DE",
+            "content": "Zuerst warmen sie den geschlossenen keulenbeutel 5 minuten in wasserbad, dann offnen sie den beutel mit schere and lassen sie den keulen abtropfen. Schnetzen sie die entenkaumagen und anbraten sie es einige minuten in einer Pfanne. GenieBen sie es als salat mi scheiben grüner Apfel (Granny Smith), mimolette kase und kieferngiebeln"
+         },
+         {
+            "languageCode": "en-GB",
+            "content": "First warm up the plastic pouch closed 5 minutes in a bain-marie, then open it with scissors and drain the duck gizzards. Thinly slice the duck gizzards and sear them in a pan with à little bit of duck fat for a few minutes. Serve in salads xith slices of Granny Smith apple, some mimolette cheese and gables of pine"
+         },
+         {
+            "languageCode": "fr-BE",
+            "content": "Dans un  premier temps, réchauffer la poche fermée 5 minutes au bain-marie puis ouvrir le sachet avec des ciseaux et bien égoutter les géisers. Emincer les gésiers et les saisir quelques minute à la poële avec un peu de graisse de canard. Servir sur une salade avec des tranches de pomme vert (granny smith) ou autre, de la mimolette et des pignons de pin"
+         },
+         {
+            "languageCode": "nl-BE",
+            "content": "Allereerst het gesloten zakje 5 minuten in kookpan met warm water opwarmen, vervolgens het zakje openknippen en de eendenmagen goed latenuitdruipen. De eendenmagen in dunne plakjes snijden en opwarmen in een pan met weinig eendenvet. Opdienen op een salade met schijfjes Granny Smith , mimolettekaas en pijnboonpitten"
+         }
+      ]
+   },
+   "consumerInstructions": {
+      "consumerStorageInstructions": [
+         {
+            "languageCode": "en-GB",
+            "value": "Store in a cool dry place"
+         },
+         {
+            "languageCode": "de-DE",
+            "value": "Bitte trocken lagern."
+         },
+         {
+            "languageCode": "fr-BE",
+            "value": "À conserver dans un endroit sec"
+         },
+         {
+            "languageCode": "nl-BE",
+            "value": "Op een droge plaats bewaren"
+         }
+      ]
    },
    "certificationInformation": {
-     "certificationInformations": [
-       {
-          "certificationStandard": "Biologisch",
-          "certificationValue": "2345",
-          "certificationAgency": "BIOCERT",
-          "certificationEffectiveEndDateTime": "2021-06-11T19:20:44Z"
-        }
-     ]
-   },
-   "ingredientInformation":{
-      "ingredientStatements":[
+      "certificationInformations": [
          {
-            "languageCode":"nl-BE",
-            "value":"Ingrediënten: TARWEbloem, suiker, margarine [plantaardige oliën en vetten (palmvet, koolzaadolie, in wisselende verhoudingen), water, emulgatoren (E322 (bevat SOJA), E471), zout, zuurteregelaar (E330), natuurlijke aroma's, kleurstof (E160a)], EIEREN, gist, invertsuiker, stabilisator (E420), SOJAbloem, zout, emulgator, (E322, bevat SOJA), vanillearoma. KAN SPOREN VAN MELK BEVATTEN."
-         },
-         {
-            "languageCode":"fr-BE",
-            "value":"Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
+            "certificationStandard": "Biologisch",
+            "certificationValue": "2345",
+            "certificationAgency": "BIOCERT",
+            "certificationEffectiveEndDateTime": "2021-06-11T19:20:44Z"
          }
       ]
    },
-   "allergenInformation":{
-      "isAllergenRelevantDataProvided":true,
-      "allergens":[
+   "ingredientInformation": {
+      "ingredientStatements": [
          {
-            "allergenTypeCode":"AW",
-            "levelOfContainmentCode":"CONTAINS"
+            "languageCode": "nl-BE",
+            "value": "Ingrediënten: TARWEbloem, suiker, margarine [plantaardige oliën en vetten (palmvet, koolzaadolie, in wisselende verhoudingen), water, emulgatoren (E322 (bevat SOJA), E471), zout, zuurteregelaar (E330), natuurlijke aroma's, kleurstof (E160a)], EIEREN, gist, invertsuiker, stabilisator (E420), SOJAbloem, zout, emulgator, (E322, bevat SOJA), vanillearoma. KAN SPOREN VAN MELK BEVATTEN."
          },
          {
-            "allergenTypeCode":"AY",
-            "levelOfContainmentCode":"CONTAINS"
-         },
-         {
-            "allergenTypeCode":"AE",
-            "levelOfContainmentCode":"CONTAINS"
-         },
-         {
-            "allergenTypeCode":"AM",
-            "levelOfContainmentCode":"MAY_CONTAIN"
+            "languageCode": "fr-BE",
+            "value": "Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
          }
       ]
    },
-   "nutritionalInformation":{
-      "nutrientHeaders":[
+   "allergenInformation": {
+      "isAllergenRelevantDataProvided": true,
+      "allergenStatements": [],
+      "allergens": [
          {
-            "nutrientBasisQuantityTypeCode":"BY_MEASURE",
-            "nutrientBasisQuantity":{
-               "measurementUnitCode":"GRM",
-               "value":100
-            },
-            "nutrientDetails":[
+            "allergenTypeCode": "AW",
+            "levelOfContainmentCode": "CONTAINS"
+         },
+         {
+            "allergenTypeCode": "AY",
+            "levelOfContainmentCode": "CONTAINS"
+         },
+         {
+            "allergenTypeCode": "AE",
+            "levelOfContainmentCode": "CONTAINS"
+         },
+         {
+            "allergenTypeCode": "AM",
+            "levelOfContainmentCode": "MAY_CONTAIN"
+         }
+      ]
+   },
+   "nutritionalInformation": {
+      "nutrientHeaders": [
+         {
+            "nutrientBasisQuantityTypeCode": "BY_SERVING",
+            "nutrientBasisQuantityDescriptions": [
                {
-                  "nutrientTypeCode":"ENER-",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
+                  "languageCode": "en-GB",
+                  "value": "28g"
+               },
+               {
+                  "languageCode": "fr-BE",
+                  "value": "28g"
+               },
+               {
+                  "languageCode": "nl-BE",
+                  "value": "28g"
+               }
+            ],
+            "dailyValueIntakeReferences": [
+               {
+                  "languageCode": "en-GB",
+                  "value": "Reference intake of an average adult (8 400 kJ/ 2 000 kcal)"
+               },
+               {
+                  "languageCode": "fr-BE",
+                  "value": "Apport de référence pour un adulte-type (8400 kJ/2000 kcal)"
+               },
+               {
+                  "languageCode": "nl-BE",
+                  "value": "Referentie-inname van een gemiddelde volwassene (8400 kJ/2000 kcal)"
+               }
+            ],
+            "nutrientBasisQuantity": {
+               "measurementUnitCode": "GRM",
+               "value": 28
+            },
+            "nutrientDetails": [
+               {
+                  "dailyValueIntakePercent": 3,
+                  "nutrientTypeCode": "SALTEQ",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
                      {
-                        "measurementUnitCode":"E14",
-                        "value":439
+                        "measurementUnitCode": "GRM",
+                        "value": 0.2
+                     }
+                  ]
+               },
+               {
+                  "dailyValueIntakePercent": 9,
+                  "nutrientTypeCode": "SUGAR-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 7.8
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "FIBTG",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 1
+                     }
+                  ]
+               },
+               {
+                  "dailyValueIntakePercent": 0.9,
+                  "nutrientTypeCode": "FAT",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 0.4
+                     }
+                  ]
+               },
+               {
+                  "dailyValueIntakePercent": 5,
+                  "nutrientTypeCode": "ENER-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "E14",
+                        "value": 107
                      },
                      {
-                        "measurementUnitCode":"KJO",
-                        "value":1863
+                        "measurementUnitCode": "KJO",
+                        "value": 453
                      }
                   ]
                },
                {
-                  "nutrientTypeCode":"FAT",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
+                  "dailyValueIntakePercent": 4,
+                  "nutrientTypeCode": "PRO-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
                      {
-                        "measurementUnitCode":"GRM",
-                        "value":22
+                        "measurementUnitCode": "GRM",
+                        "value": 1.8
                      }
                   ]
                },
                {
-                  "nutrientTypeCode":"FASAT",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
+                  "dailyValueIntakePercent": 9,
+                  "nutrientTypeCode": "CHOAVL",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
                      {
-                        "measurementUnitCode":"GRM",
-                        "value":10
+                        "measurementUnitCode": "GRM",
+                        "value": 24
                      }
                   ]
                },
                {
-                  "nutrientTypeCode":"CHOAVL",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
+                  "dailyValueIntakePercent": 0.9,
+                  "nutrientTypeCode": "FASAT",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
                      {
-                        "measurementUnitCode":"GRM",
-                        "value":53
-                     }
-                  ]
-               },
-               {
-                  "nutrientTypeCode":"SUGAR-",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
-                     {
-                        "measurementUnitCode":"GRM",
-                        "value":26
-                     }
-                  ]
-               },
-               {
-                  "nutrientTypeCode":"PRO-",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
-                     {
-                        "measurementUnitCode":"GRM",
-                        "value":6.1
-                     }
-                  ]
-               },
-               {
-                  "nutrientTypeCode":"SALTEQ",
-                  "measurementPrecisionCode":"APPROXIMATELY",
-                  "quantitiesContained":[
-                     {
-                        "measurementUnitCode":"GRM",
-                        "value":0.88
+                        "measurementUnitCode": "GRM",
+                        "value": 0.2
                      }
                   ]
                }
             ],
-            "preparationStateCode":"UNPREPARED"
+            "preparationStateCode": "UNPREPARED"
+         },
+         {
+            "nutrientBasisQuantityTypeCode": "BY_MEASURE",
+            "dailyValueIntakeReferences": [
+               {
+                  "languageCode": "en-GB",
+                  "value": "Reference intake of an average adult (8 400 kJ/ 2 000 kcal)"
+               },
+               {
+                  "languageCode": "fr-BE",
+                  "value": "Apport de référence pour un adulte-type (8400 kJ/2000 kcal)"
+               },
+               {
+                  "languageCode": "nl-BE",
+                  "value": "Referentie-inname van een gemiddelde volwassene (8400 kJ/2000 kcal)"
+               }
+            ],
+            "nutrientBasisQuantity": {
+               "measurementUnitCode": "GRM",
+               "value": 100
+            },
+            "nutrientDetails": [
+               {
+                  "nutrientTypeCode": "CHOAVL",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 84
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "ENER-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "KJO",
+                        "value": 1619
+                     },
+                     {
+                        "measurementUnitCode": "E14",
+                        "value": 382
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "PRO-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 6.3
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "SALTEQ",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 0.7
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "FIBTG",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 3.5
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "FAT",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 1.5
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "SUGAR-",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 28
+                     }
+                  ]
+               },
+               {
+                  "nutrientTypeCode": "FASAT",
+                  "measurementPrecisionCode": "APPROXIMATELY",
+                  "quantitiesContained": [
+                     {
+                        "measurementUnitCode": "GRM",
+                        "value": 0.6
+                     }
+                  ]
+               }
+            ],
+            "preparationStateCode": "UNPREPARED"
          }
       ]
    },
-   "isTradeItemAnOrderableUnit":true,
-   "isTradeItemABaseUnit":true,
-   "unitDescriptorCode":"BASE_UNIT_OR_EACH",
-   "dutyFeeTaxInformation":{
-      "targetMarketTaxInformations":[
+   "isTradeItemAnOrderableUnit": true,
+   "isTradeItemABaseUnit": true,
+   "unitDescriptorCode": "BASE_UNIT_OR_EACH",
+   "dutyFeeTaxInformation": {
+      "targetMarketTaxInformations": [
          {
-            "taxInformations":[
+            "taxInformations": [
                {
-                  "dutyFeeTaxCategoryCode":"LOW",
-                  "dutyFeeTaxAgencyCode":"281",
-                  "dutyFeeTaxRate":6,
-                  "dutyFeeTaxAmount":{
-                     "currencyCode":"EUR",
-                     "value":1.14
+                  "dutyFeeTaxCategoryCode": "LOW",
+                  "dutyFeeTaxAgencyCode": "281",
+                  "dutyFeeTaxRate": 6,
+                  "dutyFeeTaxAmount": {
+                     "currencyCode": "EUR",
+                     "value": 1.14
                   },
-                  "dutyFeeTaxTypeCode":"BTW"
+                  "dutyFeeTaxTypeCode": "BTW"
                },
                {
-                  "dutyFeeTaxCategoryCode":"APPLICABLE",
-                  "dutyFeeTaxAgencyCode":"281",
-                  "dutyFeeTaxTypeCode":"U201"
+                  "dutyFeeTaxCategoryCode": "APPLICABLE",
+                  "dutyFeeTaxAgencyCode": "281",
+                  "dutyFeeTaxTypeCode": "U201"
                }
             ],
-            "targetMarkets":[
+            "targetMarkets": [
                "056"
             ]
          }
       ]
    },
-   "metaData":{
-      "created":{
-         "date":"2020-10-14T12:34:55.200Z"
+   "metaData": {
+      "created": {
+         "date": "2020-10-14T12:34:55.200Z"
       },
-      "modified":{
-         "date":"2021-07-29T14:08:21.636Z"
+      "modified": {
+         "date": "2021-07-29T14:08:21.636Z"
       },
-      "isDiscontinued":false,
-      "status":"active"
+      "isDiscontinued": false,
+      "status": "active"
    },
-   "isTradeItemAnInvoiceUnit":true,
-   "tradeItemClassification":{
-      "gpcCategoryCode":"10000111"
+   "isTradeItemAnInvoiceUnit": true,
+   "tradeItemClassification": {
+      "gpcCategoryCode": "10000111"
    },
-   "tradeItemMeasurements":{
-      "grossWeight":{
-         "measurementUnitCode":"KGM",
-         "value":1.2
+   "tradeItemMeasurements": {
+      "servingQuantityInformation": {
+         "numberOfServingsPerPackage": 8
       },
-      "netWeight":{
-         "measurementUnitCode":"KGM",
-         "value":1
+      "grossWeight": {
+         "measurementUnitCode": "KGM",
+         "value": 1.2
       },
-      "depth":{
-         "measurementUnitCode":"CMT",
-         "value":5
+      "netWeight": {
+         "measurementUnitCode": "KGM",
+         "value": 1
       },
-      "width":{
-         "measurementUnitCode":"CMT",
-         "value":15
+      "depth": {
+         "measurementUnitCode": "CMT",
+         "value": 5
       },
-      "netContents":[
+      "width": {
+         "measurementUnitCode": "CMT",
+         "value": 15
+      },
+      "netContents": [
          {
-            "measurementUnitCode":"KGM",
-            "value":1
+            "measurementUnitCode": "KGM",
+            "value": 1
          }
       ],
-      "height":{
-         "measurementUnitCode":"CMT",
-         "value":17
+      "height": {
+         "measurementUnitCode": "CMT",
+         "value": 17
       }
    },
-   "gtin":"05430000030014",
-   "brandName":"OR Coffee Roasters",
-   "isConsumerUnit":true,
-   "deliveryPurchasingInformation":{
-      "startAvailabilityDateTime":"2021-05-12T10:37:52Z"
+   "gtin": "05430000030014",
+   "brandName": "OR Coffee Roasters",
+   "isConsumerUnit": true,
+   "deliveryPurchasingInformation": {
+      "startAvailabilityDateTime": "2021-05-12T10:37:52Z"
    },
-   "countriesOfSale":[
+   "countriesOfSale": [
       "056"
    ],
-   "tradeItemDescriptions":[
+   "tradeItemDescriptions": [
       {
-         "languageCode":"fr-BE",
-         "value":"Brazil 1 kg"
+         "languageCode": "fr-BE",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"nl-BE",
-         "value":"Brazil 1 kg"
+         "languageCode": "nl-BE",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"de-DE",
-         "value":"Brazil 1 kg"
+         "languageCode": "de-DE",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"en-GB",
-         "value":"Brazil 1 kg"
+         "languageCode": "en-GB",
+         "value": "Brazil 1 kg"
       }
    ],
-   "isTradeItemAVariableUnit":true,
-   "descriptionsShort":[
+   "isTradeItemAVariableUnit": true,
+   "descriptionsShort": [
       {
-         "languageCode":"de-DE",
-         "value":"Brazil 1 kg"
+         "languageCode": "de-DE",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"en-GB",
-         "value":"Brazil 1 kg"
+         "languageCode": "en-GB",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"fr-BE",
-         "value":"Brazil 1 kg"
+         "languageCode": "fr-BE",
+         "value": "Brazil 1 kg"
       },
       {
-         "languageCode":"nl-BE",
-         "value":"Brazil 1 kg"
+         "languageCode": "nl-BE",
+         "value": "Brazil 1 kg"
       }
    ],
-   "referencedFiles":[
+   "referencedFiles": [
       {
-         "languageCodes":[
+         "languageCodes": [
             "nl-BE"
          ],
-         "fileName":"Brazil 1 kg",
-         "referencedFileTypeCode":"PRODUCT_IMAGE",
-         "fileEffectiveStartDateTime":"2021-07-29T14:05:29Z",
-         "fileFormatName":"JPEG",
-         "uniformResourceIdentifier":"https://dam.gs1belu.org/originals/5430000030007%2Fb8ef5d0c48b944f9b4ed780c44e183bc%2FIMG_6289.jpeg"
+         "fileName": "Brazil 1 kg",
+         "referencedFileTypeCode": "PRODUCT_IMAGE",
+         "fileEffectiveStartDateTime": "2021-07-29T14:05:29Z",
+         "fileFormatName": "JPEG",
+         "uniformResourceIdentifier": "https://dam.gs1belu.org/originals/5430000030007%2Fb8ef5d0c48b944f9b4ed780c44e183bc%2FIMG_6289.jpeg"
       }
    ],
-   "informationProvider":{
-      "gln":"5430000030007",
-      "partyName":"OR COFFEE ROASTERS"
+   "informationProvider": {
+      "gln": "5430000030007",
+      "partyName": "OR COFFEE ROASTERS"
    },
-   "regulatedProductNames":[
+   "regulatedProductNames": [
       {
-         "sequenceNumber":1,
-         "languageCode":"de-DE",
-         "value":"Brazil 1kg"
+         "sequenceNumber": 1,
+         "languageCode": "de-DE",
+         "value": "Brazil 1kg"
       },
       {
-         "sequenceNumber":2,
-         "languageCode":"en-GB",
-         "value":"Brazil 1kg"
+         "sequenceNumber": 2,
+         "languageCode": "en-GB",
+         "value": "Brazil 1kg"
       },
       {
-         "sequenceNumber":3,
-         "languageCode":"fr-BE",
-         "value":"Brazil 1kg"
+         "sequenceNumber": 3,
+         "languageCode": "fr-BE",
+         "value": "Brazil 1kg"
       },
       {
-         "sequenceNumber":4,
-         "languageCode":"nl-BE",
-         "value":"Brazil 1kg"
+         "sequenceNumber": 4,
+         "languageCode": "nl-BE",
+         "value": "Brazil 1kg"
       }
    ],
-   "labelDescriptions":[
+   "labelDescriptions": [
       {
-         "languageCode":"fr-BE",
-         "value":"Brazil 1kg"
+         "languageCode": "fr-BE",
+         "value": "Brazil 1kg"
       },
       {
-         "languageCode":"nl-BE",
-         "value":"Brazil 1kg"
+         "languageCode": "nl-BE",
+         "value": "Brazil 1kg"
       }
    ],
-   "functionalNames":[
+   "functionalNames": [
       {
-         "languageCode":"de-DE",
-         "value":"Brazil 1kg CRU"
+         "languageCode": "de-DE",
+         "value": "Brazil 1kg CRU"
       },
       {
-         "languageCode":"en-GB",
-         "value":"Brazil 1kg CRU"
+         "languageCode": "en-GB",
+         "value": "Brazil 1kg CRU"
       },
       {
-         "languageCode":"fr-BE",
-         "value":"Brazil 1kg CRU"
+         "languageCode": "fr-BE",
+         "value": "Brazil 1kg CRU"
       },
       {
-         "languageCode":"nl-BE",
-         "value":"Brazil 1kg CRU"
+         "languageCode": "nl-BE",
+         "value": "Brazil 1kg CRU"
       }
    ],
-   "synchronisationDates":{
-      "effectiveDateTime":"2021-05-12T10:37:58Z",
-      "lastChangeDateTime":"2021-07-29T14:08:21.636Z"
+   "synchronisationDates": {
+      "effectiveDateTime": "2021-05-12T10:37:58Z",
+      "lastChangeDateTime": "2021-07-29T14:08:21.636Z"
    },
-   "isTradeItemADespatchUnit":true,
-   "contacts":[
+   "isTradeItemADespatchUnit": true,
+   "contacts": [
       {
-         "contactTypeCode":"CXC",
-         "contactName":"Hana de pauw",
-         "gln":"5430000030007",
-         "contactAddress":"Dorpsstraat 31 9230 Westrem"
+         "contactTypeCode": "CXC",
+         "contactName": "Hana de pauw",
+         "gln": "5430000030007",
+         "contactAddress": "Dorpsstraat 31 9230 Westrem"
       }
    ],
-   "placeOfItemActivity":{
-      "countriesOfOrigin":[
+   "placeOfItemActivity": {
+      "countriesOfOrigin": [
          "076"
       ],
-      "importClassifications":[
+      "importClassifications": [
          {
-            "value":"09012100",
-            "typeCode":"INTRASTAT"
+            "value": "09012100",
+            "typeCode": "INTRASTAT"
          }
       ]
    }
