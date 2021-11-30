@@ -2,6 +2,16 @@
    "manufacturer":{
       "gln":"5425022720012"
    },
+   "certificationInformation": {
+     "certificationInformations": [
+       {
+          "certificationStandard": "Biologisch",
+          "certificationValue": "2345",
+          "certificationAgency": "BIOCERT",
+          "certificationEffectiveEndDateTime": "2021-06-11T19:20:44Z"
+        }
+     ]
+   },
    "ingredientInformation":{
       "ingredientStatements":[
          {
