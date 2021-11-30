@@ -13,8 +13,28 @@
             "value": "Ingrédients: Farine de BLE, sucre, margarine [huiles et graisses végétales (graisse de palme, huile de colza, en proportion variable), eau, émulsifiants (E322 (contient SOJA), E471), sel, correcteur d'acidité (E330), arômes naturels, colorant (E160a), OEUFS, levure, sucre inverti, stabilisant (E420), farine de SOJA, sel, émulsifiant (E322, contient du SOJA), arôme de vanille. PEUT CONTENIR DES TRACES DE LAIT."
         }
     ]},
+    "allergenInformation": {
+        "isAllergenRelevantDataProvided": true,
+        "allergens":[
+            {
+                "allergenTypeCode": "AW",
+                "levelOfContainmentCode": "CONTAINS"
+            },
+            {
+                "allergenTypeCode": "AY",
+                "levelOfContainmentCode": "CONTAINS"
+            },
+            {
+                "allergenTypeCode": "AE",
+                "levelOfContainmentCode": "CONTAINS"
+            },
+            {
+                "allergenTypeCode": "AM",
+                "levelOfContainmentCode": "MAY_CONTAIN"
+            }
+        ]
+    },
     "isTradeItemAnOrderableUnit": true,
-    "allergenInformation": {"isAllergenRelevantDataProvided": true},
     "isTradeItemABaseUnit": true,
     "unitDescriptorCode": "BASE_UNIT_OR_EACH",
     "dutyFeeTaxInformation": {"targetMarketTaxInformations": [{
