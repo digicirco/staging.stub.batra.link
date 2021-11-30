@@ -16,9 +16,6 @@
    },
    "allergenInformation":{
       "isAllergenRelevantDataProvided":true,
-      "allergenStatements":[
-         
-      ],
       "allergens":[
          {
             "allergenTypeCode":"AW",
