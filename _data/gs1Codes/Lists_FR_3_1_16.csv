@@ -1,0 +1,103 @@
+id,name,description
+CNL3101,BENELUX_GDSN_AdditionalPackagingMarkingsCode,Référence locale du code d'accréditation marqué sur l'emballage
+CNL3102,BENELUX_GDSN_AdditionalTradeItemIdentificationTypeCode,Type d'identification alternative de l'unité commerciale
+CNL3103,BENELUX_GDSN_AllergenTypeCode,Code du type d'allergene
+CNL3104,BENELUX_GDSN_BatteryTechnologyTypeCode,Type de technologie de la batterie
+CNL3105,BENELUX_GDSN_BatteryTypeCode,Code de type de batterie
+CNL3106,BENELUX_GDSN_CatchAreaCode,Code de la région de capture du poisson
+CNL3107,BENELUX_GDSN_CatchMethodCode,Méthode de capture
+CNL3108,BENELUX_GDSN_ClassOfDangerousGoods,Classe de marchandises dangereuses
+CNL3109,BENELUX_GDSN_CommunicationChannelCode,Type de canal de communication
+CNL3110,BENELUX_GDSN_ConsumerSalesConditionTypeCode,Condition de vente au consomateur
+CNL3111,BENELUX_GDSN_ContactTypeCode,Code de type de contact
+CNL3112,BENELUX_GDSN_CountryCode,Pays d'origine
+CNL3113,BENELUX_GDSN_CurrencyCode,Code de devise
+CNL3114,BENELUX_GDSN_DangerousGoodsRegulationCode,Code de réglementation des marchandises dangereuses
+CNL3115,BENELUX_GDSN_DietTypeCode,Code du type de régime
+CNL3116,BENELUX_GDSN_DimensionTypeCode,Type de dimension
+CNL3117,BENELUX_GDSN_DisplayTypeCode,Code de type de display
+CNL3118,BENELUX_GDSN_FeedTypeCode,Code de type d'alimentation animale
+CNL3119,BENELUX_GDSN_GDSN_PackageTypeCode,Type d'emballage
+CNL3120,BENELUX_GDSN_GHSSignalWordsCode,Code du mot de signal GHS
+CNL3121,BENELUX_GDSN_GHSSymbolDescriptionCode,Code de description symbole GHS
+CNL3122,BENELUX_GDSN_GrowingMethodCode,Méthode de culture
+CNL3123,BENELUX_GDSN_ImportClassificationTypeCode,Type de classification d'import
+CNL3124,BENELUX_GDSN_LanguageCode,Code de langue
+CNL3125,BENELUX_GDSN_LevelOfContainmentCode,Niveau de contenance
+CNL3126,BENELUX_GDSN_MeasurementPrecisionCode,Précision de mesure
+CNL3127,BENELUX_GDSN_MeasurementUnitCode,Unité de mesure
+CNL3128,BENELUX_GDSN_NestingDirectionCode,Direction de l'emboîtement
+CNL3129,BENELUX_GDSN_NestingTypeCode,Type d'emboîtement
+CNL3130,BENELUX_GDSN_NonBinaryLogicEnumeration,Code Vrai/Faux
+CNL3131,BENELUX_GDSN_NutrientTypeCode,Code de type de nutriment
+CNL3132,BENELUX_GDSN_OrganicClaimAgencyCode,Organisme de certification biologique
+CNL3133,BENELUX_GDSN_OrganicTradeItemCode,Code article biologique
+CNL3134,BENELUX_GDSN_PackagingMarkedDietAllergenCode,Sigle allergènes ou régime présents sur l'emballage
+CNL3135,BENELUX_GDSN_PackagingMarkedFreeFromCode,L'emballage porte la mention «Sans...»
+CNL3136,BENELUX_GDSN_PackagingMarkedLabelAccreditationCode,Code d'accréditation marqué sur l'emballage
+CNL3137,BENELUX_GDSN_PackagingMaterialTypeCode,Code de matériau d'emballage
+CNL3138,BENELUX_GDSN_PackagingTermsAndConditionsCode,Modalités et condition de l'emballage
+CNL3139,BENELUX_GDSN_PlatformTermsAndConditionsCode,Code des conditions générales de la plateforme
+CNL3140,BENELUX_GDSN_PlatformTypeCode,Code de type de plateforme
+CNL3141,BENELUX_GDSN_PostHarvestTreatmentChemicalCode,Traitement chimique post-récolte
+CNL3142,BENELUX_GDSN_PreliminaryItemStatusCode,Code du statut de l'unité commerciale
+CNL3143,BENELUX_GDSN_PreparationTypeCode,Etat de préparation
+CNL3144,BENELUX_GDSN_ProductActivityTypeCode,Code de type d'activité du produit
+CNL3145,BENELUX_GDSN_PromotionTypeCode,Code de type de promotion
+CNL3146,BENELUX_GDSN_ReferencedFileTypeCode,Code de type de fichier référencé
+CNL3147,BENELUX_GDSN_ReferencedTradeItemTypeCode,Code de type d'unité commerciale
+CNL3148,BENELUX_GDSN_RegulationTypeCode,Code de type de réglementation
+CNL3149,BENELUX_GDSN_ResponsibleAgencyCode,Code de l'agence fiscale
+CNL3150,BENELUX_GDSN_ReturnablePackageDepositCode,Identification de l'emballage consigné
+CNL3151,BENELUX_GDSN_StackingFactorTypeCode,Code de coefficient d'empilement
+CNL3152,BENELUX_GDSN_TargetedConsumptionByCode,Code de type d'animal
+CNL3153,BENELUX_GDSN_TaxCategoryCode,Code de la catégorie de taxe
+CNL3154,BENELUX_GDSN_TaxTypeCode,Code de type de taxe
+CNL3155,BENELUX_GDSN_TemperatureMeasurementUnitCode,Unité de mesure de la température
+CNL3156,BENELUX_GDSN_TemperatureQualifierCode,Code qualificateur de température
+CNL3157,BENELUX_GDSN_TradeItemDateOnPackagingTypeCode,Code de type de date indiquée sur l'emballage
+CNL3158,BENELUX_GDSN_TradeItemPriceTypeCode,Type de prix de l'unité commerciale
+CNL3159,BENELUX_GDSN_TradeItemUnitDescriptorCode,Niveau hiérarchique
+CNL3160,BENELUX_GDSN_TimeMeasurementUnitCode,Unité de mesure de temps
+CNL3161,BENELUX_GDSN_AllowedUsageCode,Code d'usage autorisé
+CNL3162,BENELUX_GDSN_AdditionalTradeItemClassificationCodeListCode,Code de classification alternative de l'unité commerciale
+CNL3163,BENELUX_GDSN_PackagingMaterialColourCode,Couleur de l'emballage
+CNL3164,BENELUX_GDSN_LimitedQuantityValueUOM,Unité de la valeur de quantité limitée
+CNL3166,BENELUX_GDSN_ADRTunnelRestrictionCode,Code de restriction en tunnels ADR
+CNL3167,BENELUX_GDSN_ADRClassificationCode,Code de classification ADR
+CNL3168,BENELUX_GDSN_BRZOSevesoHazardCategory,Catégorie de danger BRZO/Seveso
+CNL3169,BENELUX_GDSN_ProductGroup,Groupe de produits
+CNL3170,BENELUX_GDSN_ADRPackingGroup,Groupe d’emballage ADR
+CNL3171,BENELUX_GDSN_HazardLabelNumber,Numéro étiquette de danger
+CNL3173,BENELUX_GDSN_SafetyRecommendations,Mentions de danger (Hazard) 2.1
+CNL3174,BENELUX_GDSN_UNDangerousGoodsNumber,Numéro des marchandises dangereuses des Nations Unies
+CNL3175,BENELUX_GDSN_NutrientBasisQuantityTypeCode,Type de quantité de base nutritive
+CNL3176,BENELUX_GDSN_SunProtectionFactor,Sun protection factor
+CNL3177,BENELUX_GDSN_FeatureCode,Feature code
+CNL3178,BENELUX_GDSN_SterilisationTypeCode,Sterilisation type code
+CNL3179,BENELUX_GDSN_TradeItemConditionCode,Code de condition de l'unité commerciale
+CNL3180,BENELUX_GDSN_PackagingRecyclingSchemeCode,Code du recyclage de l'emballage
+CNL3181,BENELUX_GDSN_MaterialCode,Code de matériau
+CNL3182,BENELUX_GDSN_ProductionMethodForFishAndSeafoodCode,Méthode de production pour le poisson et les fruits de mer
+CNL3183,BENELUX_GDSN_SizeTypeCode,Code d'angle du faisceau lumineux
+CNL3184,BENELUX_GDSN_MaterialAgencyCode,Code d'agence du matériau
+CNL3185,BENELUX_GDSN_GradeCodeReferenceCode,Degré de qualité d’un produit
+CNL3186,BENELUX_GDSN_LightBulbLampTypeCode,Code type de lampe
+CNL3187,BENELUX_GDSN_SpecialItemCode,Code article spécial
+CNL3188,BENELUX_GDSN_HazardStatementsCode,Mentions de danger (Hazard) 2.2
+CNL3189,BENELUX_GDSN_SpecialPermitOrExemptionIdentification,Code de quantité excepté
+CNL3190,BENELUX_GDSN_OrganicProductPlaceOfFarmingCode,Lieu d'agriculture du produit biologique
+CNL3191,BENELUX_GDSN_TargetSector,Secteur cible
+CNL3192,BENELUX_GDSN_DangerousGoodsHazardousCode,Code de matières dangereuses
+CNL3193,BENELUX_GDSN_NutritionalProgramCode,Code du programme de nutrition
+CNL3194,BENELUX_GDSN_NutritionalProgramIngredientTypeCode,Type d'ingrédient du programme de nutrition
+CNL3195,BENELUX_GDSN_SkinProductFunctionOrTreatmentCode,Fonction ou traitement du produit pour la peau
+CNL3196,BENELUX_GDSN_TargetSkinTypeCode,Type de peau
+CNL3197,BENELUX_GDSN_HairProductFunctionOrTreatmentCode,Fonction ou traitement du produit capillaire
+CNL3198,BENELUX_GDSN_TargetHairTypeCode,Type de cheveux
+CNL3199,BENELUX_GDSN_NaturalHairColourCode,Couleur naturelle des cheveux
+CNL3200,BENELUX_GDSN_DentalProductFunctionCode,Fonction du produit dentaire
+CNL3201,BENELUX_GDSN_TimeOfApplicationCode,Moment de l'application
+CNL3202,BENELUX_GDSN_TargetConsumerGenderCode,Sexe du groupe cible
+CNL3203,BENELUX_GDSN_TargetConsumerAgeGroupCode,Code d'âge cible
+CNL3204,BENELUX_GDSN_FormationTypeCode,Substance
