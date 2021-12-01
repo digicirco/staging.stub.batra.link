@@ -1,1 +1,1 @@
-{{ include.quantity.value }} {{ include.quantity.measurementUnitCode }}
+{% assign unitCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3127" %}{% assign unitCode = unitCodes | where: "value", include.quantity.measurementUnitCode | first %}{{ include.quantity.value }} {{ unitCode.name }}
