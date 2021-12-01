@@ -83,7 +83,7 @@ layout: none
 
 {% assign countryOfOriginInt = countryOfOrigin | plus: 0 %}
 
-{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOriginInt | first %}
+{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOrigin | first %}
 
 {{ country.name }}
 
