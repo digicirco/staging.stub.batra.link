@@ -8,22 +8,17 @@ layout: none
 {% assign p1 = site.data.products | first %}
 {% assign tradeItem =  p1[1] %}
 
+{% assign gs1CodeValues = site.data.gs1Codes.Values_FR_3_1_16 %}
+
+# {% include translation.html translations=tradeItem.tradeItemDescriptions %} ([lien](https://www.batra.link/productFull.html?gtin={{ tradeItem.gtin }}))
+
 {% assign g1 = site.data.gpc.FoodBeverageTobacco_FR_2020_11 | where: "brickCode", tradeItem.tradeItemClassification.gpcCategoryCode | first %}
-
 {% assign gpcBrick =  g1[1] %}
-
-# {% include translation.html translations=tradeItem.tradeItemDescriptions %}
-
-<!-- TODO maybe don't show if same as tradeItemDescriptions -->
-{% include translation.html translations=tradeItem.regulatedProductNames %}
-
-<!-- TODO get code-->
 
 {{ g1.familyDescription }} > {{ g1.classDescription }} > {{ g1.brickDescription }}
 
-{{ tradeItem.tradeItemClassification.gpcCategoryCode }}
-
-[Batra link](https://www.batra.link/productFull.html?gtin={{ tradeItem.gtin }})
+<!-- TODO maybe don't show if same as tradeItemDescriptions -->
+{% include translation.html translations=tradeItem.regulatedProductNames %}
 
 ## Ingrédients : 
 
@@ -36,7 +31,10 @@ layout: none
 
 ## Allergènes : 
 
-{% for allergen in tradeItem.allergenInformation.allergens %}{{ allergen.allergenTypeCode }}, {% endfor %}
+{% assign allergenCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3103" %}
+
+
+{% for allergen in tradeItem.allergenInformation.allergens %}{% assign allergenCode = allergenCodes | where: "value", allergen.allergenTypeCode | first %}{{ allergenCode.name }} ({{allergen.levelOfContainmentCode}}), {% endfor %}
 
 {% endif %}
 
@@ -45,13 +43,17 @@ layout: none
 
 ## Nutritions
 
+{% assign nutritionTypeCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3131" %}
+
 {% for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders %}
 
 ### Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}
 
 {% for nutrientDetail in nutrientHeader.nutrientDetails %}
 
-* {{ nutrientDetail.nutrientTypeCode }}: {% for quantityContained in nutrientDetail.quantitiesContained %}{% include quantity.html quantity=quantityContained %}, {% endfor %}
+{% assign nutritionTypeCode = nutritionTypeCodes | where: "value", nutrientDetail.nutrientTypeCode | first %}
+
+* {{ nutritionTypeCode.name }}: {% for quantityContained in nutrientDetail.quantitiesContained %}{% include quantity.html quantity=quantityContained %}, {% endfor %}
 
 {% endfor %}
 
@@ -78,7 +80,13 @@ layout: none
 ## Origine
 
 {% for countryOfOrigin in tradeItem.placeOfItemActivity.countriesOfOrigin %}
-{{countryOfOrigin}}
+
+{% assign countryOfOriginInt = countryOfOrigin | plus: 0 %}
+
+{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOriginInt | first %}
+
+{{ country.name }}
+
 {% endfor %}
 
 {% if tradeItem.certificationInformation %}
