@@ -3,9 +3,14 @@ title: Product
 layout: none
 ---
 
+{% assign languageCode = "fr-BE" %}
+
 {% assign p1 = site.data.products | first %}
 {% assign tradeItem =  p1[1] %}
-{% assign languageCode = "fr-BE" %}
+
+{% assign g1 = site.data.gpc.FoodBeverageTobacco_FR_2020_11 | where: "brickCode", tradeItem.tradeItemClassification.gpcCategoryCode | first %}
+
+{% assign gpcBrick =  g1[1] %}
 
 # {% include translation.html translations=tradeItem.tradeItemDescriptions %}
 
@@ -13,6 +18,9 @@ layout: none
 {% include translation.html translations=tradeItem.regulatedProductNames %}
 
 <!-- TODO get code-->
+
+{{ g1.familyDescription }} > {{ g1.classDescription }} > {{ g1.brickDescription }}
+
 {{ tradeItem.tradeItemClassification.gpcCategoryCode }}
 
 [Batra link](https://www.batra.link/productFull.html?gtin={{ tradeItem.gtin }})
