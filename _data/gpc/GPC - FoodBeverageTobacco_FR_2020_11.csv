@@ -1,0 +1,827 @@
+Brick Code,Class Code,Family Code,Segment Code,Brick Description,Class Description,Family Description,Segment Description
+10008039,50360100,50360000,50000000,Feuilles de Bananier (Garniture Alimentaire),Garniture Fraîche (Nourriture),Garniture Fraîche (Nourriture),Nourriture/Boisson/Tabac
+10008040,50360100,50360000,50000000,Feuilles de Cactus (Garniture Alimentaire),Garniture Fraîche (Nourriture),Garniture Fraîche (Nourriture),Nourriture/Boisson/Tabac
+10008041,50360100,50360000,50000000,Fleurs d'oranger (Garniture Alimentaire),Garniture Fraîche (Nourriture),Garniture Fraîche (Nourriture),Nourriture/Boisson/Tabac
+10000612,50192100,50190000,50000000,Assortiments d'Amuse–gueules,Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10007276,50192100,50190000,50000000,Autres Amuse–gueules,Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006747,50192100,50190000,50000000,Bâtonnets salés / Mini Bretzels,Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000177,50192100,50190000,50000000,Chips/Amuse–gueules/Mélanges d’Aliments à grignoter – Naturels et Extrudés (Longue Cons.),Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006746,50192100,50190000,50000000,Doodles/ Puffs,Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005822,50192100,50190000,50000000,Pommes d'Amour,Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000252,50192100,50190000,50000000,Pop–corn (Longue Conservation),Amuse–gueules,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000613,50193400,50190000,50000000,Assortiments d’Aliments Préparés/Préservés,Assortiments d’Aliments Préparés/Préservés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000104,50193000,50190000,50000000,Bébés/Nourrissons – Aliments Spéciaux (Longue Conservation),Bébés/Nourrissons – Nourriture et Boissons,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006273,50193000,50190000,50000000,Bébés/Nourrissons – Aliments Spéciaux (Surgelé),Bébés/Nourrissons – Nourriture et Boissons,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000610,50193000,50190000,50000000,Bébés/Nourrissons – Assortiments de Nourriture/Boissons,Bébés/Nourrissons – Nourriture et Boissons,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000105,50193000,50190000,50000000,Bébés/Nourrissons – Boissons Spécialisées (Longue Conservation),Bébés/Nourrissons – Nourriture et Boissons,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000575,50193000,50190000,50000000,Bébés/Nourrissons – Lait Maternisé (Longue Conservation),Bébés/Nourrissons – Nourriture et Boissons,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006754,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Assortiments Non-Prêts à Consommer,Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006753,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Assortiments Prêts à Consommer,Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006750,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Non Prêts à Consommer (Longue Conservation),Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006749,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Non Prêts à Consommer (Périssable),Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006748,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Non Prêts à Consommer (Surgelé),Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006752,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Prêts à Consommer (Longue Conservation),Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006751,50193800,50190000,50000000,Les Compositions de Repas Cuisinés – Prêts à Consommer (Périssable),Composition de Repas Cuisinés,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000611,50192300,50190000,50000000,Assortiments Composés de Desserts/Nappages pour Desserts,Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000216,50192300,50190000,50000000,Crèmes Glacées/Desserts Glacés (Longue Conservation),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000215,50192300,50190000,50000000,Crèmes Glacées/Desserts Glacés (Surgelé),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000312,50192300,50190000,50000000,Desserts (Longue Conservation),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000197,50192300,50190000,50000000,Desserts (Périssable),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000196,50192300,50190000,50000000,Desserts (Surgelé),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000195,50192300,50190000,50000000,Sauces/Nappages pour Desserts (Longue Conservation),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000194,50192300,50190000,50000000,Sauces/Nappages pour Desserts (Périssable),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000193,50192300,50190000,50000000,Sauces/Nappages pour Desserts (Surgelé),Desserts/Nappages pour Desserts,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000621,50192400,50190000,50000000,Assortiments de Pâtes à Tartiner Sucrées,Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000217,50192400,50190000,50000000,Confitures/Marmelades/Gelées (Longue Conservation),Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006837,50192400,50190000,50000000,Confitures/Marmelades/Gelées (Périssable),Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000213,50192400,50190000,50000000,Miel (Longue Conservation),Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000187,50192400,50190000,50000000,Pâtes à Tartiner Sucrées (Longue Conservation),Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006848,50192400,50190000,50000000,Substitut de Miel,Pâtes à Tartiner Sucrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000242,50192900,50190000,50000000,Pâtes/Nouilles – Non Prêt à Consommer (Longue Conservation),Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000317,50192900,50190000,50000000,Pâtes/Nouilles – Non Prêt à Consommer (Périssable),Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000318,50192900,50190000,50000000,Pâtes/Nouilles – Non Prêt à Consommer (Surgelé),Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000241,50192900,50190000,50000000,Pâtes/Nouilles – Prêt à Consommer (Longue Conservation),Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000240,50192900,50190000,50000000,Pâtes/Nouilles – Prêt à Consommer (Périssable),Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006219,50192900,50190000,50000000,Pâtes/Nouilles Assortiments,Pâtes/Nouilles,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000296,50193200,50190000,50000000,Produits à Base de Céréales – Non Prêt à Consommer – Salé (Surgelé),Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000297,50193200,50190000,50000000,Produits à Base de Céréales / Repas – Non Prêt à Consommer – Salé (Longue Conservation),Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000295,50193200,50190000,50000000,Produits à Base de Céréales / Repas – Non Prêt à Consommer – Salé (Périssable),Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000294,50193200,50190000,50000000,Produits à Base de Céréales / Repas – Prêt à Consommer – Salé (Longue Conservation),Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000293,50193200,50190000,50000000,Produits à Base de Céréales / Repas – Prêt à Consommer – Salé (Périssable),Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006228,50193200,50190000,50000000,Produits à Base de Céréales / Repas Assortiments,Produits à Base de Céréales / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005228,50193500,50190000,50000000,Produits à Base de Lait/d'Œufs / Repas – Prêt à Consommer (Longue Conservation),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005226,50193500,50190000,50000000,Produits à Base d'Œufs / Repas – Non Prêt à Consommer (Longue Conservation),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005225,50193500,50190000,50000000,Produits à Base d'Œufs / Repas – Non Prêt à Consommer (Périssable),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005224,50193500,50190000,50000000,Produits à Base d'Œufs / Repas – Non Prêt à Consommer (Surgelé),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005827,50193500,50190000,50000000,Produits Laitiers / Repas – Non Prêt à Consommer (Surgelé),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005826,50193500,50190000,50000000,Produits Laitiers / Repas – Non Prêt à Consommer/Boire (Périssable),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005227,50193500,50190000,50000000,Produits Laitiers et à Base d'Œufs / Repas – Prêt à Consommer (Périssable),Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006229,50193500,50190000,50000000,Produits Laitiers et à base d'Oeufs / Assortiments de Repas,Produits à Base de Lait/d'Œufs / Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006221,50193100,50190000,50000000,Produit à Base de Légumes / Assortiments de Repas,Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000292,50193100,50190000,50000000,Produits à Base de Légumes – Non Prêt à Consommer (Longue Conservation),Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000290,50193100,50190000,50000000,Produits à Base de Légumes – Non Prêt à Consommer (Périssable),Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000291,50193100,50190000,50000000,Produits à Base de Légumes – Non Prêt à Consommer (Surgelé),Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000288,50193100,50190000,50000000,Produits à Base de Légumes – Prêt à Consommer (Longue Conservation),Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000289,50193100,50190000,50000000,Produits à Base de Légumes – Prêt à Consommer (Périssable),Produits à Base de Légumes/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006222,50193300,50190000,50000000,Produits à base de Pâte / Assortiments de Repas,Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000302,50193300,50190000,50000000,Produits à Base de Pâte / Repas – Non Prêt à Consommer – Salé (Longue Conservation),Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000300,50193300,50190000,50000000,Produits à Base de Pâte / Repas – Non Prêt à Consommer – Salé (Périssable),Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000301,50193300,50190000,50000000,Produits à Base de Pâte / Repas – Non Prêt à Consommer – Salé (Surgelé),Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000299,50193300,50190000,50000000,Produits à Base de Pâte / Repas – Prêt à Consommer – Salé (Longue Conservation),Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000298,50193300,50190000,50000000,Produits à Base de Pâte / Repas – Prêt à Consommer – Salé (Périssable),Produits à Base de Pâte/ Repas,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000255,50192500,50190000,50000000,Sandwichs/Rouleaux Farcis/Tortillas Fourrées (Périssable),Sandwichs/Rouleaux Farcis/Tortillas Fourrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000254,50192500,50190000,50000000,Sandwichs/Rouleaux Farcis/Tortillas Fourrées (Surgelé),Sandwichs/Rouleaux Farcis/Tortillas Fourrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006217,50192500,50190000,50000000,Sandwichs/Rouleaux Farcis/Tortillas Fourrées Assortiments,Sandwichs/Rouleaux Farcis/Tortillas Fourrées,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006316,50191500,50190000,50000000,Additifs pour Soupe (Longue Conservation),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006315,50191500,50190000,50000000,Additifs pour Soupe (Périssable),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006314,50191500,50190000,50000000,Additifs pour Soupes (Surgelé),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000261,50191500,50190000,50000000,Soupes – Préparé (Périssable),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000260,50191500,50190000,50000000,Soupes – Préparé (Surgelé),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000262,50191500,50190000,50000000,Soupes – Préparées (Longue Conservation),Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006216,50191500,50190000,50000000,Soupes – Préparées Assortiments,Soupes – Préparé,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10006230,50193600,50190000,50000000,Succédanés de Viande – Assortiments,Succédanés de Viande,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005825,50193600,50190000,50000000,Succédanés de Viande (Longue Conservation),Succédanés de Viande,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005824,50193600,50190000,50000000,Succédanés de Viande (Périssable),Succédanés de Viande,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10005823,50193600,50190000,50000000,Succédanés de Viande (Surgelé),Succédanés de Viande,Aliments Préparés/Préservés,Nourriture/Boisson/Tabac
+10000619,50172000,50170000,50000000,Assortiments d’Assaisonnements/Conservateurs/Concentrés,Assortiments d’Assaisonnements/Conservateurs/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10008044,50172100,50170000,50000000,Boyaux Artificiels,Boyaux pour Produits Alimentaires,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10008043,50172100,50170000,50000000,Boyaux Naturels,Boyaux pour Produits Alimentaires,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000616,50171900,50170000,50000000,Assortiments de Conserves au Vinaigre/Condiments/Chutneys/Olives,Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000180,50171900,50170000,50000000,Chutneys/Condiments (Longue Conservation),Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000587,50171900,50170000,50000000,Chutneys/Condiments (Périssable),Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000586,50171900,50170000,50000000,Chutneys/Condiments (Surgelé),Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000244,50171900,50170000,50000000,Conserves de Légumes au Vinaigre,Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000239,50171900,50170000,50000000,Olives (Longue Conservation),Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000238,50171900,50170000,50000000,Olives (Périssable),Conserves au Vinaigre/Condiments/Chutneys/Olives,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10008061,50171500,50170000,50000000,Additifs Alimentaires,Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000615,50171500,50170000,50000000,Assortiments d’Herbes/Epices/Concentrés,Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000578,50171500,50170000,50000000,Concentrés Liquides/Os (Longue Conservation),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000579,50171500,50170000,50000000,Concentrés Liquides/Os (Périssable),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000580,50171500,50170000,50000000,Concentrés Liquides/Os (Surgelé),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000050,50171500,50170000,50000000,Concentrés/Sels/Attendrisseurs (Longue Conservation),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006214,50171500,50170000,50000000,Extraits/Assaisonnements/Exhausteurs de Goût (Longue Conservation),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000049,50171500,50170000,50000000,Herbes/Epices (Longue Conservation),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000048,50171500,50170000,50000000,Herbes/Epices (Périssable),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000212,50171500,50170000,50000000,Herbes/Epices (Surgelé),Herbes/Epices/Concentrés,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000200,50171800,50170000,50000000,Assaisonnements/Sauces Froides (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000199,50171800,50170000,50000000,Assaisonnements/Sauces Froides (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000583,50171800,50170000,50000000,Assaisonnements/Sauces Froides (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000617,50171800,50170000,50000000,Assortiments de Sauces/Produits à Tartiner Salés/Sauces Froides/Condiments,Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000280,50171800,50170000,50000000,Autres Sauces Condimentaires/Condiments/Nappages Salés/Produits à Tartiner Salés/Marinades (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000577,50171800,50170000,50000000,Autres Sauces Condimentaires/Condiments/Nappages Salés/Produits à Tartiner Salés/Marinades (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000581,50171800,50170000,50000000,Glaçage (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006325,50171800,50170000,50000000,Ketchup de Tomate/Succédané de Ketchup (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006324,50171800,50170000,50000000,Ketchup de Tomate/Succédané de Ketchup (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006323,50171800,50170000,50000000,Ketchup de Tomate/Succédané de Ketchup (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006319,50171800,50170000,50000000,Mayonnaise/Succédané de Mayonnaise (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006318,50171800,50170000,50000000,Mayonnaise/Succédané de Mayonnaise (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006317,50171800,50170000,50000000,Mayonnaise/Succédané de Mayonnaise (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006322,50171800,50170000,50000000,Moutarde (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006321,50171800,50170000,50000000,Moutarde (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10006320,50171800,50170000,50000000,Moutarde (Surgelée),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000306,50171800,50170000,50000000,Pâté (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000064,50171800,50170000,50000000,Pâté (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000576,50171800,50170000,50000000,Pâté (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000057,50171800,50170000,50000000,Sauces – Cuisson (Longue Conservation),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000055,50171800,50170000,50000000,Sauces – Cuisson (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000056,50171800,50170000,50000000,Sauces – Cuisson (Surgelé),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000054,50171800,50170000,50000000,Sauces Condimentaires/Condiments/Nappages Salés/Produits à Tartiner Salés/Marinades (Périssable),Sauces/Produits à tartiner salés/Sauces froides/Condiments,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000618,50171700,50170000,50000000,Assortiments de Vinaigres/Vins de Cuisine,Vinaigres/Vins de Cuisine,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000051,50171700,50170000,50000000,Vinaigres,Vinaigres/Vins de Cuisine,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000052,50171700,50170000,50000000,Vins de Cuisine,Vinaigres/Vins de Cuisine,Assaisonnements/Conservateurs/Concentrés,Nourriture/Boisson/Tabac
+10000590,50230100,50230000,50000000,Assortiments d’Aliments/Boissons/Tabacs,Assortiments d’Aliments/Boissons/Tabacs,Assortiments d’Aliments/Boissons/Tabacs,Nourriture/Boisson/Tabac
+10008058,50230100,50230000,50000000,Rations Militaires,Assortiments d’Aliments/Boissons/Tabacs,Assortiments d’Aliments/Boissons/Tabacs,Nourriture/Boisson/Tabac
+10000623,50202500,50200000,50000000,Assortiments de Boissons,Assortiments de Boissons,Boissons,Nourriture/Boisson/Tabac
+10000591,50202200,50200000,50000000,Assortiments de Boissons Alcoolisées,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000159,50202200,50200000,50000000,Bière,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008029,50202200,50200000,50000000,Bière (Non Alcoolisée),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10003689,50202200,50200000,50000000,Boissons Alcoolisées Fermentées sans Raisin – Mousseux,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000588,50202200,50200000,50000000,Boissons Alcoolisées Fermentées sans Raisin – Tranquille,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000144,50202200,50200000,50000000,Boissons Alcoolisées Pré-mélangées,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008035,50202200,50200000,50000000,Boissons Pré-mélangées (Non Alcoolisées),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008032,50202200,50200000,50000000,Cidre/Poiré – Mousseux (Non Alcoolisé),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008033,50202200,50200000,50000000,Cidre/Poiré – Tranquille (Non Alcoolisé),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000181,50202200,50200000,50000000,Cidre/Poiré Boisson Alcoolisée – Mousseux,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10006327,50202200,50200000,50000000,Cidre/Poiré Boisson Alcoolisées – Tranquille,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000143,50202200,50200000,50000000,Fournitures de Fabrication d’Alcool,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008042,50202200,50200000,50000000,Kits d’Aromatisation pour Alcools,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000142,50202200,50200000,50000000,Kits de Fabrication d’Alcool,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000227,50202200,50200000,50000000,Liqueurs,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000589,50202200,50200000,50000000,Sirops Alcoolisés/Cordials,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000263,50202200,50200000,50000000,Spiritueux,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008034,50202200,50200000,50000000,Spiritueux (Non Alcoolisés),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000273,50202200,50200000,50000000,Vin – Fortifié,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000275,50202200,50200000,50000000,Vin – Mousseux,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008030,50202200,50200000,50000000,Vin – Mousseux (Non Alcoolisé),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000276,50202200,50200000,50000000,Vin – Tranquille,Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10008031,50202200,50200000,50000000,Vin – Tranquille (Non Alcoolisé),Boissons Alcoolisées,Boissons,Nourriture/Boisson/Tabac
+10000593,50202400,50200000,50000000,Assortiments de Boissons Non Alcoolisées – Non Prêt à Boire,Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000309,50202400,50200000,50000000,Boissons à Base de Jus de Fruits – Non Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000310,50202400,50200000,50000000,Boissons à Base de Produits Laitiers – Non prêt à boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006974,50202400,50200000,50000000,Boissons à base de Succédanés de Lait – Non Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000202,50202400,50200000,50000000,Boissons Aromatisées – Non Prêt à Boire,Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006257,50202400,50200000,50000000,Boissons de Jus de Légumes – Non Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000264,50202400,50200000,50000000,Boissons Réhydratantes – Non Prêt à Boire,Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000178,50202400,50200000,50000000,Chocolat/Cacao/Malt – Non Prêt à Boire,Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000308,50202400,50200000,50000000,Jus de Fruits – Non Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000307,50202400,50200000,50000000,Jus de Fruits – Non Prêt à Boire (Surgelé),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006253,50202400,50200000,50000000,Jus de Légume – Non Prêt à Boire (Surgelé),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006254,50202400,50200000,50000000,Jus de Légumes – Non prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000311,50202400,50200000,50000000,Stimulants/Boissons Energisantes – Non prêt à boire,Boissons Non Alcoolisées – Non Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000594,50202300,50200000,50000000,Assortiments de Boissons Non Alcoolisées – Prêts à Boire,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006256,50202300,50200000,50000000,Boisson à Base de Jus de Légumes – Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006255,50202300,50200000,50000000,Boisson à Base de Jus de Légumes– Prêt à Boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000223,50202300,50200000,50000000,Boissons à Base de Jus de Fruits – Prêt à boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000222,50202300,50200000,50000000,Boissons à Base de Jus de Fruits – Prêt à Boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000192,50202300,50200000,50000000,Boissons à Base de Produits Laitiers – Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000191,50202300,50200000,50000000,Boissons à Base de Produits Laitiers – Prêt à Boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006973,50202300,50200000,50000000,Boissons à Base de Succédané de Lait – Prêt à boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006972,50202300,50200000,50000000,Boissons à Base de Succédané de Lait – Prêt à boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000201,50202300,50200000,50000000,Boissons Aromatisées – Prêt à Boire,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000265,50202300,50200000,50000000,Boissons Réhydratantes – Prêt à Boire,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000179,50202300,50200000,50000000,Chocolat/Cacao/Malt – Prêt à Boire,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000232,50202300,50200000,50000000,Eau sous Emballage,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000214,50202300,50200000,50000000,Glace et Glaçons,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000220,50202300,50200000,50000000,Jus de Fruits – Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000219,50202300,50200000,50000000,Jus de Fruits – Prêt à boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006252,50202300,50200000,50000000,Jus de Légumes – Prêt à Boire (Longue Conservation),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10006251,50202300,50200000,50000000,Jus de Légumes – Prêts à Boire (Périssable),Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000266,50202300,50200000,50000000,Stimulants/Boissons Energisantes – Prêt à boire,Boissons Non Alcoolisées – Prêts à Boire,Boissons,Nourriture/Boisson/Tabac
+10000592,50201700,50200000,50000000,Assortiments de Cafés/Thés/Succédanés,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000111,50201700,50200000,50000000,Café – En Grains/Moulu,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000115,50201700,50200000,50000000,Café – Instantané,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000114,50201700,50200000,50000000,Café – Prêt à Boire,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10006310,50201700,50200000,50000000,Café Succédané – Ordinaire (Non Instantané),Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000119,50201700,50200000,50000000,Infusions d’Herbes et de Fruits – En Sachets/en Vrac,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000210,50201700,50200000,50000000,Infusions d’Herbes et de Fruits – Instantané,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000313,50201700,50200000,50000000,Infusions d’Herbes et de Fruits – Prêt à Boire,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10006311,50201700,50200000,50000000,Succédané de Café – Instantané,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10006312,50201700,50200000,50000000,Succédané de Café – Prêt à Boire,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000116,50201700,50200000,50000000,Thé – En Sachets/en Vrac,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000117,50201700,50200000,50000000,Thé – Instantané,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000118,50201700,50200000,50000000,Thé – Prêt à Boire,Cafés/Thés/Succédanés,Boissons,Nourriture/Boisson/Tabac
+10000601,50221300,50220000,50000000,Assortiments de Céréales/Grains/Légumes Secs,Assortiments de Céréales/Grains/Légumes Secs,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000599,50221000,50220000,50000000,Assortiments de Céréales/Farines,Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000211,50221000,50220000,50000000,Céréales/Grains – Non Prêt à Consommer (Longue Conservation),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000315,50221000,50220000,50000000,Céréales/Grains – Non Prêt à Consommer (Périssable),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000314,50221000,50220000,50000000,Céréales/Grains – Non Prêt à Consommer (Surgelé),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000319,50221000,50220000,50000000,Céréales/Grains – Prêt à Consommer (Longue Conservation),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000316,50221000,50220000,50000000,Céréales/Grains – Prêt à Consommer (Périssable),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000203,50221000,50220000,50000000,Farine – Céréale/Légume Sec (Longue Conservation),Céréales/Farines,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000600,50221200,50220000,50000000,Assortiments de Produits Céréaliers Transformés,Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000287,50221200,50220000,50000000,Barres de Céréales/Müesli,Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10008059,50221200,50220000,50000000,Barres Protéinées,Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000285,50221200,50220000,50000000,Produits Céréaliers – Non Prêt à Consommer (Longue Conservation),Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000284,50221200,50220000,50000000,Produits Céréaliers – Prêt à Consommer (Longue Conservation),Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000286,50221200,50220000,50000000,Produits Céréaliers – Prêt à Consommer (Périssable),Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10006250,50221200,50220000,50000000,Produits de Céréals – Non prêt à Consommer (Surgelé),Produits Céréaliers transformés,"Céréales, Grains et Légumes Secs",Nourriture/Boisson/Tabac
+10000003,50310100,50310000,50000000,Fruits – Non Préparé/Non Transformé (Longue Conservation),Fruits – Non Préparé/Non Transformé (Longue Conservation),Fruits – Non Préparé/Non Transformé (Longue Conservation),Nourriture/Boisson/Tabac
+10000002,50270100,50270000,50000000,Fruits – Non Préparé/Non Transformé (Surgelé),Fruits – Non Préparé/Non Transformé (Surgelé),Fruits – Non Préparé/Non Transformé (Surgelé),Nourriture/Boisson/Tabac
+10006866,50250600,50250000,50000000,Cédrat,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005882,50250600,50250000,50000000,Citrons,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005886,50250600,50250000,50000000,Clémentines,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006345,50250600,50250000,50000000,Kumquat,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005884,50250600,50250000,50000000,Lime (Citron vert),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005885,50250600,50250000,50000000,Limequats,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005883,50250600,50250000,50000000,Limes Mexicaines,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006438,50250600,50250000,50000000,Limette,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006440,50250600,50250000,50000000,Mandarine de Méditerranée (Citrus Deliciosa),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006441,50250600,50250000,50000000,Mandarines (Citrus Reticulata),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005887,50250600,50250000,50000000,Mandarines Satsuma,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005880,50250600,50250000,50000000,Minneola et autres Tangelos (Citrus Tangelo),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006343,50250600,50250000,50000000,Orangelos,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006439,50250600,50250000,50000000,Oranger Mandarin (Citrus Nobilis),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005889,50250600,50250000,50000000,Oranges,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005877,50250600,50250000,50000000,Pamplemousse,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005878,50250600,50250000,50000000,Pomelos (Citrus maxima x paradisi),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005876,50250600,50250000,50000000,Pomelos (Citrus paradisi Macfad),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005879,50250600,50250000,50000000,Sweeties,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005881,50250600,50250000,50000000,Tangelos (Ugli),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005888,50250600,50250000,50000000,Tangerines,Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006442,50250600,50250000,50000000,Tangor (Citrus reticulata × Citrus sinensis),Agrumes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005935,50251100,50250000,50000000,Ananas,Ananas,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006433,50251300,50250000,50000000,Autre Anonne,Annones,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005939,50251300,50250000,50000000,Cherimole,Annones,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005941,50251300,50250000,50000000,Coeur de Boeuf (Anones),Annones,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005942,50251300,50250000,50000000,Corossol,Annones,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005940,50251300,50250000,50000000,Pomme–cannelle,Annones,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006168,50251400,50250000,50000000,Avocats – Peau Granelée (Type Hass),Avocats,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006169,50251400,50250000,50000000,Avocats – Peau Lisse,Avocats,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006167,50251400,50250000,50000000,Avocats Cocktails,Avocats,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006431,50251000,50250000,50000000,Airelle rouge,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006347,50251000,50250000,50000000,Arbouses,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10008027,50251000,50250000,50000000,Assortiments de Petits Fruits,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006429,50251000,50250000,50000000,Baie de Goji,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006832,50251000,50250000,50000000,Baies aux Cinq Saveurs,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006759,50251000,50250000,50000000,Baies d'Acai (Wassaï/Waçaï),Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006354,50251000,50250000,50000000,Baies d'amélanchier,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005929,50251000,50250000,50000000,Bleuets,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006194,50251000,50250000,50000000,Cassis,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005934,50251000,50250000,50000000,Cassis (Jostaberries),Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005921,50251000,50250000,50000000,Fraises,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005922,50251000,50250000,50000000,Fraises des Bois,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005927,50251000,50250000,50000000,Framboises,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006193,50251000,50250000,50000000,Groseilles,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005932,50251000,50250000,50000000,Groseilles Vertes,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005930,50251000,50250000,50000000,Grosse Canneberge d’Amérique,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006430,50251000,50250000,50000000,Hybrides de Baies,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005923,50251000,50250000,50000000,Mûres,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005924,50251000,50250000,50000000,Mûres de Boysen,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006346,50251000,50250000,50000000,Mûres de Logan,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005928,50251000,50250000,50000000,Myrtilles,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005925,50251000,50250000,50000000,Plaquebière (Ronce Petit–Mûrier),Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005918,50251000,50250000,50000000,Raisins de table,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006432,50251000,50250000,50000000,Sureau Noir,Baies/Petits Fruits,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005895,50250700,50250000,50000000,Banane Figue (Banane Pomme),Bananes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005899,50250700,50250000,50000000,Banane Rouge,Bananes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005897,50250700,50250000,50000000,Bananes,Bananes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005896,50250700,50250000,50000000,Bananes Naines,Bananes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005898,50250700,50250000,50000000,Bananes Plantain,Bananes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006172,50252000,50250000,50000000,Fruits – Non Préparés/Non Transformés (Frais) Assortiments,Fruits – Non Préparés/Non Transformés (Frais) Assortiments,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006831,50250900,50250000,50000000,Abricotiers du Japon,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005905,50250900,50250000,50000000,Abricots,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005907,50250900,50250000,50000000,Cerises acides,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005908,50250900,50250000,50000000,Cerises sans Pédoncule/Cerises Douces,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005909,50250900,50250000,50000000,Damsons,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005916,50250900,50250000,50000000,Fruits à Noyau Hybrides,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005910,50250900,50250000,50000000,Mirabelles,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005911,50250900,50250000,50000000,Nectarines,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006443,50250900,50250000,50000000,Pêche Plate,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005912,50250900,50250000,50000000,Pêches,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005915,50250900,50250000,50000000,Plumcots,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005917,50250900,50250000,50000000,Prunes,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005914,50250900,50250000,50000000,Prunes Japonaises,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005913,50250900,50250000,50000000,Reine–Claude,Fruits à Noyau,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006415,50250800,50250000,50000000,Chou Ya Pear (Shandong) ( Pyrus ussuriensis var. viridis),Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006173,50250800,50250000,50000000,Coings,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005901,50250800,50250000,50000000,Nèfles du Japon,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006414,50250800,50250000,50000000,Néflier Commun,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005903,50250800,50250000,50000000,Poires,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005902,50250800,50250000,50000000,Poirier Japonais,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005900,50250800,50250000,50000000,Pommes,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006338,50250800,50250000,50000000,Pommes sauvages,Fruits à Pépins,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005949,50251600,50250000,50000000,Barbadines,Fruits de la Passion,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005950,50251600,50250000,50000000,Curubas,Fruits de la Passion,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005953,50251600,50250000,50000000,Fruit de la Passion Pourpre,Fruits de la Passion,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005951,50251600,50250000,50000000,Grenadille douce (Pomme liane),Fruits de la Passion,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005952,50251600,50250000,50000000,Maracuja (Grenadille jaune),Fruits de la Passion,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005973,50251900,50250000,50000000,Arbre à Pain,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005963,50251900,50250000,50000000,Bilimbis,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005961,50251900,50250000,50000000,Carambole,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006437,50251900,50250000,50000000,Cassier (Douche d'Or),Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005959,50251900,50250000,50000000,Dattes,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005972,50251900,50250000,50000000,Durian,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006160,50251900,50250000,50000000,Feijoas,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005960,50251900,50250000,50000000,Figues,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005967,50251900,50250000,50000000,Figues de Barbarie,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005971,50251900,50250000,50000000,Goyaves,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005970,50251900,50250000,50000000,Grenades,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005974,50251900,50250000,50000000,Jacquiers,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006434,50251900,50250000,50000000,Jamblon (Jamelonier),Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005964,50251900,50250000,50000000,Litchis (Litchi),Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006435,50251900,50250000,50000000,Longane,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005968,50251900,50250000,50000000,Mangoustan,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005969,50251900,50250000,50000000,Mangues,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005965,50251900,50250000,50000000,Physalis (Amour en cage),Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005966,50251900,50250000,50000000,Ramboutan,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006436,50251900,50250000,50000000,Salak,Fruits Divers,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005948,50251500,50250000,50000000,Kaki d'Amérique,Kakis,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005946,50251500,50250000,50000000,Kakis,Kakis,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005938,50251200,50250000,50000000,Kiwaï (Actinidia Arguta),Kiwis,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005937,50251200,50250000,50000000,Kiwis,Kiwis,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005955,50251700,50250000,50000000,Babaco (Papaye des montagnes),Papayes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005954,50251700,50250000,50000000,Papayes,Papayes,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005956,50251800,50250000,50000000,Fruits du Dragon Jaune,Pitahaya,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10005957,50251800,50250000,50000000,Pitahaya Doux,Pitahaya,Fruits – Non préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10000605,50102200,50100000,50000000,Assortiments de Fruits/Légumes/Noix/Graines,Assortiments de Fruits/Légumes/Noix/Graines,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000206,50102000,50100000,50000000,Fruits – Préparé/Transformé (Longue Conservation),Fruits – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000205,50102000,50100000,50000000,Fruits – Préparé/Transformé (Périssable),Fruits – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000204,50102000,50100000,50000000,Fruits – Préparé/Transformé (Surgelé),Fruits – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000604,50101900,50100000,50000000,Assortiments de Fruits/Noix/Graines,Fruits/Noix/Graines Mélanges,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000207,50101900,50100000,50000000,Mélanges de Fruits/Noix/Graines – Préparé/Transformé (Longue Conservation),Fruits/Noix/Graines Mélanges,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000272,50102100,50100000,50000000,Légumes – Préparé/Transformé (Longue Conservation),Légumes – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000271,50102100,50100000,50000000,Légumes – Préparé/Transformé (Périssable),Légumes – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000270,50102100,50100000,50000000,Légumes – Préparé/Transformé (Surgelé),Légumes – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000236,50101800,50100000,50000000,Noix/Graines – Préparé/Transformé (Longue Conservation),Noix/Graines – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000235,50101800,50100000,50000000,Noix/Graines – Préparé/Transformé (Périssable),Noix/Graines – Préparé/Transformé,Fruits/Légumes/Noix/Graines Préparés/Transformés,Nourriture/Boisson/Tabac
+10000609,50151700,50150000,50000000,Assortiments d'Huiles/Graisses Comestibles,Assortiments d'Huiles/Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000608,50151600,50150000,50000000,Assortiments de Graisses Comestibles,Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000574,50151600,50150000,50000000,Graisses Comestibles – Animales (Longue Conservation),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000041,50151600,50150000,50000000,Graisses Comestibles – Animales (Périssable),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10006991,50151600,50150000,50000000,Graisses Comestibles – Mixes (Longue Conservation),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10006990,50151600,50150000,50000000,Graisses Comestibles – Mixes (Périssable),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000042,50151600,50150000,50000000,Graisses Comestibles – Végétales/Plantes (Longue Conservation),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000585,50151600,50150000,50000000,Graisses Comestibles – Végétales/Plantes (Périssable),Graisses Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10006958,50151500,50150000,50000000,Huiles Comestibles – Végétales ou de Plante (Périssable),Huiles Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000040,50151500,50150000,50000000,Huiles Comestibles – Végétales ou de Plantes (Longue Conservation),Huiles Comestibles,Huiles/Graisses Comestibles,Nourriture/Boisson/Tabac
+10000607,50132200,50130000,50000000,Assortiments de Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Assortiments de Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000169,50131900,50130000,50000000,Beurre (Longue Conservation),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000168,50131900,50130000,50000000,Beurre (Périssable),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000167,50131900,50130000,50000000,Beurre (Surgelé),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006981,50131900,50130000,50000000,Margarine (Longue Conservation),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006982,50131900,50130000,50000000,Margarine (Périssable),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006983,50131900,50130000,50000000,Margarine (Surgelée),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006987,50131900,50130000,50000000,Mélanges de Matières Grasses (Longue Conservation),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006989,50131900,50130000,50000000,Mélanges de Matières Grasses (Périssable),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006988,50131900,50130000,50000000,Mélanges de Matières Grasses (Surgelé),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006986,50131900,50130000,50000000,Pâte à Tartiner (Longue Conservation),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006984,50131900,50130000,50000000,Pâte à Tartiner (Périssable),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006985,50131900,50130000,50000000,Pâte à Tartiner (Surgelé),Beurre/Succédanés de Beurre,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000190,50132000,50130000,50000000,Crème (Longue Conservation),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000189,50132000,50130000,50000000,Crème (Périssable),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000188,50132000,50130000,50000000,Crème (Surgelé),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006977,50132000,50130000,50000000,Succédanés de Crème (Longue Conservation),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006976,50132000,50130000,50000000,Succédanés de Crème (Périssable),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006975,50132000,50130000,50000000,Succédanés de Crème (Surgelé),Crème/Succédanés de Crème,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000029,50131800,50130000,50000000,Fromage (Longue Conservation),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000028,50131800,50130000,50000000,Fromage (Périssable),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000030,50131800,50130000,50000000,Fromage (Surgelé),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006997,50131800,50130000,50000000,Succédané de Fromage (Longue Conservation),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006996,50131800,50130000,50000000,Succédané de Fromage (Périssable),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006995,50131800,50130000,50000000,Succédané de Fromage (Surgelé),Fromage/Succédanés de Fromage,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000026,50131700,50130000,50000000,Lait (Longue Conservation),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000025,50131700,50130000,50000000,Lait (Périssable),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000027,50131700,50130000,50000000,Lait (Surgelé),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006971,50131700,50130000,50000000,Succédanés de Lait (Longue Conservation),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006970,50131700,50130000,50000000,Succédanés de Lait (Périssable),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006969,50131700,50130000,50000000,Succédanés de Lait (Surgelé),Lait/Succédanés de Lait,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006203,50132300,50130000,50000000,Oeufs Coquille Vérifiés/Sales (Processus Industriel),Oeufs/Oeufs Extraits (Processus Industriel),Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006202,50132300,50130000,50000000,Oeufs en Coquille Sorti du Nid (Processus Industriel),Oeufs/Oeufs Extraits (Processus Industriel),Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006204,50132300,50130000,50000000,Oeufs Extraits (Processus Industriel),Oeufs/Oeufs Extraits (Processus Industriel),Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006212,50132500,50130000,50000000,Dérivés d'Oeufs/ Substituts,Oeufs/Substituts d'Oeufs,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006210,50132500,50130000,50000000,Oeufs Coquille Triés,Oeufs/Substituts d'Oeufs,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006211,50132500,50130000,50000000,Oeufs Cuits Individuellements,Oeufs/Substituts d'Oeufs,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006213,50132500,50130000,50000000,Oeufs Imitations,Oeufs/Substituts d'Oeufs,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006728,50132600,50130000,50000000,Sous-Produits Laitiers,Produits Dérivés/Sous-Produits Laitiers,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006980,50132100,50130000,50000000,Succédanés Yaourt (Longue Conservation),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006979,50132100,50130000,50000000,Succédanés Yaourt (Périssable),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10006978,50132100,50130000,50000000,Succédanés Yaourt (Surgelé),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000279,50132100,50130000,50000000,Yaourt (Longue Conservation),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000278,50132100,50130000,50000000,Yaourt (Périssable),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000277,50132100,50130000,50000000,Yaourt (Surgelé),Yaourt/Succédanés de Yaourt,Lait/Beurre/Crème/Yaourts/Fromage/Œufs/Succédanés,Nourriture/Boisson/Tabac
+10000006,50320100,50320000,50000000,Légumes – Non Préparé/Non Transformé (Longue Conservation),Légumes – Non Préparé/Non Transformé (Longue Conservation),Légumes – Non Préparé/Non Transformé (Longue Conservation),Nourriture/Boisson/Tabac
+10000005,50290100,50290000,50000000,Légumes – Non Préparé/Non Transformé (Surgelé),Légumes – Non Préparé/Non Transformé (Surgelé),Légumes – Non Préparé/Non Transformé (Surgelé),Nourriture/Boisson/Tabac
+10006171,50261800,50260000,50000000,Assortiments de Légumes – Non Préparés/Non Transformés (Frais),Assortiments de Légumes – Non Préparés/Non Transformés (Frais),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005986,50261000,50260000,50000000,Caroubes,Autres Légumes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006148,50261000,50260000,50000000,Gumbo (Okra),Autres Légumes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006337,50261000,50260000,50000000,Maïs Corné,Autres Légumes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006147,50261000,50260000,50000000,Maïs Doux,Autres Légumes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006371,50262600,50260000,50000000,Canne à Sucre,Canne à Sucre,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006372,50262700,50260000,50000000,Châtaigne d'Eau,Carex,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006035,50261700,50260000,50000000,Cèpe de Bordeaux,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006263,50261700,50260000,50000000,Champignon du Hêtre (Bunashimeji),Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006157,50261700,50260000,50000000,Champignons Cultivés/Champignons de Paris (Agaricus),Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006836,50261700,50260000,50000000,Champignons de Lingzhi,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006266,50261700,50260000,50000000,Champignons Sauvages (Autres),Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006033,50261700,50260000,50000000,Chanterelles,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006264,50261700,50260000,50000000,Collybie à Pied Velouté,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006032,50261700,50260000,50000000,Morilles,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006265,50261700,50260000,50000000,Pleurote du Panicaut (Pleurotus Eryngii),Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006031,50261700,50260000,50000000,Pleurotes,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006034,50261700,50260000,50000000,Shiitaké (Shiitake),Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006036,50261700,50260000,50000000,Truffes,Champignons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005988,50261100,50260000,50000000,Brocoli,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006823,50261100,50260000,50000000,Brocoli Chinois (Gai Lan),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006445,50261100,50260000,50000000,"Brocolini, Brocolette, Bimi (Brassica oleracea L. var. italica x Bras)",Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006446,50261100,50260000,50000000,Choisum,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006197,50261100,50260000,50000000,Chou Pointu,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005999,50261100,50260000,50000000,Choux Blancs,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006000,50261100,50260000,50000000,Choux Cabus (Chou Pommé),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006145,50261100,50260000,50000000,Choux Chinois (Bok–Choi),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005996,50261100,50260000,50000000,Choux de Bruxelles,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006143,50261100,50260000,50000000,Choux de Pékin,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006144,50261100,50260000,50000000,Choux Frisés,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005987,50261100,50260000,50000000,Choux–Fleurs,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006146,50261100,50260000,50000000,Choux–Raves,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005997,50261100,50260000,50000000,Choux–Rouge,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006117,50261100,50260000,50000000,Feuilles de Navet,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006444,50261100,50260000,50000000,Komatsuna,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006341,50261100,50260000,50000000,Moutarde Brune,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006339,50261100,50260000,50000000,Moutarde Chinoise,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006342,50261100,50260000,50000000,Moutarde d´Abyssinie,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006116,50261100,50260000,50000000,Navet de Mai (Navet Précoce),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006118,50261100,50260000,50000000,Navet Suédois (Rutabagas),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006120,50261100,50260000,50000000,Navets,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006119,50261100,50260000,50000000,Navets de Teltow,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006196,50261100,50260000,50000000,Romanesco,Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006447,50261100,50260000,50000000,Tasoi (Brassica rapa var. Rosularis),Choux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006450,50260600,50260000,50000000,Concombre Tordu,Concombres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006014,50260600,50260000,50000000,Concombres,Concombres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006449,50260600,50260000,50000000,Cornichon,Concombres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006357,50260700,50260000,50000000,Courge (Calebasse),Cucurbitacées – Peau Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006356,50260700,50260000,50000000,"Courge, Chayote",Cucurbitacées – Peau Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006355,50260700,50260000,50000000,"Courge, Cucurbita",Cucurbitacées – Peau Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006015,50260700,50260000,50000000,Courgettes,Cucurbitacées – Peau Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006349,50260700,50260000,50000000,Melon Amer,Cucurbitacées – Peau Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006340,50260900,50260000,50000000,Patole,Cucurbitacées – Peau Non Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006038,50260900,50260000,50000000,Potiron,Cucurbitacées – Peau Non Comestible,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006261,50262000,50260000,50000000,Fleurs Comestibles,Fleurs comestibles,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006824,50262400,50260000,50000000,Crosses de Fougères,Fougères,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006361,50262400,50260000,50000000,Osmonde Cannelle,Fougères,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006362,50262400,50260000,50000000,Osmonde Royale,Fougères,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006158,50261400,50260000,50000000,Dolique Asperge,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005980,50261400,50260000,50000000,Fèves,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006834,50261400,50260000,50000000,Haricots Adzuki,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005982,50261400,50260000,50000000,Haricots de Lima,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005979,50261400,50260000,50000000,Haricots Verts,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005976,50261400,50260000,50000000,Haricots Verts/Beurre,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006336,50261400,50260000,50000000,Pois Carré,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005981,50261400,50260000,50000000,Pois Sabre,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006359,50261400,50260000,50000000,Tamarin,Haricots (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006040,50261300,50260000,50000000,Ail des Ours,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006049,50261300,50260000,50000000,Aneth,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006050,50261300,50260000,50000000,Angélique,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006334,50261300,50260000,50000000,Anis Vert,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006071,50261300,50260000,50000000,Anis Vert (Pimpinella anisum),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006044,50261300,50260000,50000000,Armoise Commune,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006456,50261300,50260000,50000000,Assortiment d'Herbes,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006041,50261300,50260000,50000000,Basilic,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006047,50261300,50260000,50000000,Bourrache,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006056,50261300,50260000,50000000,Carvi,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006457,50261300,50260000,50000000,Céléri (Feuilles),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006053,50261300,50260000,50000000,Cerfeuil,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006065,50261300,50260000,50000000,Cerfeuil Musqué,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006074,50261300,50260000,50000000,Ciboulette,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006061,50261300,50260000,50000000,Citronnelle,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006159,50261300,50260000,50000000,Citronnelle de l'Inde,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006054,50261300,50260000,50000000,Coriandre,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10008004,50261300,50260000,50000000,Coriandre Bolivienne (Papalo),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006055,50261300,50260000,50000000,Cresson Alénois,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006051,50261300,50260000,50000000,Estragon,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10008003,50261300,50260000,50000000,Fausse Ambroisie,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006052,50261300,50260000,50000000,Fenouil,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006077,50261300,50260000,50000000,Hysope,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006058,50261300,50260000,50000000,Laurier,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006057,50261300,50260000,50000000,Livèche (Ache des Montagnes),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006059,50261300,50260000,50000000,Marjolaine,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006060,50261300,50260000,50000000,Marjolaine en Pot,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006063,50261300,50260000,50000000,Menthe,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006066,50261300,50260000,50000000,Origan,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10008005,50261300,50260000,50000000,Pepiche,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006199,50261300,50260000,50000000,Persil (Plat issu de Petroselium crispum),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006198,50261300,50260000,50000000,Persil Frisé,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10008002,50261300,50260000,50000000,Poivre Mexicain (Hoja Santa),Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006072,50261300,50260000,50000000,Romarin,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006045,50261300,50260000,50000000,Sarriette,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006046,50261300,50260000,50000000,Sarriette des Montagnes,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006353,50261300,50260000,50000000,Sauge Officinale,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006076,50261300,50260000,50000000,Thym Citron,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006075,50261300,50260000,50000000,Thym Commun,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006078,50261300,50260000,50000000,Verveine Citronée,Herbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006003,50260200,50260000,50000000,Ail,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006004,50260200,50260000,50000000,Ail d'Orient/Gros Ail,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006005,50260200,50260000,50000000,Ciboule,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006009,50260200,50260000,50000000,Échalotes,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006007,50260200,50260000,50000000,Oignon Perle,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006006,50260200,50260000,50000000,Oignons,Légumes à Bulbes,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006130,50261600,50260000,50000000,Artichauts,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006129,50261600,50260000,50000000,Asperges,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006135,50261600,50260000,50000000,Cardons,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006131,50261600,50260000,50000000,Céleri,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006136,50261600,50260000,50000000,Coeurs de Palmier,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006272,50261600,50260000,50000000,Fenouil (Sous–espèce Azoricum),Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006133,50261600,50260000,50000000,Poireau,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006137,50261600,50260000,50000000,Pousses de Bambou,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006134,50261600,50260000,50000000,Rhubarbe,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006835,50261600,50260000,50000000,Tiges de Patates Douce,Légumes à Tiges,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006458,50262100,50260000,50000000,Crambe Maritime,Légumes de mer et de la marée,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006459,50262100,50260000,50000000,Lavande de Mer,Légumes de mer et de la marée,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006262,50262100,50260000,50000000,Légumes de mer et de marée Autre,Légumes de mer et de la marée,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006460,50262100,50260000,50000000,Salicorne,Légumes de mer et de la marée,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006461,50262100,50260000,50000000,Soude Commune,Légumes de mer et de la marée,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006335,50260100,50260000,50000000,Arracacha,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006121,50260100,50260000,50000000,Betterave,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006967,50260100,50260000,50000000,Capucine Tubereuse (Mashua),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006122,50260100,50260000,50000000,Carottes,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006123,50260100,50260000,50000000,Céleri–Rave,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006418,50260100,50260000,50000000,Cerfeuil Tubéreux,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006966,50260100,50260000,50000000,Crosne,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006113,50260100,50260000,50000000,Gingembre,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006833,50260100,50260000,50000000,Ginseng,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006112,50260100,50260000,50000000,Ignames,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006344,50260100,50260000,50000000,Jicama,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006110,50260100,50260000,50000000,Macabo,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006109,50260100,50260000,50000000,Malanga/Chou Caraïbe,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006108,50260100,50260000,50000000,Manioc (Racines),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006416,50260100,50260000,50000000,Marante,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006351,50260100,50260000,50000000,Name Mapuey (Igname),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006968,50260100,50260000,50000000,Oca du Pérou (Oxalis tuberosa),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006366,50260100,50260000,50000000,Okra (Chinois),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006126,50260100,50260000,50000000,Panais,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006111,50260100,50260000,50000000,Patates Douces,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006104,50260100,50260000,50000000,Pommes de Terre,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006363,50260100,50260000,50000000,Racine de Bardane,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006127,50260100,50260000,50000000,Racine de Persil,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006114,50260100,50260000,50000000,Radis,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006417,50260100,50260000,50000000,Radis du Japon,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006115,50260100,50260000,50000000,Radis Noirs,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006124,50260100,50260000,50000000,Raifort (Racines),Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006364,50260100,50260000,50000000,Rhizome de lotus,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006367,50260100,50260000,50000000,Salsifis,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006200,50260100,50260000,50000000,Scorsonères,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006107,50260100,50260000,50000000,Taro,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006125,50260100,50260000,50000000,Topinambours,Légumes Racines/Tubercules,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006348,50260800,50260000,50000000,Autres Melons,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006350,50260800,50260000,50000000,Kiwano (Melon à Cornes),Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006830,50260800,50260000,50000000,Melon Arménien (Concombre Arménien),Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006829,50260800,50260000,50000000,Melon Oriental,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006828,50260800,50260000,50000000,Melons Brodés,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006826,50260800,50260000,50000000,Melons Cantaloup Non Brodés,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006827,50260800,50260000,50000000,Melons d'hiver et Melons Inodores,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006037,50260800,50260000,50000000,Pastèques,Melons,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006260,50261900,50260000,50000000,Pousses,Micro Végétaux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006259,50261900,50260000,50000000,Semences – Prêt à Consommer,Micro Végétaux,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006455,50261500,50260000,50000000,Haricot ailé,Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006270,50261500,50260000,50000000,Haricot Mangetout,Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006454,50261500,50260000,50000000,Lentilles,Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005984,50261500,50260000,50000000,Pois (Petits Pois),Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006825,50261500,50260000,50000000,Pois à Vache (Doliques à Oeil Noir),Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10005985,50261500,50260000,50000000,Pois Mangetout,Pois (Non Ecossés),Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006271,50262200,50260000,50000000,Pois Chiches,Pois Chiches,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006195,50260400,50260000,50000000,Assortiments de Poivrons/Piments,Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006102,50260400,50260000,50000000,Piment fort,Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006100,50260400,50260000,50000000,Poivron Doux Allongé (Pointus),Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006190,50260400,50260000,50000000,Poivron Doux Carré (Epointé),Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006191,50260400,50260000,50000000,Poivron Doux Carré en Pointe (Toupie),Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006192,50260400,50260000,50000000,Poivron Doux Plat (Tomate),Poivrons/Piments,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006365,50262500,50260000,50000000,Sapote,Sapote,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006370,50262500,50260000,50000000,Sapote Blanche,Sapote,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006369,50262500,50260000,50000000,Sapote Noire,Sapote,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006368,50262500,50260000,50000000,Sapotille,Sapote,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006452,50260500,50260000,50000000,Aubergine d’Afrique,Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006128,50260500,50260000,50000000,Aubergines,Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006760,50260500,50260000,50000000,Narangille/Lulo,Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006453,50260500,50260000,50000000,Pepino (Arbre de Melon),Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006358,50260500,50260000,50000000,Tamarillo,Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006451,50260500,50260000,50000000,Tomatillo,Solanacées/Autres,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006360,50262300,50260000,50000000,Aloe Vera,Succulent,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006164,50260300,50260000,50000000,Tomates – A Côtes,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006163,50260300,50260000,50000000,Tomates – Allongées,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006165,50260300,50260000,50000000,Tomates – Rondes,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006166,50260300,50260000,50000000,Tomates Assortiments,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006161,50260300,50260000,50000000,Tomates Cerises – Allongées,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006162,50260300,50260000,50000000,Tomates Cerises – Rondes,Tomates,Légumes (Sans feuille) – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10006420,50350500,50350000,50000000,Amarante de Chine,Epinards Frais,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006352,50350500,50350000,50000000,Épinard d’eau Chinois (kang kong),Epinards Frais,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006427,50350500,50350000,50000000,Epinard de Nouvelle-Zélande,Epinards Frais,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006091,50350500,50350000,50000000,Epinards,Epinards Frais,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006048,50350400,50350000,50000000,Cresson de Fontaine,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006269,50350400,50350000,50000000,Feuilles Bébés,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006086,50350400,50350000,50000000,Mâche,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006090,50350400,50350000,50000000,Oseille Commune (Grande Oseille),Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006089,50350400,50350000,50000000,Pissenlits,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006092,50350400,50350000,50000000,Pourpiers,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006088,50350400,50350000,50000000,Roquette,Feuille de salade verte simple,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006095,50350100,50350000,50000000,Chicorée,Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006093,50350100,50350000,50000000,Chicorée (Endive de Belgique),Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006422,50350100,50350000,50000000,Chicorée Endive,Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006423,50350100,50350000,50000000,Endive,Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006097,50350100,50350000,50000000,Endive (Frisée),Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006094,50350100,50350000,50000000,Feuilles de Chicorée,Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006421,50350100,50350000,50000000,Radicchio,Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006155,50350100,50350000,50000000,Scaroles (Pleines Feuilles),Feuilles de Chicoré,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006268,50350300,50350000,50000000,Feuilles en vrac/Multiples de Salade,Feuilles en vrac/Multiples de Salade Verte,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006425,50350300,50350000,50000000,Laitue à Couper,Feuilles en vrac/Multiples de Salade Verte,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006424,50350300,50350000,50000000,Laitue à Cueillir,Feuilles en vrac/Multiples de Salade Verte,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006426,50350300,50350000,50000000,Laitue Feuille de Chêne,Feuilles en vrac/Multiples de Salade Verte,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006428,50350600,50350000,50000000,Légumes à feuilles – Non Préparés/Non Transformés Assortiments,Légumes à feuilles – Non Préparés/Non Transformés Assortiments,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006761,50350700,50350000,50000000,Laitues,Souches de Laitues,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006079,50350200,50350000,50000000,Iceberg/Coeur de laitue,Tête de laitue,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006267,50350200,50350000,50000000,Laitue Iceberg,Tête de laitue,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006419,50350200,50350000,50000000,Laitue Pommée (Batavia),Tête de laitue,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10006085,50350200,50350000,50000000,Laitue Romaine,Tête de laitue,Légumes à Feuilles – Non Préparés/Non Transformés (Frais),Nourriture/Boisson/Tabac
+10000007,50330100,50330000,50000000,Noix/Graines – Non Préparé/Non Transformé (Périssable),Noix/Graines – Non préparées/Non Transformées (Fraîches),Noix/Graines – Non Préparé/Non Transformé (Frais),Nourriture/Boisson/Tabac
+10000008,50340100,50340000,50000000,Noix/Graines – Non Préparé/Non Transformé (Longue Conservation),Noix/Graines – Non Préparé/Non Transformé (Longue Conservation),Noix/Graines – Non Préparé/Non Transformé (Longue Conservation),Nourriture/Boisson/Tabac
+10000598,50182300,50180000,50000000,Assortiments de Pains/Produits de Boulangerie,Assortiments de Pains/Produits de Boulangerie,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000596,50182100,50180000,50000000,Assortiments de Gâteaux Secs/Biscuits,Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000161,50182100,50180000,50000000,Gâteaux Secs/Biscuits (Longue Conservation),Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000160,50182100,50180000,50000000,Gâteaux Secs/Biscuits (Périssable),Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000304,50182100,50180000,50000000,Gâteaux Secs/Biscuits (Surgelé),Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000166,50182100,50180000,50000000,Pains Secs (Longue Conservation),Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000305,50182100,50180000,50000000,Pains Secs (Surgelé),Gâteaux Secs/Biscuits,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000165,50181900,50180000,50000000,Pain (Longue Conservation),Pain,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000164,50181900,50180000,50000000,Pain (Périssable),Pain,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000163,50181900,50180000,50000000,Pain (Surgelé),Pain,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000595,50181700,50180000,50000000,Assortiments de Préparations Boulangères pour Cuisson au Four et de Matières Consommables,Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000158,50181700,50180000,50000000,Matières Consommables pour Cuisson au Four (Longue Conservation),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000069,50181700,50180000,50000000,Matières Consommables pour Cuisson au Four (Périssable),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000157,50181700,50180000,50000000,Matières Consommables pour Cuisson au Four (Surgelé),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000156,50181700,50180000,50000000,Préparations Boulangères pour Cuisson au Four (Longue Conservation),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000068,50181700,50180000,50000000,Préparations Boulangères pour Cuisson au Four (Périssable),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000155,50181700,50180000,50000000,Préparations Boulangères pour Cuisson au Four (Surgelé),Préparations Boulangères pour Cuisson au Four/Matières Consommables,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000250,50182200,50180000,50000000,Tartes/Pâtisseries/Pizzas/Quiches – Salé (Longue Conservation),Produits de Boulangerie Salés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000249,50182200,50180000,50000000,Tartes/Pâtisseries/Pizzas/Quiches – Salé (Périssable),Produits de Boulangerie Salés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000248,50182200,50180000,50000000,Tartes/Pâtisseries/Pizzas/Quiches – Salé (Surgelé),Produits de Boulangerie Salés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000597,50182000,50180000,50000000,Assortiments de Produits de Boulangerie Sucrés,Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000172,50182000,50180000,50000000,Gâteaux – Sucré (Longue Conservation),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000171,50182000,50180000,50000000,Gâteaux – Sucré (Périssable),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000170,50182000,50180000,50000000,Gâteaux – Sucré (Surgelé),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000247,50182000,50180000,50000000,Tartes/Pâtisseries – Sucré (Longue Conservation),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000246,50182000,50180000,50000000,Tartes/Pâtisseries – Sucré (Périssable),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000245,50182000,50180000,50000000,Tartes/Pâtisseries – Sucré (Surgelé),Produits de Boulangerie Sucrés,Pain et Produits de Boulangerie,Nourriture/Boisson/Tabac
+10000622,50161900,50160000,50000000,Assortiments de Produits de Confiserie/Edulcorants,Assortiments de Produits de Confiserie/Edulcorants,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000602,50161800,50160000,50000000,Assortiments de Produits de Confiserie,Produits de Confiserie,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10006390,50161800,50160000,50000000,Chewing Gum,Produits de Confiserie,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000045,50161800,50160000,50000000,Chocolat et Confiserie de Chocolat et/ou de Sucre – Confiserie,Produits de Confiserie,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000047,50161800,50160000,50000000,Confiserie de Sucre Candi/Succédanés de Sucre Candi,Produits de Confiserie,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000603,50161500,50160000,50000000,Assortiments de Sucres/Succédanés de Sucre,Sucres/Succédanés de Sucre,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000044,50161500,50160000,50000000,Sirop/Mélasse (Longue Conservation),Sucres/Succédanés de Sucre,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000043,50161500,50160000,50000000,Sucre/Succédanés de Sucre (Longue Conservation),Sucres/Succédanés de Sucre,Produits de Confiserie/Edulcorants,Nourriture/Boisson/Tabac
+10000614,50122400,50120000,50000000,Assortiments de Produits de la Mer,Assortiments de Produits de la Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000021,50121700,50120000,50000000,Crustacés et Mollusques – Non Préparé/Non Transformé (Longue Conservation),Crustacés et Mollusques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000019,50121700,50120000,50000000,Crustacés et Mollusques – Non Préparé/Non Transformé (Périssable),Crustacés et Mollusques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000020,50121700,50120000,50000000,Crustacés et Mollusques – Non Préparé/Non Transformé (Surgelé),Crustacés et Mollusques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000258,50122100,50120000,50000000,Crustacés et Mollusques – Préparé/Transformé (Longue Conservation),Crustacés et Mollusques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000257,50122100,50120000,50000000,Crustacés et Mollusques – Préparé/Transformé (Périssable),Crustacés et Mollusques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000256,50122100,50120000,50000000,Crustacés et Mollusques – Préparé/Transformé (Surgelé),Crustacés et Mollusques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10008107,50122600,50120000,50000000,Caviar – Imitation (Longue Conservation),Imitation de Caviar,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10008108,50122600,50120000,50000000,Caviar – Imitation (Périssable),Imitation de Caviar,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000150,50122300,50120000,50000000,Invertébrés Aquatiques – Non Préparé/Non Transformé (Longue Conservation),Invertébrés Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000149,50122300,50120000,50000000,Invertébrés Aquatiques – Non Préparé/Non Transformé (Périssable),Invertébrés Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000148,50122300,50120000,50000000,Invertébrés Aquatiques – Non Préparé/Non Transformé (Surgelé),Invertébrés Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000147,50122000,50120000,50000000,Invertébrés Aquatiques – Préparé/Transformé (Longue Conservation),Invertébrés Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000146,50122000,50120000,50000000,Invertébrés Aquatiques – Préparé/Transformé (Périssable),Invertébrés Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000145,50122000,50120000,50000000,Invertébrés Aquatiques – Préparé/Transformé (Surgelé),Invertébrés Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000631,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Non Préparé/Non Transformé (Longue Conservation),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000630,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Non Préparé/Non Transformé (Périssable),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000629,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Non Préparé/Non Transformé (Surgelé),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000628,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Préparé/Transformé (Longue Conservation),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000627,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Préparé/Transformé (Périssable),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000626,50122500,50120000,50000000,Mélanges d’Invertébrés Aquatiques/Poissons/Fruits de Mer – Préparé/Transformé (Surgelé),Invertébrés Aquatiques/Poissons/Combinaisons de Fruits de Mer,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000139,50121800,50120000,50000000,Plantes Aquatiques – Non Préparé/Non Transformé (Longue Conservation),Plantes Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000137,50121800,50120000,50000000,Plantes Aquatiques – Non Préparé/Non Transformé (Périssable),Plantes Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000138,50121800,50120000,50000000,Plantes Aquatiques – Non Préparé/Non Transformé (Surgelé),Plantes Aquatiques – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000153,50122200,50120000,50000000,Plantes Aquatiques – Préparé/Transformé (Longue Conservation),Plantes Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000152,50122200,50120000,50000000,Plantes Aquatiques – Préparé/Transformé (Périssable),Plantes Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000151,50122200,50120000,50000000,Plantes Aquatiques – Préparé/Transformé (Surgelé),Plantes Aquatiques – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000283,50121500,50120000,50000000,Poisson – Non Préparé/Non Transformé (Longue Conservation),Poisson – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000282,50121500,50120000,50000000,Poisson – Non Préparé/Non Transformé (Périssable),Poisson – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000281,50121500,50120000,50000000,Poisson – Non Préparé/Non Transformé (Surgelé),Poisson – Non Préparé/Non Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000018,50121900,50120000,50000000,Poisson – Préparé/Transformé (Longue Conservation),Poisson – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000016,50121900,50120000,50000000,Poisson – Préparé/Transformé (Périssable),Poisson – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000017,50121900,50120000,50000000,Poisson – Préparé/Transformé (Surgelé),Poisson – Préparé/Transformé,Produits de la Mer et Succèdanés de Produits de la Mer,Nourriture/Boisson/Tabac
+10000303,50212100,50210000,50000000,Accessoires pour Fumeur,Accessoires pour Fumeurs,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000620,50212200,50210000,50000000,Assortiments d'Accessoires pour Fumeur/Produits au tabac/Cannabis/Herbes,Tabac / Cannabis / Produits à base de Plantes / Accessoires pour Fumeurs Packs Variés,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008094,50211700,50210000,50000000,Cannabis – Beurre,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008102,50211700,50210000,50000000,Cannabis – Cartouches de Vaporisation,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008091,50211700,50210000,50000000,Cannabis – Cigarettes aux Herbes – Sans Tabac,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008095,50211700,50210000,50000000,Cannabis – Cire,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008096,50211700,50210000,50000000,Cannabis – Colophane,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008092,50211700,50210000,50000000,Cannabis – Concentré – Cire/Résine,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006993,50211700,50210000,50000000,Cannabis – Fleurs Séchées,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008099,50211700,50210000,50000000,Cannabis – Hash,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006992,50211700,50210000,50000000,Cannabis – Huiles,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008101,50211700,50210000,50000000,Cannabis – Kit de Vaporisation,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008098,50211700,50210000,50000000,Cannabis – Pollen,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006994,50211700,50210000,50000000,Cannabis – Pré-roulé.,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008097,50211700,50210000,50000000,Cannabis – Résine,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008093,50211700,50210000,50000000,Cannabis – Shatter,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008090,50211700,50210000,50000000,Cannabis – Usage Local – Crèmes/Lotions pour le Visage et le Corps,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008100,50211700,50210000,50000000,Cannabis – Vaporisateurs Jetables,Canabis – Non Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008080,50211600,50210000,50000000,Cannabis – Aromatisants d'Eau (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008075,50211600,50210000,50000000,Cannabis – Assortiments de Produits de Confiserie de Sucre/Succédanés de Sucre,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008079,50211600,50210000,50000000,Cannabis – Boissons Aromatisées – Prêt à Boire (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008087,50211600,50210000,50000000,Cannabis – Boissons aux Fruits – Prêt à Boire (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008086,50211600,50210000,50000000,Cannabis – Boissons aux Fruits – Prêt à Boire (Périssable),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008078,50211600,50210000,50000000,Cannabis – Brioches/Brownies/Pâtisseries – Prêts à Consommer (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008074,50211600,50210000,50000000,Cannabis – Chocolat et Confiserie de Chocolat et/ou de Sucre,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008073,50211600,50210000,50000000,Cannabis – Confiserie de Sucre Candi/Succédanés de Sucre Candi,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008089,50211600,50210000,50000000,Cannabis – Formes Orales Solides– Capsules/Comprimés/Gélules,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008076,50211600,50210000,50000000,Cannabis – Gâteaux Secs/Biscuits – Prêts à Consommer (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008072,50211600,50210000,50000000,Cannabis – Gâteaux Secs/Biscuits (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008071,50211600,50210000,50000000,Cannabis – Gâteaux Secs/Biscuits (Périssable),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008070,50211600,50210000,50000000,Cannabis – Gâteaux Secs/Biscuits (Surgelé),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008088,50211600,50210000,50000000,Cannabis – Huiles Comestibles – Végétales (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008083,50211600,50210000,50000000,Cannabis – Infusions de Fruits – Prêt à Boire,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008082,50211600,50210000,50000000,Cannabis – Infusions de Thé/Tisanes – Prêt à Boire (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008085,50211600,50210000,50000000,Cannabis – Jus de Fruits – Prêt à Boire (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008084,50211600,50210000,50000000,Cannabis – Jus de Fruits – Prêt à Boire (Périssable),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008077,50211600,50210000,50000000,Cannabis – Mélanges de Gâteaux Secs/Biscuits (Longue Conservation),Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10008081,50211600,50210000,50000000,Cannabis – Thé/Tisanes – Feuilles/Sachets à Infusion,Cannabis – Comestible,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006730,50211900,50210000,50000000,Accessoires pour Cigarettes Electroniques/Vapoteuses,Cigarette Electronique et Accessoires,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006729,50211900,50210000,50000000,Cigarettes Electroniques/Vapoteuses,Cigarette Electronique et Accessoires,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000584,50212000,50210000,50000000,Cigarettes aux Herbes – Sans Tabac,Plantes Sans Tabac / Sans Cannabis,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10006313,50212000,50210000,50000000,Herbes à macher/priser – Sans Tabac,Plantes Sans Tabac / Sans Cannabis,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000186,50211800,50210000,50000000,Cigares,Tabac,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000185,50211800,50210000,50000000,Cigarettes,Tabac,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000134,50211800,50210000,50000000,Tabac – à Mâcher/Priser,Tabac,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000267,50211800,50210000,50000000,Tabac – En Vrac,Tabac,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10000268,50211800,50210000,50000000,Tabac – Solide,Tabac,Tabac/Cannabis/Accessoires pour Fumeurs,Nourriture/Boisson/Tabac
+10005836,50240300,50240000,50000000,Mélange des Différents Types de Saucisses – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005835,50240300,50240000,50000000,Saucisses d'Agneaux/Moutons – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005833,50240300,50240000,50000000,Saucisses de Boeuf – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005837,50240300,50240000,50000000,Saucisses de Dinde – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005840,50240300,50240000,50000000,Saucisses de Porc – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005834,50240300,50240000,50000000,Saucisses de Poulet – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005838,50240300,50240000,50000000,Saucisses de Veau – Préparés/Transformés,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005832,50240300,50240000,50000000,Saucisses de Viande/Volaille/Autres Animaux Alternative – Préparé/Transformé,Saucisses de Viande/de Volaille/Autres Animaux – Préparées/Transformées,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006278,50240200,50240000,50000000,Agneau – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006282,50240200,50240000,50000000,Antilope – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005798,50240200,50240000,50000000,Autruche – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006283,50240200,50240000,50000000,Beefalo/Cattalo – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005787,50240200,50240000,50000000,Bison/Buffle – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006286,50240200,50240000,50000000,Buffle – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006291,50240200,50240000,50000000,Caille – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005790,50240200,50240000,50000000,Canard – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005789,50240200,50240000,50000000,Cerf autre que Chevreuil – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005793,50240200,50240000,50000000,Cheval – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005792,50240200,50240000,50000000,Chèvre – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006394,50240200,50240000,50000000,Chevreuil – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005803,50240200,50240000,50000000,Dinde – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006285,50240200,50240000,50000000,Elan/Elk – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006288,50240200,50240000,50000000,Emeu – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005795,50240200,50240000,50000000,Escargot – Non Préparé/Non Tranformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005797,50240200,50240000,50000000,Espèces de Viande Mixtes – Non Préparées/Non Transformées,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005799,50240200,50240000,50000000,Faisan – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005791,50240200,50240000,50000000,Grenouille– Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005796,50240200,50240000,50000000,Lama/Alpaga – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005801,50240200,50240000,50000000,Lapin – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006281,50240200,50240000,50000000,Lièvre – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006279,50240200,50240000,50000000,Mouton – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006292,50240200,50240000,50000000,Nandou – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006289,50240200,50240000,50000000,Oie – Non Transformé/Non Préparé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006293,50240200,50240000,50000000,Pigeonneau/Pigeon – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006290,50240200,50240000,50000000,Pintade – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005800,50240200,50240000,50000000,Porc – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005788,50240200,50240000,50000000,Poulet – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006287,50240200,50240000,50000000,Renne/Caribou – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006284,50240200,50240000,50000000,Renne/Wapiti – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006280,50240200,50240000,50000000,Sanglier – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005804,50240200,50240000,50000000,Veau – Non Préparé/Non Transformé,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005786,50240200,50240000,50000000,Viande Bovine – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005802,50240200,50240000,50000000,Viande/Volaille/Autres Animaux Espèces Alternatives– Non Préparées/Non Transformées,Viande/Volaille/Autres Animaux – Non Préparée/Non Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006294,50240100,50240000,50000000,Agneau – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006298,50240100,50240000,50000000,Antilope – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005779,50240100,50240000,50000000,Autruche – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006299,50240100,50240000,50000000,Beefalo/Cattalo – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005768,50240100,50240000,50000000,Bison/Buffle – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006302,50240100,50240000,50000000,Buffle – Préparé/Transormé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006307,50240100,50240000,50000000,Caille – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005771,50240100,50240000,50000000,Canard – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005770,50240100,50240000,50000000,Cerf – Autre que Chevreuil – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005774,50240100,50240000,50000000,Cheval – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005773,50240100,50240000,50000000,Chèvre– Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006393,50240100,50240000,50000000,Chevreuil – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005784,50240100,50240000,50000000,Dinde – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006301,50240100,50240000,50000000,Elan/Elk – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006304,50240100,50240000,50000000,Emeu – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005776,50240100,50240000,50000000,Escargot – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005778,50240100,50240000,50000000,Espèces de Viandes/Volaille/Autres Animaux Variés – Viande Alternative – Préparées/Transformées,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005780,50240100,50240000,50000000,Faisan – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005772,50240100,50240000,50000000,Grenouille – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005777,50240100,50240000,50000000,Lama/Alpaga – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005782,50240100,50240000,50000000,Lapin – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006297,50240100,50240000,50000000,Lièvre – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006295,50240100,50240000,50000000,Mouton – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006308,50240100,50240000,50000000,Nandou – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006305,50240100,50240000,50000000,Oie – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006309,50240100,50240000,50000000,Pigeonneau/Pigeon – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006306,50240100,50240000,50000000,Pintade – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005781,50240100,50240000,50000000,Porc – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005769,50240100,50240000,50000000,Poulet – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006303,50240100,50240000,50000000,Renne/Caribou – Préparé/Transormé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006300,50240100,50240000,50000000,Renne/Wapiti – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10006296,50240100,50240000,50000000,Sanglier – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005785,50240100,50240000,50000000,Veau – Préparé/Transformé,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005767,50240100,50240000,50000000,Viande Bovine – Préparée/Transformée,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
+10005783,50240100,50240000,50000000,Viande/Volaille/Autres Animaux Espèces Alternatives – Préparées/Transformées,Viande/Volaille/Autres Animaux – Préparée/Transformée,Viande/Volaille/Autres Animaux,Nourriture/Boisson/Tabac
