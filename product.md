@@ -81,11 +81,13 @@ layout: none
 
 {% for countryOfOrigin in tradeItem.placeOfItemActivity.countriesOfOrigin %}
 
+<!-- ISSUE jekyll latest and on github pages to interpret csv string int the same way -->
 {% assign countryOfOriginInt = countryOfOrigin | plus: 0 %}
 
-{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOrigin | first %}
+{% assign countryLegacy = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOrigin | first %}
+{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOriginInt | first %}
 
-{{ country.name }}
+{{ country.name | default: countryLegacy.name }}
 
 {% endfor %}
 
