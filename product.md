@@ -2,10 +2,6 @@
 title: Product
 layout: none
 ---
-|Title  |Link  |
-|---|---|
-
-||{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}\\n|--|{% for nutrientHeader in nutrientHeaders %}--|{% endfor %}
 
 {% assign languageCode = "fr-BE" %}
 
@@ -61,8 +57,8 @@ layout: none
 
 |test|test|
 |---|---|
-|{% for nutrientHeader in nutrientHeaders -%}
-Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|
+|{%- for nutrientHeader in nutrientHeaders -%}
+{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}|
 {%- endfor %}
 
 |test|test|test|
