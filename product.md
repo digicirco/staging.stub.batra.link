@@ -55,9 +55,9 @@ layout: none
 
 {% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
 
-/test/test/
-/---/---/
-/{%- for nutrientHeader in nutrientHeaders -%}{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}/{%- endfor %}
+|test|test|
+|---|---|
+|{%- for nutrientHeader in nutrientHeaders -%}test|{%- endfor %}
 
 |test|test|test|
 |--------|-----|-------|
