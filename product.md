@@ -4,7 +4,7 @@ layout: none
 ---
 
 | Flag                | Code | Region         |
-|:--------------------|:-----|:---------------|
+|--|--|--|
 | ![AD](png/EU.png)   | EU   | European Union |
 | ![AE](png/WW.png)   | WW   | World          |
 | ![CNA](png/CNA.png) | CNA  | North America  |
