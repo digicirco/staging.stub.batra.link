@@ -2,21 +2,10 @@
 title: Product
 layout: none
 ---
+|Title  |Link  |
+|---|---|
 
-| Flag                | Code | Region         |
-|--|--|--|
-| ![AD](png/EU.png)   | EU   | European Union |
-| ![AE](png/WW.png)   | WW   | World          |
-| ![CNA](png/CNA.png) | CNA  | North America  |
-| ![CSA](png/CSA.png) | CSA  | South America  |
-| ![CEU](png/CEU.png) | CEU  | Europe         |
-| ![CAF](png/CAF.png) | CAF  | Africa         |
-| ![CAS](png/CAS.png) | CAS  | Asia           |
-| ![COC](png/COC.png) | COC  | Oceania        |
-
-|test|Pour 28 Gramme |Pour 100 Gramme |
-|--------|-------|-------|
-|test|test|test|
+||{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}\\n|--|{% for nutrientHeader in nutrientHeaders %}--|{% endfor %}
 
 {% assign languageCode = "fr-BE" %}
 
@@ -69,6 +58,12 @@ layout: none
 {% assign nutritionTypeCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3131" %}
 
 {% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
+
+|test|test|
+|---|---|
+|{% for nutrientHeader in nutrientHeaders -%}
+Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|
+{%- endfor %}
 
 |test|test|test|
 |--------|-----|-------|
