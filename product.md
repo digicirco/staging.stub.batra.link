@@ -58,7 +58,7 @@ layout: none
 |test|test|
 |---|---|
 |{%- for nutrientHeader in nutrientHeaders -%}
-test|
+{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}|
 {%- endfor %}
 
 |test|test|test|
