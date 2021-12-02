@@ -66,7 +66,7 @@ layout: none
 
 {% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
 
-||{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}
+|test|{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}
 |:--------|{% for nutrientHeader in nutrientHeaders %}:-------:|{% endfor %}
 |test|test|test|
 
