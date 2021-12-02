@@ -3,6 +3,17 @@ title: Product
 layout: none
 ---
 
+| Flag                | Code | Region         |
+|:--------------------|:-----|:---------------|
+| ![AD](png/EU.png)   | EU   | European Union |
+| ![AE](png/WW.png)   | WW   | World          |
+| ![CNA](png/CNA.png) | CNA  | North America  |
+| ![CSA](png/CSA.png) | CSA  | South America  |
+| ![CEU](png/CEU.png) | CEU  | Europe         |
+| ![CAF](png/CAF.png) | CAF  | Africa         |
+| ![CAS](png/CAS.png) | CAS  | Asia           |
+| ![COC](png/COC.png) | COC  | Oceania        |
+
 {% assign languageCode = "fr-BE" %}
 
 {% assign p1 = site.data.products | first %}
