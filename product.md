@@ -20,6 +20,14 @@ layout: none
 <!-- TODO maybe don't show if same as tradeItemDescriptions -->
 {% include translation.html translations=tradeItem.regulatedProductNames %}
 
+<!-- ISSUE jekyll latest and on github pages to interpret csv string int the same way -->
+
+**Origine:** {% for countryOfOrigin in tradeItem.placeOfItemActivity.countriesOfOrigin %}{% assign countryOfOriginInt = countryOfOrigin | plus: 0 %}{% assign countryLegacy = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOrigin | first %}{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOriginInt | first %}{{ country.name | default: countryLegacy.name }},{% endfor %}
+
+**Contenu net:** {% for netContent in tradeItem. tradeItemMeasurements.netContents %}{% include quantity.html quantity=netContent %}{% endfor %}
+
+{% if tradeItem.certificationInformation %}**Certifications:** {% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}{{ certificationInformation.certificationStandard }} ({{ certificationInformation.certificationAgency }}),{% endfor %}{% endif %}
+
 ## Ingrédients : 
 
 <!-- TODO remove "Ingredients:" at the beginning-->
@@ -45,31 +53,31 @@ layout: none
 
 {% assign nutritionTypeCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3131" %}
 
-{% for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders %}
+{% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
 
-### Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}
-
-{% for nutrientDetail in nutrientHeader.nutrientDetails %}
-
-{% assign nutritionTypeCode = nutritionTypeCodes | where: "value", nutrientDetail.nutrientTypeCode | first %}
-
-* {{ nutritionTypeCode.name }}: {% for quantityContained in nutrientDetail.quantitiesContained %}{% include quantity.html quantity=quantityContained %}, {% endfor %}
-
-{% endfor %}
-
-{% endfor %}
+||{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}
+|--|{% for nutrientHeader in nutrientHeaders %}--|{% endfor %}
+|test|test|test|{% for nutritionTypeCode in nutritionTypeCodes %}{% for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders %}{% assign nutrientDetail = nutrientHeader.nutrientDetails | where: "nutrientTypeCode", nutritionTypeCode.value | first %}{% if nutrientDetail %}{% if forloop.first == true %}
+|{{ nutritionTypeCode.name }}|{% endif %}{% for quantityContained in nutrientDetail.quantitiesContained %}{% include quantity.html quantity=quantityContained %},{% endfor %}|{% endif %}{% endfor %}{% endfor %}
 
 {% endif %}
 
-
-## Contenu net: 
-
-{% for netContent in tradeItem. tradeItemMeasurements.netContents %}
-{% include quantity.html quantity=netContent %}
-{% endfor %}
-
 <!--- drainedWeight -->
 <!--- tradeItemSize.descriptiveSizes -->
+
+## Instructions d'utilisation
+
+{% include translation.html translations=tradeItem.consumerInstructions.consumerUsageInstructions %}
+
+## Instructions de stockage
+
+{% include translation.html translations=tradeItem.consumerInstructions.consumerStorageInstructions %}
+
+## Températures
+
+{% for temperatureInformation in tradeItem.tradeItemTemperatureInformation.temperatureInformations %}
+* {{temperatureInformation.temperatureQualifierCode}}: min {% include quantity.html quantity=temperatureInformation.minimumTemperature %}, max {% include quantity.html quantity=temperatureInformation.maximumTemperature %}
+{% endfor %}
 
 ## Contact
 
@@ -77,44 +85,19 @@ layout: none
 {{contact.contactName}}, {{contact.contactAddress}}
 {% endfor %}
 
-## Origine
-
-{% for countryOfOrigin in tradeItem.placeOfItemActivity.countriesOfOrigin %}
-
-<!-- ISSUE jekyll latest and on github pages to interpret csv string int the same way -->
-{% assign countryOfOriginInt = countryOfOrigin | plus: 0 %}
-
-{% assign countryLegacy = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOrigin | first %}
-{% assign country = gs1CodeValues | where: "listId","CNL3112" | where: "value", countryOfOriginInt | first %}
-
-{{ country.name | default: countryLegacy.name }}
-
-{% endfor %}
-
-{% if tradeItem.certificationInformation %}
-
-## Instructions
-
-{% include translation.html translations=tradeItem.consumerInstructions.consumerUsageInstructions %}
-
-## Conservation
-
-{% include translation.html translations=tradeItem.consumerInstructions.consumerStorageInstructions %}
-
-{% for temperatureInformation in tradeItem.tradeItemTemperatureInformation.temperatureInformations %}
-* {{temperatureInformation.temperatureQualifierCode}}: min {% include quantity.html quantity=temperatureInformation.minimumTemperature %}, max {% include quantity.html quantity=temperatureInformation.maximumTemperature %}
-{% endfor %}
-
-## Certifications
-
-{% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}
-{{ certificationInformation.certificationStandard }} ({{ certificationInformation.certificationAgency }})
-{% endfor %}
-
-{% endif %}
-
 <!--- preparationServings.preparationInstructions -->
 <!--- alcoholInformation.percentageOfAlcoholByVolume -->
 <!--- servingQuantityInformation.numberOfServingsPerPackage -->
 <!--- nutriscores -->
 <!--- isPackagingMarkedReturnable -->
+
+<!--
+Durée de vie :
+
+Durée de conservation sortie d'usine :
+150 jour(s)
+Durée minimum de conservation à l'arrivée :
+100 jour(s)
+Durée de conservation après ouverture :
+5 jour(s)
+-->
