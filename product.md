@@ -14,6 +14,10 @@ layout: none
 | ![CAS](png/CAS.png) | CAS  | Asia           |
 | ![COC](png/COC.png) | COC  | Oceania        |
 
+|test|Pour 28 Gramme |Pour 100 Gramme |
+|--------|-------|-------|
+|test|test|test|
+
 {% assign languageCode = "fr-BE" %}
 
 {% assign p1 = site.data.products | first %}
