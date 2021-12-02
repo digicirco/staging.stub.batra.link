@@ -70,7 +70,7 @@ layout: none
 
 {% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
 
-|test|{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}
+|test|test|test|
 |--------|-----|-------|
 |test|test|test|
 
