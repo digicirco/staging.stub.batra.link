@@ -57,7 +57,9 @@ layout: none
 
 |test|test|
 |---|---|
-|{%- for nutrientHeader in nutrientHeaders -%}test|{%- endfor %}
+|{%- for nutrientHeader in nutrientHeaders -%}
+test|
+{%- endfor %}
 
 |test|test|test|
 |--------|-----|-------|
