@@ -57,9 +57,7 @@ layout: none
 
 /test/test/
 /---/---/
-/{%- for nutrientHeader in nutrientHeaders -%}
-{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}/
-{%- endfor %}
+/{%- for nutrientHeader in nutrientHeaders -%}{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}/{%- endfor %}
 
 |test|test|test|
 |--------|-----|-------|
