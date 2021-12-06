@@ -28,7 +28,7 @@ layout: none
 
 {% if tradeItem.certificationInformation %}**Certifications:** {% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}{{ certificationInformation.certificationStandard }} ({{ certificationInformation.certificationAgency }}),{% endfor %}{% endif %}
 
-## Ingrédients : 
+## Ingrédients
 
 <!-- TODO remove "Ingredients:" at the beginning-->
 {% include translation.html translations=tradeItem.ingredientInformation.ingredientStatements %}
@@ -37,7 +37,7 @@ layout: none
 
 {% if tradeItem.allergenInformation.isAllergenRelevantDataProvided %}
 
-## Allergènes : 
+## Allergènes
 
 {% assign allergenCodes = site.data.gs1Codes.Values_FR_3_1_16 | where: "listId","CNL3103" %}
 
@@ -60,17 +60,17 @@ Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}|
 {%- endfor %}
 |:--------|
 {%- for nutrientHeader in nutrientHeaders -%}
-:-------:|
+-------:|
 {%- endfor -%}
 {%- for nutritionTypeCode in nutritionTypeCodes -%}
 {%- for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders -%}
 {%- assign nutrientDetail = nutrientHeader.nutrientDetails | where: "nutrientTypeCode", nutritionTypeCode.value | first -%}
 {%- if nutrientDetail -%}
 {%- if forloop.first == true %}
-|{{ nutritionTypeCode.name -}}|
+|**{{ nutritionTypeCode.name -}}**|
 {%- endif -%}
 {%- for quantityContained in nutrientDetail.quantitiesContained -%}
-{%- include quantity.html quantity=quantityContained -%},
+{%- include quantity.html quantity=quantityContained -%}<br>
 {%- endfor -%}|
 {%- endif -%}
 {%- endfor -%}
