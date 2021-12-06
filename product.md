@@ -30,7 +30,7 @@ layout: none
 {% for certificationInformation in tradeItem.certificationInformation.certificationInformations %}
 {% capture certificationImageFileName %}gs1_certification_{{ certificationInformation.certificationAgency }}_{{ certificationInformation.certificationStandard }}{% endcapture %}
 {% assign certificationImage = files | where: "basename",certificationImageFileName | first  %}
-  ![test]({{ certificationImage.path }})
+  ![test]({{ certificationImage.path | relative_url }})
 {% endfor %}
 {% endif %}
 
