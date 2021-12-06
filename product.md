@@ -55,17 +55,26 @@ layout: none
 
 {% assign nutrientHeaders = tradeItem.nutritionalInformation.nutrientHeaders %}
 
-|test|test|
-|---|---|
-|{%- for nutrientHeader in nutrientHeaders -%}
-{%- include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}|
+||{%- for nutrientHeader in nutrientHeaders -%}
+Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity -%}|
 {%- endfor %}
-
-|test|test|test|
-|--------|-----|-------|
-|test|test|test|
-
-||{% for nutrientHeader in nutrientHeaders %}Pour {% include quantity.html quantity=nutrientHeader.nutrientBasisQuantity %}|{% endfor %}\\n|--|{% for nutrientHeader in nutrientHeaders %}--|{% endfor %}\\n|test|test|test|{% for nutritionTypeCode in nutritionTypeCodes %}{% for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders %}{% assign nutrientDetail = nutrientHeader.nutrientDetails | where: "nutrientTypeCode", nutritionTypeCode.value | first %}{% if nutrientDetail %}{% if forloop.first == true %}\\n|{{ nutritionTypeCode.name }}|{% endif %}{% for quantityContained in nutrientDetail.quantitiesContained %}{% include quantity.html quantity=quantityContained %},{% endfor %}|{% endif %}{% endfor %}{% endfor %}
+|:--------|
+{%- for nutrientHeader in nutrientHeaders -%}
+:-------:|
+{%- endfor -%}
+{%- for nutritionTypeCode in nutritionTypeCodes -%}
+{%- for nutrientHeader in tradeItem.nutritionalInformation.nutrientHeaders -%}
+{%- assign nutrientDetail = nutrientHeader.nutrientDetails | where: "nutrientTypeCode", nutritionTypeCode.value | first -%}
+{%- if nutrientDetail -%}
+{%- if forloop.first == true %}
+|{{ nutritionTypeCode.name -}}|
+{%- endif -%}
+{%- for quantityContained in nutrientDetail.quantitiesContained -%}
+{%- include quantity.html quantity=quantityContained -%},
+{%- endfor -%}|
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
 
 {% endif %}
 
