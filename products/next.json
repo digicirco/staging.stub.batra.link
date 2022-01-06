@@ -1,0 +1,817 @@
+{
+    "@context": {
+        "gs1": "http://gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "http://gs1.org/voc/"
+    },
+    "@type": "gs1:FoodBeverageTobaccoProduct",
+    "preparationInformation": {
+        "preparationInstructions": [
+            {
+                "@value": "Just add milk for a delicious bowl of granola",
+                "@language": "en"
+            }
+        ],
+        "@type": "gs1:FoodAndBeveragePreparationInformation"
+    },
+    "@id": "http://granola-example.com/id/gtin/00614141314157",
+    "productName": [
+        {
+            "@value": "Extra Nutty Granola",
+            "@language": "en"
+        }
+    ],
+    "gtin": "00614141314157",
+    "productDescription": [
+        {
+            "@value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
+            "@language": "en"
+        }
+    ],
+    "image": {
+        "filePixelWidth": {
+            "@value": "320",
+            "@type": "xsd:integer"
+        },
+        "filePixelHeight": {
+            "@value": "240",
+            "@type": "xsd:integer"
+        },
+        "referencedFileURL": {
+            "@id": "http://www.granola-example.com/prod_img/31415.jpg"
+        },
+        "@type": "gs1:ReferencedFileDetails"
+    },
+    "productFormDescription": [
+        {
+            "@value": "flakes and clusters",
+            "@language": "en"
+        }
+    ],
+    "functionalName": [
+        {
+            "@value": "breakfast cereal",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10000319",
+    "manufacturer": {
+        "@id": "5425022720012"
+    },
+    "manufacturingPlant": {
+        "@id": "5425022720013"
+    },
+    "isProductRecalled": {
+        "@value": "false",
+        "@type": "xsd:boolean"
+    },
+    "netWeight": {
+        "value": {
+            "@value": "500",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "grossWeight": {
+        "value": {
+            "@value": "510",
+            "@type": "xsd:float"
+        },
+        "unitCode": "KGM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "netContent": {
+        "value": {
+            "@value": "1",
+            "@type": "xsd:float"
+        },
+        "unitCode": "LTR",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageHeight": {
+        "value": {
+            "@value": "30",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageWidth": {
+        "value": {
+            "@value": "20",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageDepth": {
+        "value": {
+            "@value": "7",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "consumerStorageInstructions": [
+        {
+            "@value": "Store in a dry place",
+            "@language": "en"
+        }
+    ],
+    "consumerUsageInstructions": [
+        {
+            "@value": "Just add milk for a healthy breakfast cereal",
+            "@language": "en"
+        }
+    ],
+    "ingredientStatement": [
+        {
+            "@value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
+            "@language": "en"
+        }
+    ],
+    "preservationTechnique": {
+        "@id": "gs1:PreservationTechniqueCode-BRINING"
+    },
+    "servingSuggestion": [
+        {
+            "@value": "Servir comme ça",
+            "@language": "fr"
+        }
+    ],
+    "servingSize": {
+        "value": {
+            "@id": "50"
+        },
+        "unitCode": {
+            "@id": "GRM"
+        },
+        "@type": "gs1:QuantitativeValue"
+    },
+    "numberOfServingsPerPackage": {
+        "@value": "10",
+        "@type": "xsd:float"
+    },
+    "numberOfServingsPerPackageMeasurementPrecision": {
+        "@id": "gs1:MeasurementPrecisionCode-EXACT"
+    },
+    "countryOfOriginStatement": [
+        {
+            "@value": "Made in Carlsbourg",
+            "@language": "en"
+        }
+    ],
+    "countryOfOrigin": [
+        {
+            "@type": "gs1:Country",
+            "countryCode": "FR"
+        }
+    ],
+    "countryOfLastProcessing": {
+        "countryCode": "BE",
+        "@type": "gs1:Country"
+    },
+    "provenanceStatement": [
+        {
+            "@value": "Comes from a small town in France",
+            "@language": "en"
+        }
+    ],
+    "healthClaimDescription": [
+        {
+            "@value": "Good source of fibre and wholegrain",
+            "@language": "en"
+        }
+    ],
+    "nutritionalClaimStatement": [
+        {
+            "@value": "With extra folic acid",
+            "@language": "en"
+        }
+    ],
+    "nutritionalClaim": [
+        {
+            "@id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
+        }
+    ],
+    "growingMethod": [
+        {
+            "@id": "gs1:GrowingMethodCode-FARM_RAISED"
+        }
+    ],
+    "irradiatedCode": {
+        "@id": "gs1:NonbinaryLogicCode-TRUE"
+    },
+    "foodBeverageRefrigerationClaim": {
+        "@id": "gs1:FoodBeverageRefrigerationClaimCode-SHELF_STABLE"
+    },
+    "packagingMarkedLabelAccreditation": [
+        {
+            "@id": "gs1:PackagingMarkedLabelAccreditationCode-SOIL_ASSOCIATION_ORGANIC_SYMBOL"
+        }
+    ],
+    "packagingMarkedFreeFrom": [
+        {
+            "@id": "gs1:PackagingMarkedFreeFromCode-FREE_FROM_CLONED_FOOD"
+        }
+    ],
+    "packagingMarkedDietAllergenType": [
+        {
+            "@id": "gs1:PackagingMarkedDietAllergenCode-LOW_ON_SUGAR"
+        }
+    ],
+    "nutrientBasisQuantity": {
+        "value": "50",
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "fatPerNutrientBasis": {
+        "value": {
+            "@value": "13.3",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "dailyValueIntakePercent": {
+            "@value": "19",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "saturatedFatPerNutrientBasis": {
+        "value": {
+            "@value": "2.7",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "dailyValueIntakePercent": {
+            "@value": "14",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "carbohydratesPerNutrientBasis": {
+        "value": {
+            "@value": "24",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "sugarsPerNutrientBasis": {
+        "value": {
+            "@value": "10.9",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "dailyValueIntakePercent": {
+            "@value": "5",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "saltPerNutrientBasis": {
+        "value": {
+            "@value": "0.01",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "dailyValueIntakePercent": {
+            "@value": "1",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "fibrePerNutrientBasis": {
+        "value": {
+            "@value": "5.0",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "proteinPerNutrientBasis": {
+        "value": {
+            "@value": "5.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "vitaminDPerNutrientBasis": {
+        "value": {
+            "@value": "2.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MC",
+        "dailyValueIntakePercent": {
+            "@value": "50",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "thiaminPerNutrientBasis": {
+        "value": {
+            "@value": "0.55",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "50",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "riboflavinPerNutrientBasis": {
+        "value": {
+            "@value": "0.70",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "50",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "niacinPerNutrientBasis": {
+        "value": {
+            "@value": "4.0",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "25",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "vitaminB6PerNutrientBasis": {
+        "value": {
+            "@value": "0.35",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "25",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "folicAcidPerNutrientBasis": {
+        "value": {
+            "@value": "100",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MC",
+        "dailyValueIntakePercent": {
+            "@value": "50",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "vitaminB12PerNutrientBasis": {
+        "value": {
+            "@value": "0.6",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MC",
+        "dailyValueIntakePercent": {
+            "@value": "25",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "ironPerNutrientBasis": {
+        "value": {
+            "@value": "3.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "25",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "zincPerNutrientBasis": {
+        "value": {
+            "@value": "2.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MGM",
+        "dailyValueIntakePercent": {
+            "@value": "25",
+            "@type": "xsd:float"
+        },
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "energyPerNutrientBasis": [
+        {
+            "value": {
+                "@value": "1034",
+                "@type": "xsd:float"
+            },
+            "unitCode": "KJO",
+            "dailyValueIntakePercent": {
+                "@value": "12",
+                "@type": "xsd:float"
+            },
+            "@type": "gs1:NutritionMeasurementType"
+        },
+        {
+            "value": {
+                "@value": "248",
+                "@type": "xsd:float"
+            },
+            "unitCode": "E14",
+            "dailyValueIntakePercent": {
+                "@value": "12",
+                "@type": "xsd:float"
+            },
+            "@type": "gs1:NutritionMeasurementType"
+        }
+    ],
+    "ingredient": [
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 1
+            },
+            "ingredientName": [
+                {
+                    "@value": "Oat Flakes",
+                    "@language": "en"
+                }
+            ],
+            "ingredientContentPercentage": {
+                "@value": "48",
+                "@type": "xsd:float"
+            }
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 2
+            },
+            "ingredientName": [
+                {
+                    "@value": "Brazil Nuts (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 3
+            },
+            "ingredientName": [
+                {
+                    "@value": "Almonds (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 4
+            },
+            "ingredientName": [
+                {
+                    "@value": "Hazelnuts (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 5
+            },
+            "ingredientName": [
+                {
+                    "@value": "Pecan Nuts (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 6
+            },
+            "ingredientName": [
+                {
+                    "@value": "Cashew Nuts (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 7
+            },
+            "ingredientName": [
+                {
+                    "@value": "Pistachios (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 8
+            },
+            "ingredientName": [
+                {
+                    "@value": "Macadamia Nuts (Mixed Nuts)",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 9
+            },
+            "ingredientName": [
+                {
+                    "@value": "Sugar",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 10
+            },
+            "ingredientName": [
+                {
+                    "@value": "Sunflower Oil",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 11
+            },
+            "ingredientName": [
+                {
+                    "@value": "Coconut",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 12
+            },
+            "ingredientName": [
+                {
+                    "@value": "Honey",
+                    "@language": "en"
+                }
+            ],
+            "ingredientContentPercentage": {
+                "@value": "1.8",
+                "@type": "xsd:float"
+            }
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 13
+            },
+            "ingredientName": [
+                {
+                    "@value": "Pumpkin Seeds",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 14
+            },
+            "ingredientName": [
+                {
+                    "@value": "Sunflower Seeds",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 15
+            },
+            "ingredientName": [
+                {
+                    "@value": "Golden Linseeds",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 16
+            },
+            "ingredientName": [
+                {
+                    "@value": "added vitamins and minerals",
+                    "@language": "en"
+                }
+            ]
+        }
+    ],
+    "ingredientOfConcern": [
+        [
+            {
+                "@value": "Oat Flakes",
+                "@language": "en"
+            }
+        ]
+    ],
+    "additionalProductClassification": [
+        {
+            "additionalProductClassificationCode": "OFN",
+            "additionalProductClassificationValue": "3",
+            "additionalProductClassificationDescription": [
+                {
+                    "@value": "Cereals and grains",
+                    "@language": "fr"
+                }
+            ],
+            "@type": "gs1:AdditionalProductClassificationDetails"
+        }
+    ],
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "BE"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ],
+    "certification": [
+        {
+            "certificationAgency": [
+                {
+                    "@value": "Bio Wallonie",
+                    "@language": "fr"
+                }
+            ],
+            "certificationStandard": [
+                {
+                    "@value": "Bio",
+                    "@language": "fr"
+                }
+            ],
+            "certificationValue": [
+                {
+                    "@value": "1",
+                    "@language": "fr"
+                }
+            ],
+            "@type": "gs1:CertificationDetails"
+        },
+        {
+            "certificationAgency": [
+                {
+                    "@value": "Bio Wallonie",
+                    "@language": "fr"
+                }
+            ],
+            "certificationStandard": [
+                {
+                    "@value": "Demeter",
+                    "@language": "fr"
+                }
+            ],
+            "certificationValue": [
+                {
+                    "@value": "B",
+                    "@language": "fr"
+                }
+            ],
+            "@type": "gs1:CertificationDetails"
+        }
+    ],
+    "equivalentProduct": [
+        {
+            "@id": "Brazil 500gr"
+        }
+    ],
+    "organicClaim": [
+        {
+            "organicClaimPercent": {
+                "@value": "60",
+                "@type": "xsd:float"
+            },
+            "organicClaimAgency": {
+                "@id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
+            },
+            "@type": "gs1:OrganicClaimDetails"
+        },
+        {
+            "organicClaimPercent": {
+                "@value": "60",
+                "@type": "xsd:float"
+            },
+            "organicClaimAgency": {
+                "@id": "gs1:OrganicClaimAgencyCode-BIOLAND"
+            },
+            "@type": "gs1:OrganicClaimDetails"
+        }
+    ],
+    "additive": [
+        {
+            "additiveLevelOfContainment": {
+                "@id": "gs1:LevelOfContainmentCode-FREE_FROM"
+            },
+            "additiveName": [
+                {
+                    "@value": "Chlorine",
+                    "@language": "fr"
+                }
+            ],
+            "@type": "gs1:AdditiveDetails"
+        }
+    ],
+    "dietCode": [
+        {
+            "dietType": {
+                "@id": "gs1:DietTypeCode-VEGETARIAN"
+            },
+            "@type": "gs1:DietTypeCodeDetails"
+        }
+    ],
+    "packaging": {
+        "packagingShape": {
+            "@id": "gs1:PackagingShapeCode-CYLINDRICAL"
+        },
+        "packagingRecyclingScheme": [
+            {
+                "@id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
+            },
+            {
+                "@id": "gs1:PackagingRecyclingSchemeCode-ALKO"
+            }
+        ],
+        "packagingRecyclingProcessType": [
+            {
+                "@id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
+            }
+        ],
+        "packagingFunction": [
+            {
+                "@id": "gs1:PackagingFunctionCode-PROTECTED"
+            }
+        ],
+        "packagingType": "BO",
+        "@type": "gs1:PackagingDetails"
+    },
+    "packagingMaterial": [
+        {
+            "packagingMaterialType": {
+                "@id": "gs1:PackagingMaterialTypeCode-GLASS"
+            },
+            "@type": "gs1:PackagingMaterialDetails"
+        }
+    ]
+}
