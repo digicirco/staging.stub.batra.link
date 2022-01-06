@@ -8,31 +8,31 @@
         ]
     },
     "id": "http://granola-example.com/id/gtin/00614141314157",
-    "productName": [
+    "name": [
         {
             "value": "Extra Nutty Granola",
             "language": "en"
         }
     ],
     "gtin": "00614141314157",
-    "productDescription": [
+    "description": [
         {
             "value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
             "language": "en"
         }
     ],
     "image": {
-        "filePixelWidth": {
+        "width": {
             "value": "320"
         },
-        "filePixelHeight": {
+        "height": {
             "value": "240"
         },
-        "referencedFileURL": {
+        "url": {
             "id": "http://www.granola-example.com/prod_img/31415.jpg"
         }
     },
-    "productFormDescription": [
+    "formDescription": [
         {
             "value": "flakes and clusters",
             "language": "en"
@@ -126,11 +126,11 @@
     ],
     "countryOfOrigin": [
         {
-            "countryCode": "FR"
+            "code": "FR"
         }
     ],
     "countryOfLastProcessing": {
-        "countryCode": "BE"
+        "code": "BE"
     },
     "provenanceStatement": [
         {
@@ -276,18 +276,18 @@
     ],
     "ingredient": [
         {
-            "ingredientSequence": 1,
-            "ingredientName": [
+            "sequence": 1,
+            "name": [
                 {
                     "value": "Oat Flakes",
                     "language": "en"
                 }
             ],
-            "ingredientContentPercentage": 48
+            "contentPercentage": 48
         },
         {
-            "ingredientSequence": 2,
-            "ingredientName": [
+            "sequence": 2,
+            "name": [
                 {
                     "value": "Brazil Nuts (Mixed Nuts)",
                     "language": "en"
@@ -295,8 +295,8 @@
             ]
         },
         {
-            "ingredientSequence": 3,
-            "ingredientName": [
+            "sequence": 3,
+            "name": [
                 {
                     "value": "Almonds (Mixed Nuts)",
                     "language": "en"
@@ -304,8 +304,8 @@
             ]
         },
         {
-            "ingredientSequence": 4,
-            "ingredientName": [
+            "sequence": 4,
+            "name": [
                 {
                     "value": "Hazelnuts (Mixed Nuts)",
                     "language": "en"
@@ -313,14 +313,14 @@
             ]
         },
         {
-            "ingredientSequence": 5,
-            "ingredientName": [
+            "sequence": 5,
+            "name": [
                 {
                     "value": "Honey",
                     "language": "en"
                 }
             ],
-            "ingredientContentPercentage": 1.8
+            "contentPercentage": 1.8
         }
     ],
     "ingredientOfConcern": [
@@ -333,97 +333,92 @@
     ],
     "additionalProductClassification": [
         {
-            "additionalProductClassificationCode": "OFN",
-            "additionalProductClassificationValue": "3",
-            "additionalProductClassificationDescription": [
+            "code": "OFN",
+            "value": "3",
+            "description": [
                 {
                     "value": "Cereals and grains",
                     "language": "fr"
                 }
-            ],
-            "type": "gs1:AdditionalProductClassificationDetails"
+            ]
         }
     ],
     "targetMarket": [
         {
             "targetMarketCountries": [
                 {
-                    "countryCode": "BE"
+                    "code": "BE"
                 }
             ]
         }
     ],
     "certification": [
         {
-            "certificationAgency": [
+            "agency": [
                 {
                     "value": "Bio Wallonie",
                     "language": "fr"
                 }
             ],
-            "certificationStandard": [
+            "standard": [
                 {
                     "value": "Bio",
                     "language": "fr"
                 }
             ],
-            "certificationValue": [
+            "value": [
                 {
                     "value": "1",
                     "language": "fr"
                 }
-            ],
-            "type": "gs1:CertificationDetails"
+            ]
         },
         {
-            "certificationAgency": [
+            "agency": [
                 {
                     "value": "Bio Wallonie",
                     "language": "fr"
                 }
             ],
-            "certificationStandard": [
+            "standard": [
                 {
                     "value": "Demeter",
                     "language": "fr"
                 }
             ],
-            "certificationValue": [
+            "value": [
                 {
                     "value": "B",
                     "language": "fr"
                 }
-            ],
-            "type": "gs1:CertificationDetails"
+            ]
         }
     ],
     "equivalentProduct": [
         {
-            "id": "Brazil 500gr"
+            "id": "http://granola-example.com/id/gtin/00614141314156"
         }
     ],
     "organicClaim": [
         {
-            "organicClaimPercent": 60,
-            "organicClaimAgency": {
+            "percent": 60,
+            "agency": {
                 "id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
-            },
-            "type": "gs1:OrganicClaimDetails"
+            }
         },
         {
-            "organicClaimPercent": 60,
-            "organicClaimAgency": {
+            "percent": 60,
+            "agency": {
                 "id": "gs1:OrganicClaimAgencyCode-BIOLAND"
-            },
-            "type": "gs1:OrganicClaimDetails"
+            }
         }
     ],
     "additive": [
         {
-            "additiveLevelOfContainment": {
+            "levelOfContainment": {
                 "id": "gs1:LevelOfContainmentCode-FREE_FROM"
             },
-            "additiveName": [
+            "name": [
                 {
                     "value": "Chlorine",
                     "language": "fr"
@@ -439,10 +434,10 @@
         }
     ],
     "packaging": {
-        "packagingShape": {
+        "shape": {
             "id": "gs1:PackagingShapeCode-CYLINDRICAL"
         },
-        "packagingRecyclingScheme": [
+        "recyclingScheme": [
             {
                 "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
             },
@@ -450,21 +445,21 @@
                 "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
             }
         ],
-        "packagingRecyclingProcessType": [
+        "recyclingProcessType": [
             {
                 "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
             }
         ],
-        "packagingFunction": [
+        "function": [
             {
                 "id": "gs1:PackagingFunctionCode-PROTECTED"
             }
         ],
-        "packagingType": "BO"
+        "type": "BO"
     },
     "packagingMaterial": [
         {
-            "packagingMaterialType": {
+            "type": {
                 "id": "gs1:PackagingMaterialTypeCode-GLASS"
             }
         }
