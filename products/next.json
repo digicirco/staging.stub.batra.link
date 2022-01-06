@@ -42,13 +42,15 @@
             "language": "en"
         }
     ],
-    "gpcCategoryCode": "10000319",
-    "gpcCategoryDescription": [
-        {
-            "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
-            "language": "en"
-        }
-    ],
+    "gpcCategory": {
+        "code": "10000319",
+        "description": [
+            {
+                "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
+                "language": "en"
+            }
+        ]
+    },
     "additionalProductClassification": [
         {
             "code": "OFN",
@@ -63,7 +65,7 @@
     ],
     "targetMarket": [
         {
-            "targetMarketCountries": [
+            "countries": [
                 {
                     "code": "BE"
                 }
@@ -89,20 +91,22 @@
         "value": 1,
         "unitCode": "LTR"
     },
-    "inPackageHeight": {
-        "value": 30,
-        "unitCode": "CMT",
-        "type": "gs1:QuantitativeValue"
-    },
-    "inPackageWidth": {
-        "value": 20,
-        "unitCode": "CMT"
-    },
-    "inPackageDepth": {
-        "value": 7,
-        "unitCode": "CMT"
+    "inPackage": {
+        "height": {
+            "value": 30,
+            "unitCode": "CMT"
+        },
+        "width": {
+            "value": 20,
+            "unitCode": "CMT"
+        },
+        "depth": {
+            "value": 7,
+            "unitCode": "CMT"
+        }
     },
     "packaging": {
+        "type": "BO",
         "shape": {
             "id": "gs1:PackagingShapeCode-CYLINDRICAL"
         },
@@ -119,20 +123,17 @@
                 "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
             }
         ],
+        "material": {
+            "type": {
+                "id": "gs1:PackagingMaterialTypeCode-GLASS"
+            }
+        },
         "function": [
             {
                 "id": "gs1:PackagingFunctionCode-PROTECTED"
             }
-        ],
-        "type": "BO"
+        ]
     },
-    "packagingMaterial": [
-        {
-            "type": {
-                "id": "gs1:PackagingMaterialTypeCode-GLASS"
-            }
-        }
-    ],
     "certification": [
         {
             "agency": [
@@ -262,100 +263,102 @@
     "numberOfServingsPerPackageMeasurementPrecision": {
         "id": "gs1:MeasurementPrecisionCode-EXACT"
     },
-    "nutrientBasisQuantity": {
-        "value": 50,
-        "unitCode": "GRM"
-    },
-    "fatPerNutrientBasis": {
-        "value": 13.3,
-        "unitCode": "GRM",
-        "dailyValueIntakePercent": 19
-    },
-    "saturatedFatPerNutrientBasis": {
-        "value": 2.7,
-        "unitCode": "GRM",
-        "dailyValueIntakePercent": 14
-    },
-    "carbohydratesPerNutrientBasis": {
-        "value": 24,
-        "unitCode": "GRM"
-    },
-    "sugarsPerNutrientBasis": {
-        "value": 10.9,
-        "unitCode": "GRM",
-        "dailyValueIntakePercent": 5
-    },
-    "saltPerNutrientBasis": {
-        "value": 0.01,
-        "unitCode": "GRM",
-        "dailyValueIntakePercent": 1
-    },
-    "fibrePerNutrientBasis": {
-        "value": 5.0,
-        "unitCode": "GRM"
-    },
-    "proteinPerNutrientBasis": {
-        "value": 5.5,
-        "unitCode": "GRM"
-    },
-    "vitaminDPerNutrientBasis": {
-        "value": 2.5,
-        "unitCode": "MC",
-        "dailyValueIntakePercent": 50
-    },
-    "thiaminPerNutrientBasis": {
-        "value": 0.55,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 50
-    },
-    "riboflavinPerNutrientBasis": {
-        "value": 0.70,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 50
-    },
-    "niacinPerNutrientBasis": {
-        "value": 4.0,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 25
-    },
-    "vitaminB6PerNutrientBasis": {
-        "value": 0.35,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 25
-    },
-    "folicAcidPerNutrientBasis": {
-        "value": 100,
-        "unitCode": "MC",
-        "dailyValueIntakePercent": 50
-    },
-    "vitaminB12PerNutrientBasis": {
-        "value": 0.6,
-        "unitCode": "MC",
-        "dailyValueIntakePercent": 25
-    },
-    "ironPerNutrientBasis": {
-        "value": 3.5,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 25
-    },
-    "zincPerNutrientBasis": {
-        "value": 2.5,
-        "unitCode": "MGM",
-        "dailyValueIntakePercent": 25
-    },
-    "energyPerNutrientBasis": [
-        {
-            "value": 1034,
-            "unitCode": "KJO",
-            "dailyValueIntakePercent": 2
+    "nutrientBasis": {
+        "quantity": {
+            "value": 50,
+            "unitCode": "GRM"
         },
-        {
-            "value": 248,
-            "unitCode": "E14",
-            "dailyValueIntakePercent": 12
+        "energy": [
+            {
+                "value": 1034,
+                "unitCode": "KJO",
+                "dailyValueIntakePercent": 2
+            },
+            {
+                "value": 248,
+                "unitCode": "E14",
+                "dailyValueIntakePercent": 12
+            }
+        ],
+        "fat": {
+            "value": 13.3,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 19
+        },
+        "saturatedFat": {
+            "value": 2.7,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 14
+        },
+        "carbohydrates": {
+            "value": 24,
+            "unitCode": "GRM"
+        },
+        "sugars": {
+            "value": 10.9,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 5
+        },
+        "salt": {
+            "value": 0.01,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 1
+        },
+        "fibre": {
+            "value": 5.0,
+            "unitCode": "GRM"
+        },
+        "protein": {
+            "value": 5.5,
+            "unitCode": "GRM"
+        },
+        "vitaminD": {
+            "value": 2.5,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 50
+        },
+        "thiamin": {
+            "value": 0.55,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 50
+        },
+        "riboflavin": {
+            "value": 0.70,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 50
+        },
+        "niacin": {
+            "value": 4.0,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "vitaminB6": {
+            "value": 0.35,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "folicAcid": {
+            "value": 100,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 50
+        },
+        "vitaminB12": {
+            "value": 0.6,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 25
+        },
+        "iron": {
+            "value": 3.5,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "zinc": {
+            "value": 2.5,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
         }
-    ],
-    "hasAllergen": [
+    },
+    "allergen": [
         {
             "levelOfContainmentCode": {
                 "@id": "gs1:LevelOfContainmentCode-CONTAINS"
@@ -379,7 +382,7 @@
         }
     ],
     "preparationInformation": {
-        "preparationInstructions": [
+        "instructions": [
             {
                 "value": "Just add milk for a delicious bowl of granola",
                 "language": "en"
