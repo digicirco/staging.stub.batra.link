@@ -13,17 +13,19 @@
             "language": "en"
         }
     ],
-    "image": {
-        "width": {
-            "value": "320"
-        },
-        "height": {
-            "value": "240"
-        },
-        "url": {
-            "id": "http://www.granola-example.com/prod_img/31415.jpg"
+    "images": [
+        {
+            "width": {
+                "value": "320"
+            },
+            "height": {
+                "value": "240"
+            },
+            "url": {
+                "id": "http://www.granola-example.com/prod_img/31415.jpg"
+            }
         }
-    },
+    ],
     "description": [
         {
             "value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
@@ -51,7 +53,7 @@
             }
         ]
     },
-    "additionalProductClassification": [
+    "additionalClassifications": [
         {
             "code": "OFN",
             "value": "3",
@@ -63,11 +65,12 @@
             ]
         }
     ],
-    "targetMarket": [
+    "targetMarkets": [
         {
             "countries": [
                 {
-                    "code": "BE"
+                    "code": "BE",
+                    "subdivisionCode": "BE-LUX"
                 }
             ]
         }
@@ -110,7 +113,7 @@
         "shape": {
             "id": "gs1:PackagingShapeCode-CYLINDRICAL"
         },
-        "recyclingScheme": [
+        "recyclingSchemes": [
             {
                 "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
             },
@@ -118,7 +121,7 @@
                 "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
             }
         ],
-        "recyclingProcessType": [
+        "recyclingProcessTypes": [
             {
                 "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
             }
@@ -128,13 +131,13 @@
                 "id": "gs1:PackagingMaterialTypeCode-GLASS"
             }
         },
-        "function": [
+        "functions": [
             {
                 "id": "gs1:PackagingFunctionCode-PROTECTED"
             }
         ]
     },
-    "certification": [
+    "certifications": [
         {
             "agency": [
                 {
@@ -176,7 +179,7 @@
             ]
         }
     ],
-    "ingredient": [
+    "ingredients": [
         {
             "sequence": 1,
             "name": [
@@ -225,7 +228,7 @@
             "contentPercentage": 1.8
         }
     ],
-    "ingredientOfConcern": [
+    "ingredientsOfConcern": [
         [
             {
                 "value": "Oat Flakes",
@@ -239,10 +242,10 @@
             "language": "en"
         }
     ],
-    "preservationTechnique": {
+    "preservationTechniques": {
         "id": "gs1:PreservationTechniqueCode-BRINING"
     },
-    "dietCode": [
+    "dietCodes": [
         {
             "dietType": {
                 "id": "gs1:DietTypeCode-VEGETARIAN"
@@ -358,7 +361,7 @@
             "dailyValueIntakePercent": 25
         }
     },
-    "allergen": [
+    "allergens": [
         {
             "levelOfContainmentCode": {
                 "@id": "gs1:LevelOfContainmentCode-CONTAINS"
@@ -368,7 +371,7 @@
             }
         }
     ],
-    "additive": [
+    "additives": [
         {
             "levelOfContainment": {
                 "id": "gs1:LevelOfContainmentCode-FREE_FROM"
@@ -382,31 +385,31 @@
         }
     ],
     "preparationInformation": {
-        "instructions": [
+        "instruction": [
             {
                 "value": "Just add milk for a delicious bowl of granola",
                 "language": "en"
             }
         ]
     },
-    "consumerStorageInstructions": [
+    "consumerStorageInstruction": [
         {
             "value": "Store in a dry place",
             "language": "en"
         }
     ],
-    "consumerUsageInstructions": [
+    "consumerUsageInstruction": [
         {
             "value": "Just add milk for a healthy breakfast cereal",
             "language": "en"
         }
     ],
-    "countryOfOrigin": [
+    "countriesOfOrigin": [
         {
             "code": "FR"
         }
     ],
-    "countryOfOriginStatement": [
+    "countriesOfOriginStatement": [
         {
             "value": "Made in Carlsbourg",
             "language": "en"
@@ -469,7 +472,7 @@
             "id": "http://granola-example.com/id/gtin/00614141314156"
         }
     ],
-    "organicClaim": [
+    "organicClaims": [
         {
             "percent": 60,
             "agency": {
