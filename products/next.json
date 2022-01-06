@@ -2,60 +2,60 @@
     "preparationInformation": {
         "preparationInstructions": [
             {
-                "@value": "Just add milk for a delicious bowl of granola",
-                "@language": "en"
+                "value": "Just add milk for a delicious bowl of granola",
+                "language": "en"
             }
         ]
     },
-    "@id": "http://granola-example.com/id/gtin/00614141314157",
+    "id": "http://granola-example.com/id/gtin/00614141314157",
     "productName": [
         {
-            "@value": "Extra Nutty Granola",
-            "@language": "en"
+            "value": "Extra Nutty Granola",
+            "language": "en"
         }
     ],
     "gtin": "00614141314157",
     "productDescription": [
         {
-            "@value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
-            "@language": "en"
+            "value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
+            "language": "en"
         }
     ],
     "image": {
         "filePixelWidth": {
-            "@value": "320"
+            "value": "320"
         },
         "filePixelHeight": {
-            "@value": "240"
+            "value": "240"
         },
         "referencedFileURL": {
-            "@id": "http://www.granola-example.com/prod_img/31415.jpg"
+            "id": "http://www.granola-example.com/prod_img/31415.jpg"
         }
     },
     "productFormDescription": [
         {
-            "@value": "flakes and clusters",
-            "@language": "en"
+            "value": "flakes and clusters",
+            "language": "en"
         }
     ],
     "functionalName": [
         {
-            "@value": "breakfast cereal",
-            "@language": "en"
+            "value": "breakfast cereal",
+            "language": "en"
         }
     ],
     "gpcCategoryDescription": [
         {
-            "@value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
-            "@language": "en"
+            "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
+            "language": "en"
         }
     ],
     "gpcCategoryCode": "10000319",
     "manufacturer": {
-        "@id": "5425022720012"
+        "id": "5425022720012"
     },
     "manufacturingPlant": {
-        "@id": "5425022720013"
+        "id": "5425022720013"
     },
     "isProductRecalled": "false",
     "netWeight": {
@@ -73,7 +73,7 @@
     "inPackageHeight": {
         "value": 30,
         "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "type": "gs1:QuantitativeValue"
     },
     "inPackageWidth": {
         "value": 20,
@@ -85,29 +85,29 @@
     },
     "consumerStorageInstructions": [
         {
-            "@value": "Store in a dry place",
-            "@language": "en"
+            "value": "Store in a dry place",
+            "language": "en"
         }
     ],
     "consumerUsageInstructions": [
         {
-            "@value": "Just add milk for a healthy breakfast cereal",
-            "@language": "en"
+            "value": "Just add milk for a healthy breakfast cereal",
+            "language": "en"
         }
     ],
     "ingredientStatement": [
         {
-            "@value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
-            "@language": "en"
+            "value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
+            "language": "en"
         }
     ],
     "preservationTechnique": {
-        "@id": "gs1:PreservationTechniqueCode-BRINING"
+        "id": "gs1:PreservationTechniqueCode-BRINING"
     },
     "servingSuggestion": [
         {
-            "@value": "Servir comme ça",
-            "@language": "fr"
+            "value": "Servir comme ça",
+            "language": "fr"
         }
     ],
     "servingSize": {
@@ -116,12 +116,12 @@
     },
     "numberOfServingsPerPackage": 10,
     "numberOfServingsPerPackageMeasurementPrecision": {
-        "@id": "gs1:MeasurementPrecisionCode-EXACT"
+        "id": "gs1:MeasurementPrecisionCode-EXACT"
     },
     "countryOfOriginStatement": [
         {
-            "@value": "Made in Carlsbourg",
-            "@language": "en"
+            "value": "Made in Carlsbourg",
+            "language": "en"
         }
     ],
     "countryOfOrigin": [
@@ -134,51 +134,51 @@
     },
     "provenanceStatement": [
         {
-            "@value": "Comes from a small town in France",
-            "@language": "en"
+            "value": "Comes from a small town in France",
+            "language": "en"
         }
     ],
     "healthClaimDescription": [
         {
-            "@value": "Good source of fibre and wholegrain",
-            "@language": "en"
+            "value": "Good source of fibre and wholegrain",
+            "language": "en"
         }
     ],
     "nutritionalClaimStatement": [
         {
-            "@value": "With extra folic acid",
-            "@language": "en"
+            "value": "With extra folic acid",
+            "language": "en"
         }
     ],
     "nutritionalClaim": [
         {
-            "@id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
+            "id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
         }
     ],
     "growingMethod": [
         {
-            "@id": "gs1:GrowingMethodCode-FARM_RAISED"
+            "id": "gs1:GrowingMethodCode-FARM_RAISED"
         }
     ],
     "irradiatedCode": {
-        "@id": "gs1:NonbinaryLogicCode-TRUE"
+        "id": "gs1:NonbinaryLogicCode-TRUE"
     },
     "foodBeverageRefrigerationClaim": {
-        "@id": "gs1:FoodBeverageRefrigerationClaimCode-SHELF_STABLE"
+        "id": "gs1:FoodBeverageRefrigerationClaimCode-SHELF_STABLE"
     },
     "packagingMarkedLabelAccreditation": [
         {
-            "@id": "gs1:PackagingMarkedLabelAccreditationCode-SOIL_ASSOCIATION_ORGANIC_SYMBOL"
+            "id": "gs1:PackagingMarkedLabelAccreditationCode-SOIL_ASSOCIATION_ORGANIC_SYMBOL"
         }
     ],
     "packagingMarkedFreeFrom": [
         {
-            "@id": "gs1:PackagingMarkedFreeFromCode-FREE_FROM_CLONED_FOOD"
+            "id": "gs1:PackagingMarkedFreeFromCode-FREE_FROM_CLONED_FOOD"
         }
     ],
     "packagingMarkedDietAllergenType": [
         {
-            "@id": "gs1:PackagingMarkedDietAllergenCode-LOW_ON_SUGAR"
+            "id": "gs1:PackagingMarkedDietAllergenCode-LOW_ON_SUGAR"
         }
     ],
     "nutrientBasisQuantity": {
@@ -279,8 +279,8 @@
             "ingredientSequence": 1,
             "ingredientName": [
                 {
-                    "@value": "Oat Flakes",
-                    "@language": "en"
+                    "value": "Oat Flakes",
+                    "language": "en"
                 }
             ],
             "ingredientContentPercentage": 48
@@ -289,8 +289,8 @@
             "ingredientSequence": 2,
             "ingredientName": [
                 {
-                    "@value": "Brazil Nuts (Mixed Nuts)",
-                    "@language": "en"
+                    "value": "Brazil Nuts (Mixed Nuts)",
+                    "language": "en"
                 }
             ]
         },
@@ -298,8 +298,8 @@
             "ingredientSequence": 3,
             "ingredientName": [
                 {
-                    "@value": "Almonds (Mixed Nuts)",
-                    "@language": "en"
+                    "value": "Almonds (Mixed Nuts)",
+                    "language": "en"
                 }
             ]
         },
@@ -307,8 +307,8 @@
             "ingredientSequence": 4,
             "ingredientName": [
                 {
-                    "@value": "Hazelnuts (Mixed Nuts)",
-                    "@language": "en"
+                    "value": "Hazelnuts (Mixed Nuts)",
+                    "language": "en"
                 }
             ]
         },
@@ -316,8 +316,8 @@
             "ingredientSequence": 5,
             "ingredientName": [
                 {
-                    "@value": "Honey",
-                    "@language": "en"
+                    "value": "Honey",
+                    "language": "en"
                 }
             ],
             "ingredientContentPercentage": 1.8
@@ -326,8 +326,8 @@
     "ingredientOfConcern": [
         [
             {
-                "@value": "Oat Flakes",
-                "@language": "en"
+                "value": "Oat Flakes",
+                "language": "en"
             }
         ]
     ],
@@ -337,11 +337,11 @@
             "additionalProductClassificationValue": "3",
             "additionalProductClassificationDescription": [
                 {
-                    "@value": "Cereals and grains",
-                    "@language": "fr"
+                    "value": "Cereals and grains",
+                    "language": "fr"
                 }
             ],
-            "@type": "gs1:AdditionalProductClassificationDetails"
+            "type": "gs1:AdditionalProductClassificationDetails"
         }
     ],
     "targetMarket": [
@@ -357,76 +357,76 @@
         {
             "certificationAgency": [
                 {
-                    "@value": "Bio Wallonie",
-                    "@language": "fr"
+                    "value": "Bio Wallonie",
+                    "language": "fr"
                 }
             ],
             "certificationStandard": [
                 {
-                    "@value": "Bio",
-                    "@language": "fr"
+                    "value": "Bio",
+                    "language": "fr"
                 }
             ],
             "certificationValue": [
                 {
-                    "@value": "1",
-                    "@language": "fr"
+                    "value": "1",
+                    "language": "fr"
                 }
             ],
-            "@type": "gs1:CertificationDetails"
+            "type": "gs1:CertificationDetails"
         },
         {
             "certificationAgency": [
                 {
-                    "@value": "Bio Wallonie",
-                    "@language": "fr"
+                    "value": "Bio Wallonie",
+                    "language": "fr"
                 }
             ],
             "certificationStandard": [
                 {
-                    "@value": "Demeter",
-                    "@language": "fr"
+                    "value": "Demeter",
+                    "language": "fr"
                 }
             ],
             "certificationValue": [
                 {
-                    "@value": "B",
-                    "@language": "fr"
+                    "value": "B",
+                    "language": "fr"
                 }
             ],
-            "@type": "gs1:CertificationDetails"
+            "type": "gs1:CertificationDetails"
         }
     ],
     "equivalentProduct": [
         {
-            "@id": "Brazil 500gr"
+            "id": "Brazil 500gr"
         }
     ],
     "organicClaim": [
         {
             "organicClaimPercent": 60,
             "organicClaimAgency": {
-                "@id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
+                "id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
             },
-            "@type": "gs1:OrganicClaimDetails"
+            "type": "gs1:OrganicClaimDetails"
         },
         {
             "organicClaimPercent": 60,
             "organicClaimAgency": {
-                "@id": "gs1:OrganicClaimAgencyCode-BIOLAND"
+                "id": "gs1:OrganicClaimAgencyCode-BIOLAND"
             },
-            "@type": "gs1:OrganicClaimDetails"
+            "type": "gs1:OrganicClaimDetails"
         }
     ],
     "additive": [
         {
             "additiveLevelOfContainment": {
-                "@id": "gs1:LevelOfContainmentCode-FREE_FROM"
+                "id": "gs1:LevelOfContainmentCode-FREE_FROM"
             },
             "additiveName": [
                 {
-                    "@value": "Chlorine",
-                    "@language": "fr"
+                    "value": "Chlorine",
+                    "language": "fr"
                 }
             ]
         }
@@ -434,30 +434,30 @@
     "dietCode": [
         {
             "dietType": {
-                "@id": "gs1:DietTypeCode-VEGETARIAN"
+                "id": "gs1:DietTypeCode-VEGETARIAN"
             }
         }
     ],
     "packaging": {
         "packagingShape": {
-            "@id": "gs1:PackagingShapeCode-CYLINDRICAL"
+            "id": "gs1:PackagingShapeCode-CYLINDRICAL"
         },
         "packagingRecyclingScheme": [
             {
-                "@id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
+                "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
             },
             {
-                "@id": "gs1:PackagingRecyclingSchemeCode-ALKO"
+                "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
             }
         ],
         "packagingRecyclingProcessType": [
             {
-                "@id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
+                "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
             }
         ],
         "packagingFunction": [
             {
-                "@id": "gs1:PackagingFunctionCode-PROTECTED"
+                "id": "gs1:PackagingFunctionCode-PROTECTED"
             }
         ],
         "packagingType": "BO"
@@ -465,7 +465,7 @@
     "packagingMaterial": [
         {
             "packagingMaterialType": {
-                "@id": "gs1:PackagingMaterialTypeCode-GLASS"
+                "id": "gs1:PackagingMaterialTypeCode-GLASS"
             }
         }
     ]
