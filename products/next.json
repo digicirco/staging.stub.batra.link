@@ -1,18 +1,11 @@
 {
-    "@context": {
-        "gs1": "http://gs1.org/voc/",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@vocab": "http://gs1.org/voc/"
-    },
-    "@type": "gs1:FoodBeverageTobaccoProduct",
     "preparationInformation": {
         "preparationInstructions": [
             {
                 "@value": "Just add milk for a delicious bowl of granola",
                 "@language": "en"
             }
-        ],
-        "@type": "gs1:FoodAndBeveragePreparationInformation"
+        ]
     },
     "@id": "http://granola-example.com/id/gtin/00614141314157",
     "productName": [
@@ -30,17 +23,14 @@
     ],
     "image": {
         "filePixelWidth": {
-            "@value": "320",
-            "@type": "xsd:integer"
+            "@value": "320"
         },
         "filePixelHeight": {
-            "@value": "240",
-            "@type": "xsd:integer"
+            "@value": "240"
         },
         "referencedFileURL": {
             "@id": "http://www.granola-example.com/prod_img/31415.jpg"
-        },
-        "@type": "gs1:ReferencedFileDetails"
+        }
     },
     "productFormDescription": [
         {
@@ -67,57 +57,31 @@
     "manufacturingPlant": {
         "@id": "5425022720013"
     },
-    "isProductRecalled": {
-        "@value": "false",
-        "@type": "xsd:boolean"
-    },
+    "isProductRecalled": "false",
     "netWeight": {
-        "value": {
-            "@value": "500",
-            "@type": "xsd:float"
-        },
-        "unitCode": "GRM",
-        "@type": "gs1:QuantitativeValue"
+        "value": 500,
+        "unitCode": "GRM"
     },
     "grossWeight": {
-        "value": {
-            "@value": "510",
-            "@type": "xsd:float"
-        },
-        "unitCode": "KGM",
-        "@type": "gs1:QuantitativeValue"
+        "value": 510,
+        "unitCode": "KGM"
     },
     "netContent": {
-        "value": {
-            "@value": "1",
-            "@type": "xsd:float"
-        },
-        "unitCode": "LTR",
-        "@type": "gs1:QuantitativeValue"
+        "value": 1,
+        "unitCode": "LTR"
     },
     "inPackageHeight": {
-        "value": {
-            "@value": "30",
-            "@type": "xsd:float"
-        },
+        "value": 30,
         "unitCode": "CMT",
         "@type": "gs1:QuantitativeValue"
     },
     "inPackageWidth": {
-        "value": {
-            "@value": "20",
-            "@type": "xsd:float"
-        },
-        "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "value": 20,
+        "unitCode": "CMT"
     },
     "inPackageDepth": {
-        "value": {
-            "@value": "7",
-            "@type": "xsd:float"
-        },
-        "unitCode": "CMT",
-        "@type": "gs1:QuantitativeValue"
+        "value": 7,
+        "unitCode": "CMT"
     },
     "consumerStorageInstructions": [
         {
@@ -147,18 +111,10 @@
         }
     ],
     "servingSize": {
-        "value": {
-            "@id": "50"
-        },
-        "unitCode": {
-            "@id": "GRM"
-        },
-        "@type": "gs1:QuantitativeValue"
+        "value": 50,
+        "unitCode": "GRM"
     },
-    "numberOfServingsPerPackage": {
-        "@value": "10",
-        "@type": "xsd:float"
-    },
+    "numberOfServingsPerPackage": 10,
     "numberOfServingsPerPackageMeasurementPrecision": {
         "@id": "gs1:MeasurementPrecisionCode-EXACT"
     },
@@ -170,13 +126,11 @@
     ],
     "countryOfOrigin": [
         {
-            "@type": "gs1:Country",
             "countryCode": "FR"
         }
     ],
     "countryOfLastProcessing": {
-        "countryCode": "BE",
-        "@type": "gs1:Country"
+        "countryCode": "BE"
     },
     "provenanceStatement": [
         {
@@ -228,240 +182,111 @@
         }
     ],
     "nutrientBasisQuantity": {
-        "value": "50",
-        "unitCode": "GRM",
-        "@type": "gs1:QuantitativeValue"
+        "value": 50,
+        "unitCode": "GRM"
     },
     "fatPerNutrientBasis": {
-        "value": {
-            "@value": "13.3",
-            "@type": "xsd:float"
-        },
+        "value": 13.3,
         "unitCode": "GRM",
-        "dailyValueIntakePercent": {
-            "@value": "19",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 19
     },
     "saturatedFatPerNutrientBasis": {
-        "value": {
-            "@value": "2.7",
-            "@type": "xsd:float"
-        },
+        "value": 2.7,
         "unitCode": "GRM",
-        "dailyValueIntakePercent": {
-            "@value": "14",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 14
     },
     "carbohydratesPerNutrientBasis": {
-        "value": {
-            "@value": "24",
-            "@type": "xsd:float"
-        },
-        "unitCode": "GRM",
-        "@type": "gs1:NutritionMeasurementType"
+        "value": 24,
+        "unitCode": "GRM"
     },
     "sugarsPerNutrientBasis": {
-        "value": {
-            "@value": "10.9",
-            "@type": "xsd:float"
-        },
+        "value": 10.9,
         "unitCode": "GRM",
-        "dailyValueIntakePercent": {
-            "@value": "5",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 5
     },
     "saltPerNutrientBasis": {
-        "value": {
-            "@value": "0.01",
-            "@type": "xsd:float"
-        },
+        "value": 0.01,
         "unitCode": "GRM",
-        "dailyValueIntakePercent": {
-            "@value": "1",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 1
     },
     "fibrePerNutrientBasis": {
-        "value": {
-            "@value": "5.0",
-            "@type": "xsd:float"
-        },
-        "unitCode": "GRM",
-        "@type": "gs1:NutritionMeasurementType"
+        "value": 5.0,
+        "unitCode": "GRM"
     },
     "proteinPerNutrientBasis": {
-        "value": {
-            "@value": "5.5",
-            "@type": "xsd:float"
-        },
-        "unitCode": "GRM",
-        "@type": "gs1:NutritionMeasurementType"
+        "value": 5.5,
+        "unitCode": "GRM"
     },
     "vitaminDPerNutrientBasis": {
-        "value": {
-            "@value": "2.5",
-            "@type": "xsd:float"
-        },
+        "value": 2.5,
         "unitCode": "MC",
-        "dailyValueIntakePercent": {
-            "@value": "50",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 50
     },
     "thiaminPerNutrientBasis": {
-        "value": {
-            "@value": "0.55",
-            "@type": "xsd:float"
-        },
+        "value": 0.55,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "50",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 50
     },
     "riboflavinPerNutrientBasis": {
-        "value": {
-            "@value": "0.70",
-            "@type": "xsd:float"
-        },
+        "value": 0.70,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "50",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 50
     },
     "niacinPerNutrientBasis": {
-        "value": {
-            "@value": "4.0",
-            "@type": "xsd:float"
-        },
+        "value": 4.0,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "25",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 25
     },
     "vitaminB6PerNutrientBasis": {
-        "value": {
-            "@value": "0.35",
-            "@type": "xsd:float"
-        },
+        "value": 0.35,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "25",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 25
     },
     "folicAcidPerNutrientBasis": {
-        "value": {
-            "@value": "100",
-            "@type": "xsd:float"
-        },
+        "value": 100,
         "unitCode": "MC",
-        "dailyValueIntakePercent": {
-            "@value": "50",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 50
     },
     "vitaminB12PerNutrientBasis": {
-        "value": {
-            "@value": "0.6",
-            "@type": "xsd:float"
-        },
+        "value": 0.6,
         "unitCode": "MC",
-        "dailyValueIntakePercent": {
-            "@value": "25",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 25
     },
     "ironPerNutrientBasis": {
-        "value": {
-            "@value": "3.5",
-            "@type": "xsd:float"
-        },
+        "value": 3.5,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "25",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 25
     },
     "zincPerNutrientBasis": {
-        "value": {
-            "@value": "2.5",
-            "@type": "xsd:float"
-        },
+        "value": 2.5,
         "unitCode": "MGM",
-        "dailyValueIntakePercent": {
-            "@value": "25",
-            "@type": "xsd:float"
-        },
-        "@type": "gs1:NutritionMeasurementType"
+        "dailyValueIntakePercent": 25
     },
     "energyPerNutrientBasis": [
         {
-            "value": {
-                "@value": "1034",
-                "@type": "xsd:float"
-            },
+            "value": 1034,
             "unitCode": "KJO",
-            "dailyValueIntakePercent": {
-                "@value": "12",
-                "@type": "xsd:float"
-            },
-            "@type": "gs1:NutritionMeasurementType"
+            "dailyValueIntakePercent": 2
         },
         {
-            "value": {
-                "@value": "248",
-                "@type": "xsd:float"
-            },
+            "value": 248,
             "unitCode": "E14",
-            "dailyValueIntakePercent": {
-                "@value": "12",
-                "@type": "xsd:float"
-            },
-            "@type": "gs1:NutritionMeasurementType"
+            "dailyValueIntakePercent": 12
         }
     ],
     "ingredient": [
         {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 1
-            },
+            "ingredientSequence": 1,
             "ingredientName": [
                 {
                     "@value": "Oat Flakes",
                     "@language": "en"
                 }
             ],
-            "ingredientContentPercentage": {
-                "@value": "48",
-                "@type": "xsd:float"
-            }
+            "ingredientContentPercentage": 48
         },
         {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 2
-            },
+            "ingredientSequence": 2,
             "ingredientName": [
                 {
                     "@value": "Brazil Nuts (Mixed Nuts)",
@@ -470,11 +295,7 @@
             ]
         },
         {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 3
-            },
+            "ingredientSequence": 3,
             "ingredientName": [
                 {
                     "@value": "Almonds (Mixed Nuts)",
@@ -483,11 +304,7 @@
             ]
         },
         {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 4
-            },
+            "ingredientSequence": 4,
             "ingredientName": [
                 {
                     "@value": "Hazelnuts (Mixed Nuts)",
@@ -496,164 +313,14 @@
             ]
         },
         {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 5
-            },
-            "ingredientName": [
-                {
-                    "@value": "Pecan Nuts (Mixed Nuts)",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 6
-            },
-            "ingredientName": [
-                {
-                    "@value": "Cashew Nuts (Mixed Nuts)",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 7
-            },
-            "ingredientName": [
-                {
-                    "@value": "Pistachios (Mixed Nuts)",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 8
-            },
-            "ingredientName": [
-                {
-                    "@value": "Macadamia Nuts (Mixed Nuts)",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 9
-            },
-            "ingredientName": [
-                {
-                    "@value": "Sugar",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 10
-            },
-            "ingredientName": [
-                {
-                    "@value": "Sunflower Oil",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 11
-            },
-            "ingredientName": [
-                {
-                    "@value": "Coconut",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 12
-            },
+            "ingredientSequence": 5,
             "ingredientName": [
                 {
                     "@value": "Honey",
                     "@language": "en"
                 }
             ],
-            "ingredientContentPercentage": {
-                "@value": "1.8",
-                "@type": "xsd:float"
-            }
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 13
-            },
-            "ingredientName": [
-                {
-                    "@value": "Pumpkin Seeds",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 14
-            },
-            "ingredientName": [
-                {
-                    "@value": "Sunflower Seeds",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 15
-            },
-            "ingredientName": [
-                {
-                    "@value": "Golden Linseeds",
-                    "@language": "en"
-                }
-            ]
-        },
-        {
-            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
-            "ingredientSequence": {
-                "@type": "xsd:integer",
-                "@value": 16
-            },
-            "ingredientName": [
-                {
-                    "@value": "added vitamins and minerals",
-                    "@language": "en"
-                }
-            ]
+            "ingredientContentPercentage": 1.8
         }
     ],
     "ingredientOfConcern": [
@@ -681,11 +348,9 @@
         {
             "targetMarketCountries": [
                 {
-                    "@type": "gs1:Country",
                     "countryCode": "BE"
                 }
-            ],
-            "@type": "gs1:TargetMarketDetails"
+            ]
         }
     ],
     "certification": [
@@ -739,20 +404,14 @@
     ],
     "organicClaim": [
         {
-            "organicClaimPercent": {
-                "@value": "60",
-                "@type": "xsd:float"
-            },
+            "organicClaimPercent": 60,
             "organicClaimAgency": {
                 "@id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
             },
             "@type": "gs1:OrganicClaimDetails"
         },
         {
-            "organicClaimPercent": {
-                "@value": "60",
-                "@type": "xsd:float"
-            },
+            "organicClaimPercent": 60,
             "organicClaimAgency": {
                 "@id": "gs1:OrganicClaimAgencyCode-BIOLAND"
             },
@@ -769,16 +428,14 @@
                     "@value": "Chlorine",
                     "@language": "fr"
                 }
-            ],
-            "@type": "gs1:AdditiveDetails"
+            ]
         }
     ],
     "dietCode": [
         {
             "dietType": {
                 "@id": "gs1:DietTypeCode-VEGETARIAN"
-            },
-            "@type": "gs1:DietTypeCodeDetails"
+            }
         }
     ],
     "packaging": {
@@ -803,15 +460,13 @@
                 "@id": "gs1:PackagingFunctionCode-PROTECTED"
             }
         ],
-        "packagingType": "BO",
-        "@type": "gs1:PackagingDetails"
+        "packagingType": "BO"
     },
     "packagingMaterial": [
         {
             "packagingMaterialType": {
                 "@id": "gs1:PackagingMaterialTypeCode-GLASS"
-            },
-            "@type": "gs1:PackagingMaterialDetails"
+            }
         }
     ]
 }
