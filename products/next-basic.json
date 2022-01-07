@@ -1,0 +1,489 @@
+{
+    "gtin": "00614141314157",
+    "id": "http://granola-example.com/id/gtin/00614141314157",
+    "name": [
+        {
+            "value": "Extra Nutty Granola",
+            "language": "en"
+        }
+    ],
+    "regulatedName": [
+        {
+            "value": "Extra Nutty Granola",
+            "language": "en"
+        }
+    ],
+    "images": [
+        {
+            "width": {
+                "value": "320"
+            },
+            "height": {
+                "value": "240"
+            },
+            "url": {
+                "id": "http://www.granola-example.com/prod_img/31415.jpg"
+            }
+        }
+    ],
+    "description": [
+        {
+            "value": "The finest organic cereals, nuts and seeds blended with honey and coconut",
+            "language": "en"
+        }
+    ],
+    "formDescription": [
+        {
+            "value": "flakes and clusters",
+            "language": "en"
+        }
+    ],
+    "functionalName": [
+        {
+            "value": "breakfast cereal",
+            "language": "en"
+        }
+    ],
+    "gpcCategory": {
+        "code": "10000319",
+        "description": [
+            {
+                "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
+                "language": "en"
+            }
+        ]
+    },
+    "additionalClassifications": [
+        {
+            "code": "OFN",
+            "value": "3",
+            "description": [
+                {
+                    "value": "Cereals and grains",
+                    "language": "fr"
+                }
+            ]
+        }
+    ],
+    "targetMarkets": [
+        {
+            "countries": [
+                {
+                    "code": "BE",
+                    "subdivisionCode": "BE-LUX"
+                }
+            ]
+        }
+    ],
+    "manufacturer": {
+        "id": "5425022720012"
+    },
+    "manufacturingPlant": {
+        "id": "5425022720013"
+    },
+    "isProductRecalled": "false",
+    "netWeight": {
+        "value": 500,
+        "unitCode": "GRM"
+    },
+    "grossWeight": {
+        "value": 510,
+        "unitCode": "KGM"
+    },
+    "netContent": {
+        "value": 1,
+        "unitCode": "LTR"
+    },
+    "inPackage": {
+        "height": {
+            "value": 30,
+            "unitCode": "CMT"
+        },
+        "width": {
+            "value": 20,
+            "unitCode": "CMT"
+        },
+        "depth": {
+            "value": 7,
+            "unitCode": "CMT"
+        }
+    },
+    "packaging": {
+        "type": "BO",
+        "shape": {
+            "id": "gs1:PackagingShapeCode-CYLINDRICAL"
+        },
+        "recyclingSchemes": [
+            {
+                "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
+            },
+            {
+                "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
+            }
+        ],
+        "recyclingProcessTypes": [
+            {
+                "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
+            }
+        ],
+        "material": {
+            "type": {
+                "id": "gs1:PackagingMaterialTypeCode-GLASS"
+            }
+        },
+        "functions": [
+            {
+                "id": "gs1:PackagingFunctionCode-PROTECTED"
+            }
+        ]
+    },
+    "certifications": [
+        {
+            "agency": [
+                {
+                    "value": "Bio Wallonie",
+                    "language": "fr"
+                }
+            ],
+            "standard": [
+                {
+                    "value": "Bio",
+                    "language": "fr"
+                }
+            ],
+            "value": [
+                {
+                    "value": "1",
+                    "language": "fr"
+                }
+            ]
+        },
+        {
+            "agency": [
+                {
+                    "value": "Bio Wallonie",
+                    "language": "fr"
+                }
+            ],
+            "standard": [
+                {
+                    "value": "Demeter",
+                    "language": "fr"
+                }
+            ],
+            "value": [
+                {
+                    "value": "B",
+                    "language": "fr"
+                }
+            ]
+        }
+    ],
+    "ingredients": [
+        {
+            "sequence": 1,
+            "name": [
+                {
+                    "value": "Oat Flakes",
+                    "language": "en"
+                }
+            ],
+            "contentPercentage": 48
+        },
+        {
+            "sequence": 2,
+            "name": [
+                {
+                    "value": "Brazil Nuts (Mixed Nuts)",
+                    "language": "en"
+                }
+            ]
+        },
+        {
+            "sequence": 3,
+            "name": [
+                {
+                    "value": "Almonds (Mixed Nuts)",
+                    "language": "en"
+                }
+            ]
+        },
+        {
+            "sequence": 4,
+            "name": [
+                {
+                    "value": "Hazelnuts (Mixed Nuts)",
+                    "language": "en"
+                }
+            ]
+        },
+        {
+            "sequence": 5,
+            "name": [
+                {
+                    "value": "Honey",
+                    "language": "en"
+                }
+            ],
+            "contentPercentage": 1.8
+        }
+    ],
+    "ingredientsOfConcern": [
+        [
+            {
+                "value": "Oat Flakes",
+                "language": "en"
+            }
+        ]
+    ],
+    "ingredientStatement": [
+        {
+            "value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
+            "language": "en"
+        }
+    ],
+    "preservationTechniques": {
+        "id": "gs1:PreservationTechniqueCode-BRINING"
+    },
+    "dietCodes": [
+        {
+            "dietType": {
+                "id": "gs1:DietTypeCode-VEGETARIAN"
+            }
+        }
+    ],
+    "servingSuggestion": [
+        {
+            "value": "Servir comme ça",
+            "language": "fr"
+        }
+    ],
+    "servingSize": {
+        "value": 50,
+        "unitCode": "GRM"
+    },
+    "numberOfServingsPerPackage": 10,
+    "numberOfServingsPerPackageMeasurementPrecision": {
+        "id": "gs1:MeasurementPrecisionCode-EXACT"
+    },
+    "nutrientBasis": {
+        "quantity": {
+            "value": 50,
+            "unitCode": "GRM"
+        },
+        "energy": [
+            {
+                "value": 1034,
+                "unitCode": "KJO",
+                "dailyValueIntakePercent": 2
+            },
+            {
+                "value": 248,
+                "unitCode": "E14",
+                "dailyValueIntakePercent": 12
+            }
+        ],
+        "fat": {
+            "value": 13.3,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 19
+        },
+        "saturatedFat": {
+            "value": 2.7,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 14
+        },
+        "carbohydrates": {
+            "value": 24,
+            "unitCode": "GRM"
+        },
+        "sugars": {
+            "value": 10.9,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 5
+        },
+        "salt": {
+            "value": 0.01,
+            "unitCode": "GRM",
+            "dailyValueIntakePercent": 1
+        },
+        "fibre": {
+            "value": 5.0,
+            "unitCode": "GRM"
+        },
+        "protein": {
+            "value": 5.5,
+            "unitCode": "GRM"
+        },
+        "vitaminD": {
+            "value": 2.5,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 50
+        },
+        "thiamin": {
+            "value": 0.55,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 50
+        },
+        "riboflavin": {
+            "value": 0.70,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 50
+        },
+        "niacin": {
+            "value": 4.0,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "vitaminB6": {
+            "value": 0.35,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "folicAcid": {
+            "value": 100,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 50
+        },
+        "vitaminB12": {
+            "value": 0.6,
+            "unitCode": "MC",
+            "dailyValueIntakePercent": 25
+        },
+        "iron": {
+            "value": 3.5,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        },
+        "zinc": {
+            "value": 2.5,
+            "unitCode": "MGM",
+            "dailyValueIntakePercent": 25
+        }
+    },
+    "allergens": [
+        {
+            "levelOfContainmentCode": {
+                "@id": "gs1:LevelOfContainmentCode-CONTAINS"
+            },
+            "type": {
+                "@id": "gs1:AllergenTypeCode-AMYL_CINNAMAL"
+            }
+        }
+    ],
+    "additives": [
+        {
+            "levelOfContainment": {
+                "id": "gs1:LevelOfContainmentCode-FREE_FROM"
+            },
+            "name": [
+                {
+                    "value": "Chlorine",
+                    "language": "fr"
+                }
+            ]
+        }
+    ],
+    "preparationInformation": {
+        "instruction": [
+            {
+                "value": "Just add milk for a delicious bowl of granola",
+                "language": "en"
+            }
+        ]
+    },
+    "consumerStorageInstruction": [
+        {
+            "value": "Store in a dry place",
+            "language": "en"
+        }
+    ],
+    "consumerUsageInstruction": [
+        {
+            "value": "Just add milk for a healthy breakfast cereal",
+            "language": "en"
+        }
+    ],
+    "countriesOfOrigin": [
+        {
+            "code": "FR"
+        }
+    ],
+    "countriesOfOriginStatement": [
+        {
+            "value": "Made in Carlsbourg",
+            "language": "en"
+        }
+    ],
+    "countryOfLastProcessing": {
+        "code": "BE"
+    },
+    "provenanceStatement": [
+        {
+            "value": "Comes from a small town in France",
+            "language": "en"
+        }
+    ],
+    "healthClaimDescription": [
+        {
+            "value": "Good source of fibre and wholegrain",
+            "language": "en"
+        }
+    ],
+    "nutritionalClaimStatement": [
+        {
+            "value": "With extra folic acid",
+            "language": "en"
+        }
+    ],
+    "nutritionalClaim": [
+        {
+            "id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
+        }
+    ],
+    "growingMethod": [
+        {
+            "id": "gs1:GrowingMethodCode-FARM_RAISED"
+        }
+    ],
+    "irradiatedCode": {
+        "id": "gs1:NonbinaryLogicCode-TRUE"
+    },
+    "foodBeverageRefrigerationClaim": {
+        "id": "gs1:FoodBeverageRefrigerationClaimCode-SHELF_STABLE"
+    },
+    "packagingMarkedLabelAccreditation": [
+        {
+            "id": "gs1:PackagingMarkedLabelAccreditationCode-SOIL_ASSOCIATION_ORGANIC_SYMBOL"
+        }
+    ],
+    "packagingMarkedFreeFrom": [
+        {
+            "id": "gs1:PackagingMarkedFreeFromCode-FREE_FROM_CLONED_FOOD"
+        }
+    ],
+    "packagingMarkedDietAllergenType": [
+        {
+            "id": "gs1:PackagingMarkedDietAllergenCode-LOW_ON_SUGAR"
+        }
+    ],
+    "equivalentProduct": [
+        {
+            "id": "http://granola-example.com/id/gtin/00614141314156"
+        }
+    ],
+    "organicClaims": [
+        {
+            "percent": 60,
+            "agency": {
+                "id": "gs1:OrganicClaimAgencyCode-DEMETER_INTERNATIONAL"
+            }
+        },
+        {
+            "percent": 60,
+            "agency": {
+                "id": "gs1:OrganicClaimAgencyCode-BIOLAND"
+            }
+        }
+    ]
+}
