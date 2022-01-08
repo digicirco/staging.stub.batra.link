@@ -53,6 +53,7 @@
                     {
                         "type": "Category",
                         "code": "10000319",
+                        "hierarchyLevel": 4,
                         "description": [
                             {
                                 "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
@@ -67,6 +68,7 @@
                 "items": [
                     {
                         "code": "3",
+                        "hierarchyLevel": 1,
                         "description": [
                             {
                                 "value": "Cereals and grains",
@@ -78,8 +80,40 @@
             }
         ]
     },
+    "keywords": [
+        "kit",
+        "plant-based",
+        "thai",
+        "food",
+        "and",
+        "simply",
+        "gluten-free",
+        "beverage",
+        "noodle",
+        "cereal",
+        "peanut",
+        "thailand",
+        "their",
+        "stir-fry",
+        "rice",
+        "potatoe",
+        "include",
+        "asia",
+        "seasoning",
+        "kitchen",
+        "product"
+    ],
     "status": {
         "isRecalled": "false"
+    },
+    "brand": {
+        "owner": {
+            "name": "Simply Asia Foods, Inc"
+        },
+        "tags": [
+            "thai-kitchen",
+            "simply-asia"
+        ]
     },
     "manufacturer": {
         "id": "5425022720012",
@@ -111,7 +145,7 @@
             }
         ]
     },
-    "quantity":{
+    "quantity": {
         "netWeight": {
             "value": 500,
             "unitCode": "GRM"
@@ -172,8 +206,7 @@
         }
     },
     "certification": {
-        "items":
-        [
+        "items": [
             {
                 "agency": [
                     {
@@ -230,48 +263,73 @@
             }
         ]
     },
-    "ingredients" : {
-        "items": 
-        [
+    "ingredients": {
+        "items": [
             {
-                "sequence": 1,
+                "mainSequence": 1,
+                "key": "oat-flakes",
                 "name": [
                     {
                         "value": "Oat Flakes",
                         "language": "en"
                     }
                 ],
-                "contentPercentage": 48
+                "contentPercentage": 48,
+                "contentPercentageMin": 44,
+                "contentPercentageMax": 54
             },
             {
-                "sequence": 2,
+                
+                "mainSequence": 2,
+                "isPreparedIngredient": true,
+                "mainIngredient": "mixed-nuts",
                 "name": [
                     {
-                        "value": "Brazil Nuts (Mixed Nuts)",
+                        "value": "Mixed Nuts",
+                        "language": "en"
+                    }
+                ],
+                "ingredientsKeys": [
+                    "brazilnut",
+                    "almond",
+                    "hazelnut"
+                ]
+            },
+            {
+                "secondarySequence": 1,
+                "key": "brazilnut",
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Brazil Nuts",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "secondarySequence": 2,
+                "key": "almond",
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Almonds",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "secondarySequence": 3,
+                "sequence": 4,
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Hazelnuts",
                         "language": "en"
                     }
                 ]
             },
             {
                 "sequence": 3,
-                "name": [
-                    {
-                        "value": "Almonds (Mixed Nuts)",
-                        "language": "en"
-                    }
-                ]
-            },
-            {
-                "sequence": 4,
-                "name": [
-                    {
-                        "value": "Hazelnuts (Mixed Nuts)",
-                        "language": "en"
-                    }
-                ]
-            },
-            {
-                "sequence": 5,
                 "name": [
                     {
                         "value": "Honey",
@@ -294,7 +352,10 @@
                 "value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
                 "language": "en"
             }
-        ]
+        ],
+        "traces": {
+            
+        }
     },
     "nutrition": {
         "dietCodes": [
@@ -310,7 +371,6 @@
                 "unitCode": "GRM"
             },
             "per": {
-
                 "energy": [
                     {
                         "value": 1034,
@@ -533,6 +593,47 @@
         "equivalentProduct": [
             {
                 "id": "http://granola-example.com/id/gtin/00614141314156"
+            }
+        ]
+    },
+    "scoring": {
+        "nutriscore": {
+
+        },
+        "ecoscore": {
+
+        },
+        "nova": {
+
+        }
+    },
+    "languages": ["en","fr"],
+    "dataQuality": {
+        "completenessLevel": 0.8,
+        "logs": [
+            {
+                "type": "error",
+                "code": "no-packaging-data"
+            },
+            {
+                "type": "warning",
+                "code": "ecoscore-production-system-no-label"
+            }
+        ]
+    },
+    "dataSource": {
+        "items": [
+            {
+                "name": "Open Food Fact",
+                "editors": [
+                    {
+                        "username": "manu1400"
+                    }
+                ],
+                "fields": [
+                    "scoring.nutriscore"
+                ],
+                "url": "https://api.nal.usda.gov/ndb/reports/?ndbno=45108002&type=f&format=json"
             }
         ]
     }
