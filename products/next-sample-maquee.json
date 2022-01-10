@@ -1,0 +1,133 @@
+{
+    "gtin": "95425030650120",
+    "name": [
+        {
+            "value": "Maquée entière lait cru",
+            "language": "fr"
+        }
+    ],
+    "producer": {
+        "name": "La fermière de Mean",
+        "address": {
+            "street": "Rue de Durbuy 14",
+            "postalCode": "5374",
+            "locality": "Maffe",
+            "countryCode": "BE"
+        }
+    },
+    "quantity": {
+        "netWeight": {
+            "value": 260,
+            "unitCode": "GRM"
+        }
+    },
+    "batch": {
+        "lotNumber": 24,
+        "packagingDate": "2022-01-08"
+    },
+    "ingredients": {
+        "items": [
+            {
+                "mainSequence": 1,
+                "name": [
+                    {
+                        "value": "lait cru de vache",
+                        "language": "fr"
+                    },
+                    {
+                        "value": "rawe koemelk",
+                        "language": "ln"
+                    }
+                ]
+            },
+            {
+                
+                "mainSequence": 2,
+                "name": [
+                    {
+                        "value": "ferments",
+                        "language": "fr"
+                    },
+                    {
+                        "value": "fermenteren",
+                        "language": "ln"
+                    }
+                ]
+            },
+            {
+                "mainSequence": 3,
+                "name": [
+                    {
+                        "value": "présure",
+                        "language": "fr"
+                    },
+                    {
+                        "value": "stremsel",
+                        "language": "ln"
+                    }
+                ]
+            }
+        ],
+        "ofConcern": [
+            [
+                {
+                    "value": "lait",
+                    "language": "fr"
+                },
+                {
+                    "value": "koemelk",
+                    "language": "nl"
+                }
+            ]
+        ]
+    },
+    "nutrients": {
+        "baseQuantity": {
+            "value": 100,
+            "unitCode": "GRM"
+        },
+        "perBaseQuantity": {
+            "energy": [
+                {
+                    "value": 450,
+                    "unitCode": "KJO"
+                },
+                {
+                    "value": 108,
+                    "unitCode": "E14"
+                }
+            ],
+            "fat": {
+                "value": 11,
+                "unitCode": "GRM"
+            },
+            "saturatedFat": {
+                "value": 7,
+                "unitCode": "GRM"
+            },
+            "carbohydrates": {
+                "value": 3,
+                "unitCode": "GRM"
+            },
+            "sugars": {
+                "value": 2,
+                "unitCode": "GRM"
+            },
+            "protein": {
+                "value": 9,
+                "unitCode": "GRM"
+            },
+            "salt": {
+                "value": 0.01,
+                "unitCode": "GRM"
+            }
+        }
+    },
+    "storage": {
+        "bestBeforeDate": "2022-01-22",
+        "temperatureMax": {
+            "value": 6,
+            "unitCode": "CEL"
+        }
+    }
+}
