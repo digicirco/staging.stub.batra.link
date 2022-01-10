@@ -123,8 +123,10 @@
             }
         }
     },
+    "usage": {
+        "bestBeforeDate": "2022-01-22"
+    },
     "storage": {
-        "bestBeforeDate": "2022-01-22",
         "temperatureMax": {
             "value": 6,
             "unitCode": "CEL"
