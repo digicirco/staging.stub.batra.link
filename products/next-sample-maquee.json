@@ -13,7 +13,8 @@
             "postalCode": "5374",
             "locality": "Maffe",
             "countryCode": "BE"
-        }
+        },
+        "packagerCode": "BE FR 481 CE"
     },
     "quantity": {
         "netWeight": {
