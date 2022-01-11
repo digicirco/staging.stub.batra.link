@@ -524,15 +524,17 @@
             ]
         }
     },
+    "dietTypes": [
+        {
+            "id": "gs1:DietTypeCode-KOSHER",
+            "code": "KOSHER",
+            "subType": {
+                "code": "PAREVE"
+            }
+        }
+    ],
     "nutrition": {
         "percentageOfAlcoholByVolume": "5.2",
-        "dietCodes": [
-            {
-                "dietType": {
-                    "id": "gs1:DietTypeCode-VEGETARIAN"
-                }
-            }
-        ],
         "claims": {
             "items": [
                 {
@@ -580,7 +582,8 @@
                 "value": "Just add milk for a healthy breakfast cereal",
                 "language": "en"
             }
-        ]
+        ],
+        "isRindEdible": true
     },
     "packaging": {
         "type": "BO",
