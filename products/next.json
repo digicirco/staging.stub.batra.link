@@ -293,7 +293,7 @@
             {
                 "mainSequence": 2,
                 "isPreparedIngredient": true,
-                "mainIngredient": "mixed-nuts",
+                "key": "mixed-nuts",
                 "name": [
                     {
                         "value": "Mixed Nuts",
