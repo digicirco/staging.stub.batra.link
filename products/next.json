@@ -525,6 +525,7 @@
         }
     },
     "nutrition": {
+        "percentageOfAlcoholByVolume": "5.2",
         "dietCodes": [
             {
                 "dietType": {
