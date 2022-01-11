@@ -562,6 +562,14 @@
                 "value": "Just add milk for a delicious bowl of granola",
                 "language": "en"
             }
+        ],
+        "yields" : [
+            {
+                "type": {
+                    "code": "AFTER_DILUTION"
+                },
+                "variationPercentage": 10
+            }
         ]
     },
     "storage": {
