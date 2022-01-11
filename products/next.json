@@ -21,6 +21,7 @@
     ],
     "images": [
         {
+            "type": "",
             "width": {
                 "value": "320"
             },
@@ -53,6 +54,7 @@
                     {
                         "type": "Category",
                         "code": "10000319",
+                        "hierarchyLevel": 4,
                         "description": [
                             {
                                 "value": "Grains/Cereal - Ready to Eat - (Shelf Stable)",
@@ -67,6 +69,7 @@
                 "items": [
                     {
                         "code": "3",
+                        "hierarchyLevel": 1,
                         "description": [
                             {
                                 "value": "Cereals and grains",
@@ -78,12 +81,55 @@
             }
         ]
     },
+    "keywords": [
+        "kit",
+        "plant-based",
+        "thai",
+        "food",
+        "and",
+        "simply",
+        "gluten-free",
+        "beverage",
+        "noodle",
+        "cereal",
+        "peanut",
+        "thailand",
+        "their",
+        "stir-fry",
+        "rice",
+        "potatoe",
+        "include",
+        "asia",
+        "seasoning",
+        "kitchen",
+        "product"
+    ],
     "status": {
-        "isRecalled": "false"
+        "isRecalled": "false",
+        "lastUpdateOn": "2021-12-20T08:59:57.283"
     },
-    "manufacturer": {
+    "brand": {
+        "id": "2135",
+        "name": "Simply Asia Foods",
+        "owner": {
+            "name": "Simply Asia Foods, Inc",
+            "gln": "8712423027510"
+        },
+        "tags": [
+            "thai-kitchen",
+            "simply-asia"
+        ]
+    },
+    "producer": {
         "id": "5425022720012",
-        "plant": {
+        "name": "La fermière de Mean",
+        "address": {
+            "street": "Rue de Durbuy 14",
+            "postalCode": "5374",
+            "locality": "Maffe",
+            "countryCode": "BE"
+        },
+        "building": {
             "id": "5425022720013"
         }
     },
@@ -111,7 +157,7 @@
             }
         ]
     },
-    "quantity":{
+    "quantity": {
         "netWeight": {
             "value": 500,
             "unitCode": "GRM"
@@ -172,8 +218,7 @@
         }
     },
     "certification": {
-        "items":
-        [
+        "items": [
             {
                 "agency": [
                     {
@@ -230,48 +275,72 @@
             }
         ]
     },
-    "ingredients" : {
-        "items": 
-        [
+    "ingredients": {
+        "items": [
             {
-                "sequence": 1,
+                "mainSequence": 1,
+                "key": "oat-flakes",
                 "name": [
                     {
                         "value": "Oat Flakes",
                         "language": "en"
                     }
                 ],
-                "contentPercentage": 48
+                "contentPercentage": 48,
+                "contentPercentageMin": 44,
+                "contentPercentageMax": 54
             },
             {
-                "sequence": 2,
+                "mainSequence": 2,
+                "isPreparedIngredient": true,
+                "mainIngredient": "mixed-nuts",
                 "name": [
                     {
-                        "value": "Brazil Nuts (Mixed Nuts)",
+                        "value": "Mixed Nuts",
+                        "language": "en"
+                    }
+                ],
+                "ingredientsKeys": [
+                    "brazilnut",
+                    "almond",
+                    "hazelnut"
+                ]
+            },
+            {
+                "secondarySequence": 1,
+                "key": "brazilnut",
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Brazil Nuts",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "secondarySequence": 2,
+                "key": "almond",
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Almonds",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "secondarySequence": 3,
+                "sequence": 4,
+                "mainIngredientKey": "mixed-nuts",
+                "name": [
+                    {
+                        "value": "Hazelnuts",
                         "language": "en"
                     }
                 ]
             },
             {
                 "sequence": 3,
-                "name": [
-                    {
-                        "value": "Almonds (Mixed Nuts)",
-                        "language": "en"
-                    }
-                ]
-            },
-            {
-                "sequence": 4,
-                "name": [
-                    {
-                        "value": "Hazelnuts (Mixed Nuts)",
-                        "language": "en"
-                    }
-                ]
-            },
-            {
-                "sequence": 5,
                 "name": [
                     {
                         "value": "Honey",
@@ -294,133 +363,8 @@
                 "value": "Oat Flakes (48%), Mixed Nuts (Brazil Nuts, Almonds, Hazelnuts, Pecan Nuts, Cashew Nuts, Pistachios, Macadamia Nuts) (21%), Sugar, Sunflower Oil, Coconut, Honey (1.8%), Pumpkin Seeds, Sunflower Seeds, Golden Linseeds, added vitamins and minerals",
                 "language": "en"
             }
-        ]
-    },
-    "nutrition": {
-        "dietCodes": [
-            {
-                "dietType": {
-                    "id": "gs1:DietTypeCode-VEGETARIAN"
-                }
-            }
         ],
-        "basis": {
-            "quantity": {
-                "value": 50,
-                "unitCode": "GRM"
-            },
-            "per": {
-
-                "energy": [
-                    {
-                        "value": 1034,
-                        "unitCode": "KJO",
-                        "dailyValueIntakePercent": 2
-                    },
-                    {
-                        "value": 248,
-                        "unitCode": "E14",
-                        "dailyValueIntakePercent": 12
-                    }
-                ],
-                "fat": {
-                    "value": 13.3,
-                    "unitCode": "GRM",
-                    "dailyValueIntakePercent": 19
-                },
-                "saturatedFat": {
-                    "value": 2.7,
-                    "unitCode": "GRM",
-                    "dailyValueIntakePercent": 14
-                },
-                "carbohydrates": {
-                    "value": 24,
-                    "unitCode": "GRM"
-                },
-                "sugars": {
-                    "value": 10.9,
-                    "unitCode": "GRM",
-                    "dailyValueIntakePercent": 5
-                },
-                "salt": {
-                    "value": 0.01,
-                    "unitCode": "GRM",
-                    "dailyValueIntakePercent": 1
-                },
-                "fibre": {
-                    "value": 5.0,
-                    "unitCode": "GRM"
-                },
-                "protein": {
-                    "value": 5.5,
-                    "unitCode": "GRM"
-                },
-                "vitaminD": {
-                    "value": 2.5,
-                    "unitCode": "MC",
-                    "dailyValueIntakePercent": 50
-                },
-                "thiamin": {
-                    "value": 0.55,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 50
-                },
-                "riboflavin": {
-                    "value": 0.70,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 50
-                },
-                "niacin": {
-                    "value": 4.0,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 25
-                },
-                "vitaminB6": {
-                    "value": 0.35,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 25
-                },
-                "folicAcid": {
-                    "value": 100,
-                    "unitCode": "MC",
-                    "dailyValueIntakePercent": 50
-                },
-                "vitaminB12": {
-                    "value": 0.6,
-                    "unitCode": "MC",
-                    "dailyValueIntakePercent": 25
-                },
-                "iron": {
-                    "value": 3.5,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 25
-                },
-                "zinc": {
-                    "value": 2.5,
-                    "unitCode": "MGM",
-                    "dailyValueIntakePercent": 25
-                }
-            }
-        },
-        "claims": {
-            "items": [
-                {
-                    "id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
-                }
-            ],
-            "statement": [
-                {
-                    "value": "With extra folic acid",
-                    "language": "en"
-                }
-            ]
-        },
-        "healthClaimDescription": [
-            {
-                "value": "Good source of fibre and wholegrain",
-                "language": "en"
-            }
-        ]
+        "traces": {}
     },
     "allergens": {
         "items": [
@@ -449,6 +393,166 @@
             }
         ]
     },
+    "nutrients": {
+        "baseQuantity": {
+            "value": 50,
+            "unitCode": "GRM"
+        },
+        "perBaseQuantity": {
+            "energy": [
+                {
+                    "value": 1034,
+                    "unitCode": "KJO",
+                    "dailyValueIntakePercent": 2
+                },
+                {
+                    "value": 248,
+                    "unitCode": "E14",
+                    "dailyValueIntakePercent": 12
+                }
+            ],
+            "fat": {
+                "value": 13.3,
+                "unitCode": "GRM",
+                "dailyValueIntakePercent": 19
+            },
+            "saturatedFat": {
+                "value": 2.7,
+                "unitCode": "GRM",
+                "dailyValueIntakePercent": 14
+            },
+            "carbohydrates": {
+                "value": 24,
+                "unitCode": "GRM"
+            },
+            "sugars": {
+                "value": 10.9,
+                "unitCode": "GRM",
+                "dailyValueIntakePercent": 5
+            },
+            "salt": {
+                "value": 0.01,
+                "unitCode": "GRM",
+                "dailyValueIntakePercent": 1
+            },
+            "fibre": {
+                "value": 5.0,
+                "unitCode": "GRM"
+            },
+            "protein": {
+                "value": 5.5,
+                "unitCode": "GRM"
+            },
+            "vitaminD": {
+                "value": 2.5,
+                "unitCode": "MC",
+                "dailyValueIntakePercent": 50
+            },
+            "thiamin": {
+                "value": 0.55,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 50
+            },
+            "riboflavin": {
+                "value": 0.70,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 50
+            },
+            "niacin": {
+                "value": 4.0,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 25
+            },
+            "vitaminB6": {
+                "value": 0.35,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 25
+            },
+            "folicAcid": {
+                "value": 100,
+                "unitCode": "MC",
+                "dailyValueIntakePercent": 50
+            },
+            "vitaminB12": {
+                "value": 0.6,
+                "unitCode": "MC",
+                "dailyValueIntakePercent": 25
+            },
+            "iron": {
+                "value": 3.5,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 25
+            },
+            "zinc": {
+                "value": 2.5,
+                "unitCode": "MGM",
+                "dailyValueIntakePercent": 25
+            }
+        }
+    },
+    "aspects": {
+        "taste": {
+            "description": [
+                {
+                    "value": "Lemon",
+                    "language": "en"
+                }
+            ]
+        },
+        "color": {
+            "description": [
+                {
+                    "value": "Blue and white",
+                    "language": "en"
+                }
+            ]
+        },
+        "consistency": {
+            "description": [
+                {
+                    "value": "Hard",
+                    "language": "en"
+                }
+            ]
+        },
+        "smell": {
+            "description": [
+                {
+                    "value": "Typical for a lemon sweet",
+                    "language": "en"
+                }
+            ]
+        }
+    },
+    "nutrition": {
+        "dietCodes": [
+            {
+                "dietType": {
+                    "id": "gs1:DietTypeCode-VEGETARIAN"
+                }
+            }
+        ],
+        "claims": {
+            "items": [
+                {
+                    "id": "gs1:NutritionalClaimTypeCode-CHOLESTEROL_FREE"
+                }
+            ],
+            "statement": [
+                {
+                    "value": "With extra folic acid",
+                    "language": "en"
+                }
+            ]
+        },
+        "healthClaimDescription": [
+            {
+                "value": "Good source of fibre and wholegrain",
+                "language": "en"
+            }
+        ],
+        "microbiologicalOrganisms": []
+    },
     "preparation": {
         "instruction": [
             {
@@ -463,7 +567,11 @@
                 "value": "Store in a dry place",
                 "language": "en"
             }
-        ]
+        ],
+        "temperatureMax": {
+            "value": 6,
+            "unitCode": "CEL"
+        }
     },
     "usage": {
         "consumerInstructions": [
@@ -517,6 +625,8 @@
             }
         ]
     },
+    "mainContact": {},
+    "assets": [],
     "market": {
         "targets": [
             {
@@ -529,10 +639,62 @@
             }
         ]
     },
+    "offers": [
+        {
+            "tax": {
+                "rate": "0.06"
+            },
+            "price": {
+                "value": "",
+                "currencyCode": ""
+            },
+            "validFrom": "",
+            "validThrough": "",
+            "customerCategory": {}
+        }
+    ],
     "association": {
         "equivalentProduct": [
             {
                 "id": "http://granola-example.com/id/gtin/00614141314156"
+            }
+        ]
+    },
+    "scoring": {
+        "nutriscore": {},
+        "ecoscore": {},
+        "nova": {}
+    },
+    "languages": [
+        "en",
+        "fr"
+    ],
+    "dataQuality": {
+        "completenessLevel": 0.8,
+        "logs": [
+            {
+                "type": "error",
+                "code": "no-packaging-data"
+            },
+            {
+                "type": "warning",
+                "code": "ecoscore-production-system-no-label"
+            }
+        ]
+    },
+    "dataSource": {
+        "items": [
+            {
+                "name": "Open Food Fact",
+                "editors": [
+                    {
+                        "username": "manu1400"
+                    }
+                ],
+                "fields": [
+                    "scoring.nutriscore"
+                ],
+                "url": "https://api.nal.usda.gov/ndb/reports/?ndbno=45108002&type=f&format=json"
             }
         ]
     }
