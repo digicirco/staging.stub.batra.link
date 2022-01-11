@@ -585,45 +585,49 @@
         ],
         "isRindEdible": true
     },
-    "packaging": {
-        "type": "BO",
-        "shape": {
-            "id": "gs1:PackagingShapeCode-CYLINDRICAL"
-        },
-        "recyclingSchemes": [
-            {
-                "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
+    "packaging": [
+        {
+            "type": "BO",
+            "shape": {
+                "id": "gs1:PackagingShapeCode-CYLINDRICAL"
             },
-            {
-                "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
-            }
-        ],
-        "recyclingProcessTypes": [
-            {
-                "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
-            }
-        ],
-        "material": {
-            "type": {
-                "id": "gs1:PackagingMaterialTypeCode-GLASS"
-            }
-        },
-        "functions": [
-            {
-                "id": "gs1:PackagingFunctionCode-PROTECTED"
-            }
-        ],
-        "markedLabelAccreditation": [
+            "recyclingSchemes": [
+                {
+                    "id": "gs1:PackagingRecyclingSchemeCode-A_PULLO"
+                },
+                {
+                    "id": "gs1:PackagingRecyclingSchemeCode-ALKO"
+                }
+            ],
+            "recyclingProcessTypes": [
+                {
+                    "id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
+                }
+            ],
+            "material": {
+                "type": {
+                    "id": "gs1:PackagingMaterialTypeCode-GLASS"
+                }
+            },
+            "functions": [
+                {
+                    "id": "gs1:PackagingFunctionCode-PROTECTED"
+                }
+            ]
+        }
+    ],
+    "packagingMarked": {
+        "labelAccreditation": [
             {
                 "id": "gs1:PackagingMarkedLabelAccreditationCode-SOIL_ASSOCIATION_ORGANIC_SYMBOL"
             }
         ],
-        "markedFreeFrom": [
+        "freeFrom": [
             {
                 "id": "gs1:PackagingMarkedFreeFromCode-FREE_FROM_CLONED_FOOD"
             }
         ],
-        "markedDietAllergenType": [
+        "dietAllergenType": [
             {
                 "id": "gs1:PackagingMarkedDietAllergenCode-LOW_ON_SUGAR"
             }
