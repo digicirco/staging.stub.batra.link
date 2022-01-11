@@ -621,6 +621,16 @@
                 {
                     "id": "gs1:PackagingFunctionCode-PROTECTED"
                 }
+            ],
+            "returnableDeposit" : [
+                {
+                    "country": {
+                    
+                    },
+                    "amount": {
+                        
+                    }
+                }
             ]
         }
     ],
