@@ -6,11 +6,6 @@
     "makers": {
         "list": [
             {
-                "isMain": true,
-                "types": [
-                    "transformer",
-                    "packer"
-                ],
                 "name": "Coopérative Pur Ardenne",
                 "address": {
                     "street": "Xhoût si llout",
@@ -20,55 +15,82 @@
                         "code": "BE"
                     }
                 },
-                "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production"
+                "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production",
+                "isMain": true,
+                "roles": [
+                    {
+                        "type": "transformer",
+                        "isMain": true
+                    },
+                    {
+                        "type": "packer",
+                        "isMain": true
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Damien Ponsin"
+                "name": "Damien Ponsin",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Jérôme Heiderscheid"
+                "name": "Jérôme Heiderscheid",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Matthieu Dufeq"
+                "name": "Matthieu Dufeq",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Thierrq Dufeq"
+                "name": "Thierrq Dufeq",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Maxime Doutreloux"
+                "name": "Maxime Doutreloux",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Benoit Dechers"
+                "name": "Benoit Dechers",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Gilles Remacle"
+                "name": "Gilles Remacle",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             },
             {
-                "types": [
-                    "producer"
-                ],
-                "name": "Jean-Louis Neuville"
+                "name": "Jean-Louis Neuville",
+                "roles": [
+                    {
+                        "type": "producer"
+                    }
+                ]
             }
         ]
     },
