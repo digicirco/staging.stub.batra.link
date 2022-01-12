@@ -16,7 +16,9 @@
                     "street": "Xhoût si llout",
                     "postalCode": "6960",
                     "locality": "Manhay",
-                    "countryCode": "BE"
+                    "country": {
+                        "code": "BE"
+                    }
                 },
                 "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production"
             },
