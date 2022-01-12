@@ -1,0 +1,506 @@
+{
+    "name": "Lait de Pâturage demi-écrémé",
+    "brand": {
+        "name": "Lait de la Baraque"
+    },
+    "makers": {
+        "list": [
+            {
+                "isMain": true,
+                "types": [
+                    "transformer",
+                    "packer"
+                ],
+                "name": "Coopérative Pur Ardenne",
+                "address": {
+                    "street": "Xhoût si llout",
+                    "postalCode": "6960",
+                    "locality": "Manhay",
+                    "countryCode": "BE"
+                },
+                "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Damien Ponsin"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Jérôme Heiderscheid"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Matthieu Dufeq"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Thierrq Dufeq"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Maxime Doutreloux"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Benoit Dechers"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Gilles Remacle"
+            },
+            {
+                "types": [
+                    "producer"
+                ],
+                "name": "Jean-Louis Neuville"
+            }
+        ]
+    },
+    "origins": {
+        "list": [
+            {
+                "isMain": true,
+                "processTypes": [
+                    "design",
+                    "production",
+                    "transformation",
+                    "packing"
+                ],
+                "place": {
+                    "name": "Baraque de Fraiture",
+                    "country": {
+                        "code": "BE"
+                    },
+                    "latitude": 50.2504228,
+                    "longitude": 5.7448136
+                }
+            }
+        ]
+    },
+    "quantity": {
+        "netWeight": {
+            "value": 1,
+            "unit": {
+                "code": "GRM",
+                "symbol": "L"
+            },
+            "precision": {
+                "code": "APPROXIMATIVE",
+                "symbol": "e"
+            }
+        }
+    },
+    "process": {
+        "production": {
+            "methods": [
+                {
+                    "code": "FARM_RAISED"
+                },
+                {
+                    "code": "GRASS_FED"
+                },
+                {
+                    "code": "HUMANELY_RAISED"
+                },
+                {
+                    "code": "SUSTAINABLE"
+                }
+            ]
+        }
+    },
+    "claims": [
+        {
+            "mainType": "production",
+            "types": [
+                "production"
+            ],
+            "statement": "Nous élévons en suivant des méthodes traditionnelles. Nos élevages sont liés à la terre et respectueux de l'environnement et du bien-être de nos animaux"
+        },
+        {
+            "mainType": "nutrition",
+            "types": [
+                "nutrition",
+                "production",
+                "origin"
+            ],
+            "statement": "Nos vaches sont nourries à l'herbe. Ce qui procure un goût exquis et une qualité nutritionelle riche de la haute Ardenne"
+        },
+        {
+            "mainType": "nutrition",
+            "types": [
+                "nutrition",
+                "production",
+                "origin"
+            ],
+            "statement": "Notre lait est donc garanti sans OGM et sans soja"
+        },
+        {
+            "mainType": "process",
+            "types": [
+                "process"
+            ],
+            "statement": "En direct de 8 producteurs laitiers réunis en coopérative"
+        }
+    ],
+    "ingredients": {
+        "list": [
+            {
+                "name": "lait demi-écrémé UHT"
+            }
+        ],
+        "statement": "Lait demi-écrémé, UHT",
+        "containements": [
+            {
+                "code": "GMO",
+                "level": {
+                    "code": "FREE_FROM",
+                    "lessThanPercentage": "0.9"
+                }
+            }
+        ]
+    },
+    "nutrients": {
+        "details": {
+            "dailyValueIntakeReference": {
+                "statement": "AR: Apports de Référence pour un adulte-type (8400 kJ / 2000kCal)",
+                "lifeStage": {
+                    "code": "ADULT"
+                },
+                "energy": {
+                    "quantities": [
+                        {
+                            "value": 8400,
+                            "unitCode": {
+                                "code": "KJO",
+                                "symbol": "kJ"
+                            }
+                        },
+                        {
+                            "value": 2000,
+                            "unitCode": {
+                                "code": "E14",
+                                "symbol": "kcal"
+                            }
+                        }
+                    ]
+                }
+            },
+            "list": [
+                {
+                    "key": "energy",
+                    "name": "Energie"
+                },
+                {
+                    "key": "fat",
+                    "name": "Matières grasses",
+                    "constituentKeys": [
+                        "saturatedFat"
+                    ]
+                },
+                {
+                    "constituentOfKey": "fat",
+                    "key": "saturatedFat",
+                    "name": "Acides gras saturés"
+                },
+                {
+                    "key": "carbohydrates",
+                    "name": "Glucides",
+                    "constituentKeys": [
+                        "sugars"
+                    ]
+                },
+                {
+                    "constituentOfKey": "carbohydrates",
+                    "key": "sugars",
+                    "name": "Sucres"
+                },
+                {
+                    "key": "fibre",
+                    "name": "Fibres alimentaires"
+                },
+                {
+                    "key": "protein",
+                    "name": "Protéines"
+                },
+                {
+                    "key": "salt",
+                    "name": "Sel"
+                },
+                {
+                    "key": "calcium",
+                    "name": "Calcium",
+                    "type": "mineral"
+                }
+            ],
+            "perBase": {
+                "quantity": {
+                    "value": 100,
+                    "unit": {
+                        "code": "MLT",
+                        "symbol": "ml"
+                    }
+                },
+                "values": {
+                    "energy": {
+                        "quantities": [
+                            {
+                                "value": 192,
+                                "unitCode": {
+                                    "code": "KJO",
+                                    "symbol": "kJ"
+                                }
+                            },
+                            {
+                                "value": 46,
+                                "unitCode": {
+                                    "code": "E14",
+                                    "symbol": "kcal"
+                                }
+                            }
+                        ]
+                    },
+                    "fat": {
+                        "quantity": {
+                            "value": 1.5,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "saturatedFat": {
+                        "quantity": {
+                            "value": 0.9,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "carbohydrates": {
+                        "quantity": {
+                            "value": 4.8,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "sugars": {
+                        "quantity": {
+                            "value": 4.8,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "fibre": {
+                        "quantity": {
+                            "value": 0,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "protein": {
+                        "quantity": {
+                            "value": 3.2,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "salt": {
+                        "quantity": {
+                            "value": 0.11,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "calcium": {
+                        "dailyValueIntakePercent": "15",
+                        "quantity": {
+                            "value": 120,
+                            "unit": {
+                                "code": "MGM",
+                                "symbol": "mg"
+                            }
+                        }
+                    }
+                }
+            },
+            "perServing": {
+                "quantity": {
+                    "statement": "1 verre (200ml)",
+                    "value": 200,
+                    "unit": {
+                        "code": "MLT",
+                        "symbol": "ml"
+                    }
+                },
+                "values": {
+                    "energy": {
+                        "quantities": [
+                            {
+                                "value": 383,
+                                "unitCode": {
+                                    "code": "KJO",
+                                    "symbol": "kJ"
+                                }
+                            },
+                            {
+                                "value": 91,
+                                "unitCode": {
+                                    "code": "E14",
+                                    "symbol": "kcal"
+                                }
+                            }
+                        ]
+                    },
+                    "fat": {
+                        "quantity": {
+                            "value": 3,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "saturatedFat": {
+                        "quantity": {
+                            "value": 1.8,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "carbohydrates": {
+                        "quantity": {
+                            "value": 9.6,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "sugars": {
+                        "quantity": {
+                            "value": 9.6,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "fibre": {
+                        "quantity": {
+                            "value": 0,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "protein": {
+                        "quantity": {
+                            "value": 6.4,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "salt": {
+                        "quantity": {
+                            "value": 0.21,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
+                    },
+                    "calcium": {
+                        "dailyValueIntakePercent": "30",
+                        "quantity": {
+                            "value": 240,
+                            "unit": {
+                                "code": "MGM",
+                                "symbol": "mg"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "preservation": {
+        "statement": "Après ouverture, se conserve encore 3 jours au réfrigérateur",
+        "storage": {
+            "temperatureRange": {
+                "code": "AMBIENT"
+            }
+        },
+        "afterOpening": {
+            "temperatureRange": {
+                "code": "REFRIGERATED"
+            }
+        }
+    },
+    "packaging": {
+        "list": [
+            {
+                "name": "Tetrapack",
+                "shape": {
+                    "code": "RECTANGULAR"
+                },
+                "recyclingSchemes": [
+                    {
+                        "name": "PMC"
+                    }
+                ],
+                "recyclingProcessTypes": [
+                    {
+                        "code": "RECYCLABLE"
+                    }
+                ],
+                "material": {
+                    "type": {
+                        "name": "Tetrapack"
+                    }
+                },
+                "functions": [
+                    {
+                        "code": "PROTECTED"
+                    }
+                ]
+            }
+        ]
+    },
+    "scoring": {
+        "nutriscore": {
+            "rating": {
+                "value": "A"
+            }
+        }
+    }
+}
