@@ -8,11 +8,6 @@
     ],
     "makers": {
         "main": {
-            "types": [
-                "producer",
-                "transformer",
-                "packer"
-            ],
             "name": "La fermière de Mean",
             "address": {
                 "street": "Rue de Durbuy 14",
@@ -20,9 +15,21 @@
                 "locality": "Maffe",
                 "countryCode": "BE"
             },
-            "packer": {
-                "code": "BE FR 481 CE"
-            }
+            "roles": [
+                {
+                    "type": "producer",
+                    "isMain": true
+                },
+                {
+                    "type": "transformer",
+                    "isMain": true
+                },
+                {
+                    "type": "packer",
+                    "code": "BE FR 481 CE",
+                    "isMain": true
+                }
+            ]
         }
     },
     "quantity": {
