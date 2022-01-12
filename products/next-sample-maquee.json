@@ -6,15 +6,20 @@
             "language": "fr"
         }
     ],
-    "producer": {
-        "name": "La fermière de Mean",
-        "address": {
-            "street": "Rue de Durbuy 14",
-            "postalCode": "5374",
-            "locality": "Maffe",
-            "countryCode": "BE"
-        },
-        "packagerCode": "BE FR 481 CE"
+    "makers": {
+        "main": {
+            "types": ["producer","transformer","packer"],
+            "name": "La fermière de Mean",
+            "address": {
+                "street": "Rue de Durbuy 14",
+                "postalCode": "5374",
+                "locality": "Maffe",
+                "countryCode": "BE"
+            },
+            "packer": {
+                "code": "BE FR 481 CE"
+            }
+        }
     },
     "quantity": {
         "netWeight": {
@@ -22,14 +27,19 @@
             "unitCode": "GRM"
         }
     },
-    "batch": {
-        "lotNumber": 24,
-        "packagingDate": "2022-01-08"
+    "process": {
+        "production": {
+            "batch": {
+                "lotNumber": 24
+            }
+        },
+        "packaging": {
+            "date": "2022-01-08"
+        }
     },
     "ingredients": {
-        "items": [
+        "list": [
             {
-                "mainSequence": 1,
                 "name": [
                     {
                         "value": "lait cru de vache",
@@ -42,8 +52,6 @@
                 ]
             },
             {
-                
-                "mainSequence": 2,
                 "name": [
                     {
                         "value": "ferments",
@@ -56,7 +64,6 @@
                 ]
             },
             {
-                "mainSequence": 3,
                 "name": [
                     {
                         "value": "présure",
@@ -69,7 +76,7 @@
                 ]
             }
         ],
-        "ofConcern": [
+        "ofConcernList": [
             [
                 {
                     "value": "lait",
@@ -83,54 +90,58 @@
         ]
     },
     "nutrients": {
-        "baseQuantity": {
-            "value": 100,
-            "unitCode": "GRM"
-        },
-        "perBaseQuantity": {
-            "energy": [
-                {
-                    "value": 450,
-                    "unitCode": "KJO"
+        "details": {
+            "perBaseQuantity": {
+                "quantity": {
+                    "value": 100,
+                    "unitCode": "GRM"
                 },
-                {
-                    "value": 108,
-                    "unitCode": "E14"
+                "values": {
+                    "energy": [
+                        {
+                            "value": 450,
+                            "unitCode": "KJO"
+                        },
+                        {
+                            "value": 108,
+                            "unitCode": "E14"
+                        }
+                    ],
+                    "fat": {
+                        "value": 11,
+                        "unitCode": "GRM"
+                    },
+                    "saturatedFat": {
+                        "value": 7,
+                        "unitCode": "GRM"
+                    },
+                    "carbohydrates": {
+                        "value": 3,
+                        "unitCode": "GRM"
+                    },
+                    "sugars": {
+                        "value": 2,
+                        "unitCode": "GRM"
+                    },
+                    "protein": {
+                        "value": 9,
+                        "unitCode": "GRM"
+                    },
+                    "salt": {
+                        "value": 0.01,
+                        "unitCode": "GRM"
+                    }
                 }
-            ],
-            "fat": {
-                "value": 11,
-                "unitCode": "GRM"
-            },
-            "saturatedFat": {
-                "value": 7,
-                "unitCode": "GRM"
-            },
-            "carbohydrates": {
-                "value": 3,
-                "unitCode": "GRM"
-            },
-            "sugars": {
-                "value": 2,
-                "unitCode": "GRM"
-            },
-            "protein": {
-                "value": 9,
-                "unitCode": "GRM"
-            },
-            "salt": {
-                "value": 0.01,
-                "unitCode": "GRM"
-            }
+            }  
         }
     },
-    "usage": {
-        "bestBeforeDate": "2022-01-22"
-    },
-    "storage": {
-        "temperatureMax": {
-            "value": 6,
-            "unitCode": "CEL"
+    "preservation": {
+        "bestBeforeDate": "2022-01-22",
+        "temperature": {
+            "max": {
+                "value": 6,
+                "unitCode": "CEL"
+            }
         }
     }
 }
