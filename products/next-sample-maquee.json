@@ -8,7 +8,11 @@
     ],
     "makers": {
         "main": {
-            "types": ["producer","transformer","packer"],
+            "types": [
+                "producer",
+                "transformer",
+                "packer"
+            ],
             "name": "La fermière de Mean",
             "address": {
                 "street": "Rue de Durbuy 14",
@@ -33,11 +37,21 @@
                 "lotNumber": 24
             }
         },
-        "packaging": {
+        "packing": {
             "date": "2022-01-08"
         }
     },
     "ingredients": {
+        "statement": [
+            {
+                "value": "LAIT cru de vache, ferments, présure",
+                "language": "fr"
+            },
+            {
+                "value": "rawe KOEMELK, fermenteren, stremsel",
+                "language": "nl"
+            }
+        ],
         "list": [
             {
                 "name": [
@@ -47,7 +61,7 @@
                     },
                     {
                         "value": "rawe koemelk",
-                        "language": "ln"
+                        "language": "nl"
                     }
                 ]
             },
@@ -59,7 +73,7 @@
                     },
                     {
                         "value": "fermenteren",
-                        "language": "ln"
+                        "language": "nl"
                     }
                 ]
             },
@@ -71,7 +85,7 @@
                     },
                     {
                         "value": "stremsel",
-                        "language": "ln"
+                        "language": "nl"
                     }
                 ]
             }
@@ -91,56 +105,133 @@
     },
     "nutrients": {
         "details": {
-            "perBaseQuantity": {
+            "list": [
+                {
+                    "key": "energy"
+                },
+                {
+                    "key": "fat",
+                    "constituentKeys": [
+                        "saturatedFat"
+                    ]
+                },
+                {
+                    "constituentOfKey": "fat",
+                    "key": "saturatedFat"
+                },
+                {
+                    "key": "carbohydrates",
+                    "constituentKeys": [
+                        "sugars"
+                    ]
+                },
+                {
+                    "constituentOfKey": "carbohydrates",
+                    "key": "sugars"
+                },
+                {
+                    "key": "protein"
+                },
+                {
+                    "key": "salt"
+                }
+            ],
+            "perBase": {
                 "quantity": {
                     "value": 100,
-                    "unitCode": "GRM"
+                    "unit": {
+                        "code": "GRM",
+                        "symbol": "g"
+                    }
                 },
                 "values": {
-                    "energy": [
-                        {
-                            "value": 450,
-                            "unitCode": "KJO"
-                        },
-                        {
-                            "value": 108,
-                            "unitCode": "E14"
-                        }
-                    ],
+                    "energy": {
+                        "quantities": [
+                            {
+                                "value": 192,
+                                "unit": {
+                                    "code": "KJO",
+                                    "symbol": "kJ"
+                                }
+                            },
+                            {
+                                "value": 46,
+                                "unit": {
+                                    "code": "E14",
+                                    "symbol": "kcal"
+                                }
+                            }
+                        ]
+                    },
                     "fat": {
-                        "value": 11,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 11,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     },
                     "saturatedFat": {
-                        "value": 7,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 7,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     },
                     "carbohydrates": {
-                        "value": 3,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 3,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     },
                     "sugars": {
-                        "value": 2,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 2,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     },
                     "protein": {
-                        "value": 9,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 9,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     },
                     "salt": {
-                        "value": 0.01,
-                        "unitCode": "GRM"
+                        "quantity": {
+                            "value": 0.01,
+                            "unit": {
+                                "code": "GRM",
+                                "symbol": "g"
+                            }
+                        }
                     }
                 }
-            }  
+            }
         }
     },
     "preservation": {
         "bestBeforeDate": "2022-01-22",
-        "temperature": {
-            "max": {
-                "value": 6,
-                "unitCode": "CEL"
+        "storage": {
+            "temperatureRange": {
+                "max": {
+                    "value": 6,
+                    "unit": {
+                        "code": "CEL",
+                        "symbol": "°C"
+                    }
+                }
             }
         }
     }
