@@ -227,22 +227,23 @@
             "code": "ADULT"
         },
         "nutrients": {
-            "key": "energy",
-            "quantity": {
-                "value": 8400,
-                "unitCode": {
-                    "code": "KJO",
-                    "symbol": "kJ"
-                },
-                "equivalences": [
-                    {
-                        "value": 2000,
-                        "unitCode": {
-                            "code": "E14",
-                            "symbol": "kcal"
+            "energy": {
+                "quantity": {
+                    "value": 8400,
+                    "unitCode": {
+                        "code": "KJO",
+                        "symbol": "kJ"
+                    },
+                    "equivalences": [
+                        {
+                            "value": 2000,
+                            "unitCode": {
+                                "code": "E14",
+                                "symbol": "kcal"
+                            }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },
