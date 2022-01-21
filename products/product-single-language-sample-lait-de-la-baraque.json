@@ -507,41 +507,42 @@
             }
         }
     },
-    "packaging": {
-        "list": [
-            {
-                "name": "Tetrapack",
-                "shape": {
-                    "code": "RECTANGULAR"
-                },
-                "recyclingSchemes": [
-                    {
-                        "name": "PMC"
-                    }
-                ],
-                "recyclingProcessTypes": [
-                    {
-                        "code": "RECYCLABLE"
-                    }
-                ],
-                "material": {
-                    "type": {
-                        "name": "Tetrapack"
-                    }
-                },
-                "functions": [
-                    {
-                        "code": "PROTECTED"
-                    }
-                ]
-            }
-        ]
-    },
-    "scoring": {
-        "nutriscore": {
+    "packagings": [
+        {
+            "name": "Tetrapack",
+            "shape": {
+                "code": "RECTANGULAR"
+            },
+            "recyclingSchemes": [
+                {
+                    "code": "PMC"
+                }
+            ],
+            "recyclingProcessTypes": [
+                {
+                    "code": "RECYCLABLE"
+                }
+            ],
+            "material": {
+                "type": {
+                    "name": "Tetrapack"
+                }
+            },
+            "functions": [
+                {
+                    "code": "PROTECTED"
+                }
+            ]
+        }
+    ],
+    "scorings": [
+        {
+            "mechanism": {
+                "key": "nutriscore"
+            },
             "rating": {
-                "value": "A"
+                "textValue": "A"
             }
         }
-    }
+    ]
 }
