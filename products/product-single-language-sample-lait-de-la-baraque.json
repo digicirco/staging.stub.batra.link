@@ -294,11 +294,13 @@
             "type": "mineral"
         }
     ],
-    "nutrientPerBaseQuantity": {
-        "value": 100,
-        "unit": {
-            "code": "MLT",
-            "symbol": "ml"
+    "nutrientPerBaseReference": {
+        "quantity": {
+            "value": 100,
+            "unit": {
+                "code": "MLT",
+                "symbol": "ml"
+            }
         }
     },
     "nutrientPerBaseValues": {
@@ -394,12 +396,14 @@
             }
         }
     },
-    "nutrientPerServingQuantity": {
+    "nutrientPerServingReference": {
         "statement": "1 verre (200ml)",
-        "value": 200,
-        "unit": {
-            "code": "MLT",
-            "symbol": "ml"
+        "quantity": {
+            "value": 200,
+            "unit": {
+                "code": "MLT",
+                "symbol": "ml"
+            }
         }
     },
     "nutrientPerServingValues": {
