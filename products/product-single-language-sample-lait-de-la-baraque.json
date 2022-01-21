@@ -197,22 +197,29 @@
             "statement": "En direct de 8 producteurs laitiers réunis en coopérative"
         }
     ],
-    "ingredients": {
-        "list": [
-            {
-                "name": "lait demi-écrémé UHT"
+    "ingredients": [
+        {
+            "name": "lait demi-écrémé UHT",
+            "allergenCodes": [
+                "MILK"
+            ]
+        }
+    ],
+    "ingredientsStatement": "Lait demi-écrémé, UHT",
+    "allergens": [
+        {
+            "code": "MILK",
+            "name": "lait",
+            "level": {
+                "code": "CONTAINS"
             }
-        ],
-        "statement": "Lait demi-écrémé, UHT",
-        "containements": [
-            {
-                "code": "GMO",
-                "level": {
-                    "code": "FREE_FROM",
-                    "lessThanPercentage": "0.9"
-                }
-            }
-        ]
+        }
+    ],
+    "gmos": {
+        "level": {
+            "code": "FREE_FROM",
+            "lessThanPercentage": "0.9"
+        }
     },
     "nutrients": {
         "details": {
