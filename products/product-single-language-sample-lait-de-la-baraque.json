@@ -3,9 +3,11 @@
     "brand": {
         "name": "Lait de la Baraque"
     },
-    "makers": {
-        "list": [
-            {
+    "contributions": [
+        {
+            "isMain": true,
+            "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production",
+            "actor": {
                 "name": "Coopérative Pur Ardenne",
                 "address": {
                     "street": "Xhoût si llout",
@@ -14,86 +16,101 @@
                     "country": {
                         "code": "BE"
                     }
+                }
+            },
+            "roles": [
+                {
+                    "type": "transformer",
+                    "isMain": true
                 },
-                "story": "#Une histoire de fermes\nNous sommes 3 fermes familiales qui se sont regroupées en coopérative pour reprendre la maîtrise de la commercialisation de notre production",
-                "isMain": true,
-                "roles": [
-                    {
-                        "type": "transformer",
-                        "isMain": true
-                    },
-                    {
-                        "type": "packer",
-                        "isMain": true
-                    }
-                ]
-            },
-            {
+                {
+                    "type": "packer",
+                    "isMain": true
+                }
+            ]
+        },
+        {
+            "actor": {
                 "name": "Damien Ponsin",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+                "age": 24
             },
-            {
-                "name": "Jérôme Heiderscheid",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Jérôme Heiderscheid"
             },
-            {
-                "name": "Matthieu Dufeq",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Matthieu Dufeq"
             },
-            {
-                "name": "Thierrq Dufeq",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Thierrq Dufeq"
             },
-            {
-                "name": "Maxime Doutreloux",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Maxime Doutreloux"
             },
-            {
-                "name": "Benoit Dechers",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Benoit Dechers"
             },
-            {
-                "name": "Gilles Remacle",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Gilles Remacle"
             },
-            {
-                "name": "Jean-Louis Neuville",
-                "roles": [
-                    {
-                        "type": "producer"
-                    }
-                ]
-            }
-        ]
-    },
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        },
+        {
+            "actor": {
+                "name": "Jean-Louis Neuville"
+            },
+            "roles": [
+                {
+                    "type": "producer"
+                }
+            ]
+        }
+    ],
     "origins": {
         "list": [
             {
