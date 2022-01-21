@@ -221,282 +221,275 @@
             "lessThanPercentage": "0.9"
         }
     },
-    "nutrients": {
-        "details": {
-            "dailyValueIntakeReference": {
-                "statement": "AR: Apports de Référence pour un adulte-type (8400 kJ / 2000kCal)",
-                "lifeStage": {
-                    "code": "ADULT"
+    "nutrientDailyValueIntakeReference": {
+        "statement": "AR: Apports de Référence pour un adulte-type (8400 kJ / 2000kCal)",
+        "lifeStage": {
+            "code": "ADULT"
+        },
+        "nutrients": {
+            "key": "energy",
+            "quantity": {
+                "value": 8400,
+                "unitCode": {
+                    "code": "KJO",
+                    "symbol": "kJ"
                 },
-                "energy": {
-                    "quantities": [
-                        {
-                            "value": 8400,
-                            "unitCode": {
-                                "code": "KJO",
-                                "symbol": "kJ"
-                            }
-                        },
-                        {
-                            "value": 2000,
-                            "unitCode": {
-                                "code": "E14",
-                                "symbol": "kcal"
-                            }
+                "equivalences": [
+                    {
+                        "value": 2000,
+                        "unitCode": {
+                            "code": "E14",
+                            "symbol": "kcal"
                         }
-                    ]
+                    }
+                ]
+            }
+        }
+    },
+    "nutrientNames": [
+        {
+            "key": "energy",
+            "name": "Energie"
+        },
+        {
+            "key": "fat",
+            "name": "Matières grasses",
+            "constituentKeys": [
+                "saturatedFat"
+            ]
+        },
+        {
+            "constituentOfKey": "fat",
+            "key": "saturatedFat",
+            "name": "Acides gras saturés"
+        },
+        {
+            "key": "carbohydrates",
+            "name": "Glucides",
+            "constituentKeys": [
+                "sugars"
+            ]
+        },
+        {
+            "constituentOfKey": "carbohydrates",
+            "key": "sugars",
+            "name": "Sucres"
+        },
+        {
+            "key": "fibre",
+            "name": "Fibres alimentaires"
+        },
+        {
+            "key": "protein",
+            "name": "Protéines"
+        },
+        {
+            "key": "salt",
+            "name": "Sel"
+        },
+        {
+            "key": "calcium",
+            "name": "Calcium",
+            "type": "mineral"
+        }
+    ],
+    "nutrientPerBaseQuantity": {
+        "value": 100,
+        "unit": {
+            "code": "MLT",
+            "symbol": "ml"
+        }
+    },
+    "nutrientPerBaseValues": {
+        "energy": {
+            "quantity": {
+                "value": 192,
+                "unitCode": {
+                    "code": "KJO",
+                    "symbol": "kJ"
+                },
+                "equivalences": [
+                    {
+                        "value": 46,
+                        "unitCode": {
+                            "code": "E14",
+                            "symbol": "kcal"
+                        }
+                    }
+                ]
+            }
+        },
+        "fat": {
+            "quantity": {
+                "value": 1.5,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
                 }
-            },
-            "list": [
-                {
-                    "key": "energy",
-                    "name": "Energie"
-                },
-                {
-                    "key": "fat",
-                    "name": "Matières grasses",
-                    "constituentKeys": [
-                        "saturatedFat"
-                    ]
-                },
-                {
-                    "constituentOfKey": "fat",
-                    "key": "saturatedFat",
-                    "name": "Acides gras saturés"
-                },
-                {
-                    "key": "carbohydrates",
-                    "name": "Glucides",
-                    "constituentKeys": [
-                        "sugars"
-                    ]
-                },
-                {
-                    "constituentOfKey": "carbohydrates",
-                    "key": "sugars",
-                    "name": "Sucres"
-                },
-                {
-                    "key": "fibre",
-                    "name": "Fibres alimentaires"
-                },
-                {
-                    "key": "protein",
-                    "name": "Protéines"
-                },
-                {
-                    "key": "salt",
-                    "name": "Sel"
-                },
-                {
-                    "key": "calcium",
-                    "name": "Calcium",
-                    "type": "mineral"
+            }
+        },
+        "saturatedFat": {
+            "quantity": {
+                "value": 0.9,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
                 }
-            ],
-            "perBase": {
-                "quantity": {
-                    "value": 100,
-                    "unit": {
-                        "code": "MLT",
-                        "symbol": "ml"
-                    }
-                },
-                "values": {
-                    "energy": {
-                        "quantities": [
-                            {
-                                "value": 192,
-                                "unitCode": {
-                                    "code": "KJO",
-                                    "symbol": "kJ"
-                                }
-                            },
-                            {
-                                "value": 46,
-                                "unitCode": {
-                                    "code": "E14",
-                                    "symbol": "kcal"
-                                }
-                            }
-                        ]
-                    },
-                    "fat": {
-                        "quantity": {
-                            "value": 1.5,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "saturatedFat": {
-                        "quantity": {
-                            "value": 0.9,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "carbohydrates": {
-                        "quantity": {
-                            "value": 4.8,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "sugars": {
-                        "quantity": {
-                            "value": 4.8,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "fibre": {
-                        "quantity": {
-                            "value": 0,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "protein": {
-                        "quantity": {
-                            "value": 3.2,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "salt": {
-                        "quantity": {
-                            "value": 0.11,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "calcium": {
-                        "dailyValueIntakePercent": "15",
-                        "quantity": {
-                            "value": 120,
-                            "unit": {
-                                "code": "MGM",
-                                "symbol": "mg"
-                            }
-                        }
-                    }
+            }
+        },
+        "carbohydrates": {
+            "quantity": {
+                "value": 4.8,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
                 }
-            },
-            "perServing": {
-                "quantity": {
-                    "statement": "1 verre (200ml)",
-                    "value": 200,
-                    "unit": {
-                        "code": "MLT",
-                        "symbol": "ml"
-                    }
+            }
+        },
+        "sugars": {
+            "quantity": {
+                "value": 4.8,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "fibre": {
+            "quantity": {
+                "value": 0,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "protein": {
+            "quantity": {
+                "value": 3.2,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "salt": {
+            "quantity": {
+                "value": 0.11,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "calcium": {
+            "dailyValueIntakePercent": "15",
+            "quantity": {
+                "value": 120,
+                "unit": {
+                    "code": "MGM",
+                    "symbol": "mg"
+                }
+            }
+        }
+    },
+    "nutrientPerServingQuantity": {
+        "statement": "1 verre (200ml)",
+        "value": 200,
+        "unit": {
+            "code": "MLT",
+            "symbol": "ml"
+        }
+    },
+    "nutrientPerServingValues": {
+        "energy": {
+            "quantity": {
+                "value": 383,
+                "unitCode": {
+                    "code": "KJO",
+                    "symbol": "kJ"
                 },
-                "values": {
-                    "energy": {
-                        "quantities": [
-                            {
-                                "value": 383,
-                                "unitCode": {
-                                    "code": "KJO",
-                                    "symbol": "kJ"
-                                }
-                            },
-                            {
-                                "value": 91,
-                                "unitCode": {
-                                    "code": "E14",
-                                    "symbol": "kcal"
-                                }
-                            }
-                        ]
-                    },
-                    "fat": {
-                        "quantity": {
-                            "value": 3,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "saturatedFat": {
-                        "quantity": {
-                            "value": 1.8,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "carbohydrates": {
-                        "quantity": {
-                            "value": 9.6,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "sugars": {
-                        "quantity": {
-                            "value": 9.6,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "fibre": {
-                        "quantity": {
-                            "value": 0,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "protein": {
-                        "quantity": {
-                            "value": 6.4,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "salt": {
-                        "quantity": {
-                            "value": 0.21,
-                            "unit": {
-                                "code": "GRM",
-                                "symbol": "g"
-                            }
-                        }
-                    },
-                    "calcium": {
-                        "dailyValueIntakePercent": "30",
-                        "quantity": {
-                            "value": 240,
-                            "unit": {
-                                "code": "MGM",
-                                "symbol": "mg"
-                            }
+                "equivalences": [
+                    {
+                        "value": 91,
+                        "unitCode": {
+                            "code": "E14",
+                            "symbol": "kcal"
                         }
                     }
+                ]
+            }
+        },
+        "fat": {
+            "quantity": {
+                "value": 3,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "saturatedFat": {
+            "quantity": {
+                "value": 1.8,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "carbohydrates": {
+            "quantity": {
+                "value": 9.6,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "sugars": {
+            "quantity": {
+                "value": 9.6,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "fibre": {
+            "quantity": {
+                "value": 0,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "protein": {
+            "quantity": {
+                "value": 6.4,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "salt": {
+            "quantity": {
+                "value": 0.21,
+                "unit": {
+                    "code": "GRM",
+                    "symbol": "g"
+                }
+            }
+        },
+        "calcium": {
+            "dailyValueIntakePercent": "30",
+            "quantity": {
+                "value": 240,
+                "unit": {
+                    "code": "MGM",
+                    "symbol": "mg"
                 }
             }
         }
