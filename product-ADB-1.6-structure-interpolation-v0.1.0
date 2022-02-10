@@ -1,0 +1,271 @@
+additives	
+    containment	
+        code
+	name	
+alcohol	
+    percentage	
+	vintage	
+allergens	
+    containment	
+        code
+	type	
+        code
+allergenStatement		
+availability	
+    consumerDeliveryDate	
+	consumerSellDate	
+	endDate	
+	firstOrderDate	
+	startDate	
+batch	
+    isNumbered	
+brand	
+    name	
+	owner	
+        gln
+		name
+	sub	
+        name
+brandMarketingMessage		
+certification	
+    value	
+characteristics	
+    code	
+	values	
+        code
+		description
+		measurements
+classifications	
+    type	
+        code
+	value	
+colour	
+    code	
+	name	
+consumerInstructions	
+    assembly	
+	storage	
+	usage	
+contacts	
+    address	
+	availableTime	
+	gln	
+	name	
+	targetMarket	
+        communicationChannel
+	type	
+        code
+customs	
+    classification	
+        type
+		value
+dairy	
+    cheese	
+        fatPercentage
+	fatInMilkContent	
+	milk	
+        isHomogenised
+data	
+    effectiveDateTime	
+	relevantProvided	
+        allergen
+		ingredient
+		nutrient
+dataProvider	
+    gln	
+	name	
+description		
+diets	
+    type	
+        code
+displayUnit	
+    isA	
+	type	
+        code
+features		
+files	
+    endDateTime	
+	isPrimary	
+	name	
+	startDateTime	
+	type	
+        code
+	url	
+fish	
+    catch	
+        area
+		gear
+	productionMethod	
+        code
+	scientificName	
+	storageState	
+        code
+gmo	
+    declaration	
+        code
+gpc	
+    attributes	
+        type
+		value
+	code	
+grades	
+    code	
+growingMethods	
+    code	
+gtin		
+handlingInstructions	
+    code	
+identifiers	
+    type	
+        code
+	value	
+ingredients	
+    name	
+	sequence	
+ingredientStatement		
+isSeasonal		
+juiceContentPercent		
+keywords	
+    value	
+manufacturer	
+    gln	
+	name	
+marketingMessages		
+measurements	
+    additionals	
+        depth
+		height
+		type
+		width
+	depth	
+	height	
+	width	
+nameFunctional		
+nameRegulated		
+nameShort		
+netContents		
+netContentStatement		
+nutrientBasis	
+    dailyValueIntakeReference	
+	preparationState	
+        code
+	quantity	
+		description
+	type	
+        code
+nutrients	
+    code	
+	dailyIntakePercentage	
+	dailyIntakePercentagePrecision	
+        code
+	quantity	
+	quantityPrecision	
+        code
+nutritionalclaims	
+    description	
+	element	
+        code
+	type	
+        code
+orderQuantityMinimum		
+organic	
+    level	
+        code
+organicClaims	
+    agency	
+        code
+originCountries		
+originCountryStatement		
+origins		
+packagings	
+    dateType	
+        code
+	deposit	
+        amount
+		identifier
+	features	
+        code
+	isMarkedReturnable	
+	materials	
+        code
+		quantity
+	type	
+        code
+pallet	
+    disposition	
+        code
+	layersNumber	
+	type	
+        code
+	unitsNumber	
+	unitsPerLayerNumber	
+preparations	
+    instructions	
+	servingSuggestions	
+	type	
+        code
+priceOnPack		
+prices	
+    amount	
+	type	
+        code
+reference	
+    gtin	
+	type	
+        code
+servings	
+    number	
+	precison	
+        code
+	range	
+servingSize	
+    code	
+	description	
+shape	
+    code	
+	description	
+shelfLife	
+    minimumDaysAtArrival	
+	minimumDaysFromProduction	
+size	
+    description	
+stackingFactor	
+    type	
+        code
+	value	
+sustainability	
+    containsPesticide	
+targetConsumerAges		
+targetMarketCountries	
+    code	
+taxes	
+    category	
+        code
+	rate	
+	type	
+        code
+		description
+temperatures	
+    activity	
+        code
+	maximum	
+	minimum	
+	type	
+        code
+unit	
+    isBase	
+	isForConsumer	
+	isForShipping	
+	isOrderable	
+	isVariable	
+	level	
+        code
+usage	
+    afterOpeningPeriod	
+variableUnit	
+    typeCode	
+variantDescription		
+weight	
+    drained	
+	gross	
+	net	
