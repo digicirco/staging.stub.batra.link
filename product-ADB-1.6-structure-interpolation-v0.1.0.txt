@@ -1,271 +1,271 @@
-additives	
-    containment	
+additives    
+    containment    
         code
-	name	
-alcohol	
-    percentage	
-	vintage	
-allergens	
-    containment	
+    name    
+alcohol    
+    percentage    
+    vintage    
+allergens    
+    containment    
         code
-	type	
+    type    
         code
-allergenStatement		
-availability	
-    consumerDeliveryDate	
-	consumerSellDate	
-	endDate	
-	firstOrderDate	
-	startDate	
-batch	
-    isNumbered	
-brand	
-    name	
-	owner	
+allergenStatement        
+availability    
+    consumerDeliveryDate    
+    consumerSellDate    
+    endDate    
+    firstOrderDate    
+    startDate    
+batch    
+    isNumbered    
+brand    
+    name    
+    owner    
         gln
-		name
-	sub	
         name
-brandMarketingMessage		
-certification	
-    value	
-characteristics	
-    code	
-	values	
+    sub    
+        name
+brandMarketingMessage        
+certification    
+    value    
+characteristics    
+    code    
+    values    
         code
-		description
-		measurements
-classifications	
-    type	
+        description
+        measurements
+classifications    
+    type    
         code
-	value	
-colour	
-    code	
-	name	
-consumerInstructions	
-    assembly	
-	storage	
-	usage	
-contacts	
-    address	
-	availableTime	
-	gln	
-	name	
-	targetMarket	
+    value    
+colour    
+    code    
+    name    
+consumerInstructions    
+    assembly    
+    storage    
+    usage    
+contacts    
+    address    
+    availableTime    
+    gln    
+    name    
+    targetMarket    
         communicationChannel
-	type	
+    type    
         code
-customs	
-    classification	
+customs    
+    classification    
         type
-		value
-dairy	
-    cheese	
+        value
+dairy    
+    cheese    
         fatPercentage
-	fatInMilkContent	
-	milk	
+    fatInMilkContent    
+    milk    
         isHomogenised
-data	
-    effectiveDateTime	
-	relevantProvided	
+data    
+    effectiveDateTime    
+    relevantProvided    
         allergen
-		ingredient
-		nutrient
-dataProvider	
-    gln	
-	name	
-description		
-diets	
-    type	
+        ingredient
+        nutrient
+dataProvider    
+    gln    
+    name    
+description        
+diets    
+    type    
         code
-displayUnit	
-    isA	
-	type	
+displayUnit    
+    isA    
+    type    
         code
-features		
-files	
-    endDateTime	
-	isPrimary	
-	name	
-	startDateTime	
-	type	
+features        
+files    
+    endDateTime    
+    isPrimary    
+    name    
+    startDateTime    
+    type    
         code
-	url	
-fish	
-    catch	
+    url    
+fish    
+    catch    
         area
-		gear
-	productionMethod	
+        gear
+    productionMethod    
         code
-	scientificName	
-	storageState	
+    scientificName    
+    storageState    
         code
-gmo	
-    declaration	
+gmo    
+    declaration    
         code
-gpc	
-    attributes	
+gpc    
+    attributes    
         type
-		value
-	code	
-grades	
-    code	
-growingMethods	
-    code	
-gtin		
-handlingInstructions	
-    code	
-identifiers	
-    type	
+        value
+    code    
+grades    
+    code    
+growingMethods    
+    code    
+gtin        
+handlingInstructions    
+    code    
+identifiers    
+    type    
         code
-	value	
-ingredients	
-    name	
-	sequence	
-ingredientStatement		
-isSeasonal		
-juiceContentPercent		
-keywords	
-    value	
-manufacturer	
-    gln	
-	name	
-marketingMessages		
-measurements	
-    additionals	
+    value    
+ingredients    
+    name    
+    sequence    
+ingredientStatement        
+isSeasonal        
+juiceContentPercent        
+keywords    
+    value    
+manufacturer    
+    gln    
+    name    
+marketingMessages        
+measurements    
+    additionals    
         depth
-		height
-		type
-		width
-	depth	
-	height	
-	width	
-nameFunctional		
-nameRegulated		
-nameShort		
-netContents		
-netContentStatement		
-nutrientBasis	
-    dailyValueIntakeReference	
-	preparationState	
+        height
+        type
+        width
+    depth    
+    height    
+    width    
+nameFunctional        
+nameRegulated        
+nameShort        
+netContents        
+netContentStatement        
+nutrientBasis    
+    dailyValueIntakeReference    
+    preparationState    
         code
-	quantity	
-		description
-	type	
+    quantity    
+        description
+    type    
         code
-nutrients	
-    code	
-	dailyIntakePercentage	
-	dailyIntakePercentagePrecision	
+nutrients    
+    code    
+    dailyIntakePercentage    
+    dailyIntakePercentagePrecision    
         code
-	quantity	
-	quantityPrecision	
+    quantity    
+    quantityPrecision    
         code
-nutritionalclaims	
-    description	
-	element	
+nutritionalclaims    
+    description    
+    element    
         code
-	type	
+    type    
         code
-orderQuantityMinimum		
-organic	
-    level	
+orderQuantityMinimum        
+organic    
+    level    
         code
-organicClaims	
-    agency	
+organicClaims    
+    agency    
         code
-originCountries		
-originCountryStatement		
-origins		
-packagings	
-    dateType	
+originCountries        
+originCountryStatement        
+origins        
+packagings    
+    dateType    
         code
-	deposit	
+    deposit    
         amount
-		identifier
-	features	
+        identifier
+    features    
         code
-	isMarkedReturnable	
-	materials	
+    isMarkedReturnable    
+    materials    
         code
-		quantity
-	type	
+        quantity
+    type    
         code
-pallet	
-    disposition	
+pallet    
+    disposition    
         code
-	layersNumber	
-	type	
+    layersNumber    
+    type    
         code
-	unitsNumber	
-	unitsPerLayerNumber	
-preparations	
-    instructions	
-	servingSuggestions	
-	type	
+    unitsNumber    
+    unitsPerLayerNumber    
+preparations    
+    instructions    
+    servingSuggestions    
+    type    
         code
-priceOnPack		
-prices	
-    amount	
-	type	
+priceOnPack        
+prices    
+    amount    
+    type    
         code
-reference	
-    gtin	
-	type	
+reference    
+    gtin    
+    type    
         code
-servings	
-    number	
-	precison	
+servings    
+    number    
+    precison    
         code
-	range	
-servingSize	
-    code	
-	description	
-shape	
-    code	
-	description	
-shelfLife	
-    minimumDaysAtArrival	
-	minimumDaysFromProduction	
-size	
-    description	
-stackingFactor	
-    type	
+    range    
+servingSize    
+    code    
+    description    
+shape    
+    code    
+    description    
+shelfLife    
+    minimumDaysAtArrival    
+    minimumDaysFromProduction    
+size    
+    description    
+stackingFactor    
+    type    
         code
-	value	
-sustainability	
-    containsPesticide	
-targetConsumerAges		
-targetMarketCountries	
-    code	
-taxes	
-    category	
+    value    
+sustainability    
+    containsPesticide    
+targetConsumerAges        
+targetMarketCountries    
+    code    
+taxes    
+    category    
         code
-	rate	
-	type	
+    rate    
+    type    
         code
-		description
-temperatures	
-    activity	
+        description
+temperatures    
+    activity    
         code
-	maximum	
-	minimum	
-	type	
+    maximum    
+    minimum    
+    type    
         code
-unit	
-    isBase	
-	isForConsumer	
-	isForShipping	
-	isOrderable	
-	isVariable	
-	level	
+unit    
+    isBase    
+    isForConsumer    
+    isForShipping    
+    isOrderable    
+    isVariable    
+    level    
         code
-usage	
-    afterOpeningPeriod	
-variableUnit	
-    typeCode	
-variantDescription		
-weight	
-    drained	
-	gross	
-	net	
+usage    
+    afterOpeningPeriod    
+variableUnit    
+    typeCode    
+variantDescription        
+weight    
+    drained    
+    gross    
+    net    
