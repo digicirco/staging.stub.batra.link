@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+  <title>Openbatra products</title>
+  <updated>2022-03-16T17:04:51+01:00</updated>
+  <entry>
+    <updated>2022-03-16T17:04:51+01:00</updated>
+    <g:gtin>05430000030014</g:gtin>
+  </entry>
+  <entry>
+    <updated>2022-03-15T10:22:44+01:00</updated>
+    <g:gtin>00230229184407</g:gtin>
+</feed>
