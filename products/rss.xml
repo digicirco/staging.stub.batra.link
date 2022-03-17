@@ -12,6 +12,7 @@
         <description>Product description</description>
         <pubDate>Tue, 03 Jun 2003 09:39:21 GMT</pubDate> <!--last time item was published -->
         <guid isPermaLink="false" >05430000030014</guid> <!--gtin -->
+        <category domain="http://www.fool.com/cusips">MSFT</category>
     </item>
   </channel>
 </rss>
