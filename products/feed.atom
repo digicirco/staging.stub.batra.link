@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
-  <title>Openbatra products</title>
+  <title>Openbatra product published feed</title>
   <updated>2022-03-16T17:04:51+01:00</updated>
   <entry>
     <link href="https://www.batra.link/01/05430000030014/05430000030014.json"/>
-    <updated>2022-03-16T17:04:51+01:00</updated>
+    <published>2022-03-16T17:04:51+01:00</published>
   </entry>
   <entry>
     <link href="https://www.batra.link/01/05430000030014/05430000030014.json"/>
-    <updated>2022-03-15T10:22:44+01:00</updated>
+    <published>2022-03-15T10:22:44+01:00</published>
   </entry>
 </feed>
